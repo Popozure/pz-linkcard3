@@ -1,0 +1,657 @@
+/* Pz-LinkCard StyleSheet Template */
+.linkcard3 {
+	margin: 0 auto /*IMPORTANT*/;
+	padding: 0 /*IMPORTANT*/;
+	/*DEBUG1*/
+}
+.linkcard3 * {
+	box-sizing: border-box;
+	/*DEBUG2*/
+}
+.linkcard3 a {
+	text-decoration: none;
+}
+.linkcard3 img {
+	margin: 0;
+	padding: 0;
+}
+.linkcard3 span.external-icon {
+	display: none;
+}
+.linkcard3 p {
+	display: none;
+}
+.linkcard3:hover .lkc3-thumbnail img {
+	/*SCALE*/
+}
+.lkc3-enclose {
+	border: none;
+	background: none;
+	margin: 0 /*IMPORTANT*/;
+	padding: 0 /*IMPORTANT*/;
+}
+.lkc3-enclose::before {
+	content: initial /*IMPORTANT*/;
+}
+.lkc3-enclose::after {
+	content: initial /*IMPORTANT*/;
+}
+.lkc3-wrap {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+
+	/*MARGIN-TOP*/
+	/*MARGIN-BOTTOM*/
+	/*MARGIN-LEFT*/
+	/*MARGIN-RIGHT*/
+
+	/*PADDING-TOP*/
+	/*PADDING-BOTTOM*/
+	/*PADDING-LEFT*/
+	/*PADDING-RIGHT*/
+
+	/*SELECTION*/
+	/*HEIGHT*/
+	/*WIDTH*/
+	/*WRAP*/
+	/*NOHOVER*/
+
+	transition: all 0.3s ease 0s;
+}
+.lkc3-external-wrap {
+	/*EX-BG-COLOR*/
+	/*EX-BG-IMAGE*/
+	/*EX-BORDER*/
+	/*EX-BORDER-RADIUS*/
+	/*EX-SHADOW*/
+	/*EX-TRANSFORM*/
+}
+.lkc3-external-wrap:hover {
+	/*EX-HOVER-BG-COLOR*/
+	/*EX-HOVER-BG-IMAGE*/
+	/*EX-HOVER-BORDER*/
+	/*EX-HOVER-BORDER-RADIUS*/
+	/*EX-HOVER-SHADOW*/
+	/*EX-HOVER-TRANSFORM*/
+
+	transition: all 0.3s ease 0s;
+}
+.lkc3-internal-wrap {
+	/*IN-BG-COLOR*/
+	/*IN-BG-IMAGE*/
+	/*IN-BORDER*/
+	/*IN-BORDER-RADIUS*/
+	/*IN-SHADOW*/
+	/*IN-TRANSFORM*/
+}
+.lkc3-internal-wrap:hover {
+	/*IN-HOVER-BG-COLOR*/
+	/*IN-HOVER-BG-IMAGE*/
+	/*IN-HOVER-BORDER*/
+	/*IN-HOVER-BORDER-RADIUS*/
+	/*IN-HOVER-SHADOW*/
+	/*IN-HOVER-TRANSFORM*/
+
+	transition: all 0.3s ease 0s;
+}
+.lkc3-external-wrap::after {
+	/*EX-WRAP-AFTER*/
+}
+.lkc3-internal-wrap::after {
+	/*IN-WRAP-AFTER*/
+}
+.lkc3-external-wrap::before , .lkc3-internal-wrap::before {
+	/*WRAP-BEFORE*/
+}
+.lkc3-external-wrap::after , .lkc3-internal-wrap::after {
+	/*WRAP-AFTER*/
+}
+.lkc3-external-wrap:hover , .lkc3-internal-wrap:hover {
+	/*HOVER*/
+}
+.lkc3-external-wrap:hover::before , .lkc3-internal-wrap:hover::before {
+	/*HOVER-BEFORE*/
+}
+.lkc3-external-wrap:hover::after , .lkc3-internal-wrap:hover::after {
+	/*HOVER-AFTER*/
+}
+.lkc3-external-wrap .lkc3-heading {
+	/*EX-HEADING-MARGIN*/
+	/*EX-HEADING-PADDING*/
+	/*EX-HEADING-SHADOW*/
+	/*EX-HEADING-BG-COLOR*/
+	/*EX-HEADING-BG-IMAGE*/
+	/*EX-HEADING-BORDER*/
+	/*EX-HEADING-BORDER-RADIUS*/
+	/*EX-HEADING-TRANSFORM*/
+}
+.lkc3-internal-wrap .lkc3-heading {
+	/*IN-HEADING-MARGIN*/
+	/*IN-HEADING-PADDING*/
+	/*IN-HEADING-SHADOW*/
+	/*IN-HEADING-BG-COLOR*/
+	/*IN-HEADING-BG-IMAGE*/
+	/*IN-HEADING-BORDER*/
+	/*IN-HEADING-BORDER-RADIUS*/
+	/*IN-HEADING-TRANSFORM*/
+}
+.lkc3-heading {
+	display: inline /*IMPORTANT*/;
+
+	/*HEADING-COLOR*/
+	/*HEADING-OUTLINE-COLOR*/
+	/*HEADING-BG-COLOR*/
+	/*HEADING-SIZE*/
+	/*HEADING-HEIGHT*/
+	/*HEADING-MAXLINE*/
+	/*HEADING-TRIM*/
+	/*HEADING-BOLD*/
+	/*HEADING-ITALIC*/
+	/*HEADING-UNDERLINE*/
+	/*HEADING-ELLIPSIS*/
+}
+.lkc3-heading:hover {
+	/*HEADING-HOVER*/
+}
+.lkc3-card {
+	display: flex /*IMPORTANT*/;
+	flex-direction: column /*IMPORTANT*/;
+}
+.lkc3-more {
+	display: inline;
+	padding: 0 24px;
+
+	/*MORE-MARGIN*/
+	/*MORE-PADDING*/
+
+	/*MORE-COLOR*/
+	/*MORE-OUTLINE-COLOR*/
+	/*MORE-BG-COLOR*/
+	/*MORE-SIZE*/
+	/*MORE-HEIGHT*/
+	/*MORE-MAXLINE*/
+	/*MORE-TRIM*/
+	/*MORE-BOLD*/
+	/*MORE-ITALIC*/
+	/*MORE-UNDERLINE*/
+	/*MORE-ELLIPSIS*/
+}
+.lkc3-more:hover {
+	/*MORE-HOVER*/
+	/*MOREBTN-HOVER*/
+}
+.lkc3-more:active {
+	/*MOREBTN-ACTIVE*/
+}
+.lkc3-external-wrap .lkc3-more {
+	/*EX-MORE-MARGIN*/
+	/*EX-MORE-SHADOW*/
+	/*EX-MORE-BG-COLOR*/
+	/*EX-MORE-BG-IMAGE*/
+	/*EX-MORE-BORDER*/
+	/*EX-MORE-BORDER-RADIUS*/
+	/*EX-MORE-POSITION*/
+	/*EX-MORE-LOCATION*/
+	/*EX-MORE-TRANSFORM*/
+}
+.lkc3-internal-wrap .lkc3-more {
+	/*IN-MORE-MARGIN*/
+	/*IN-MORE-SHADOW*/
+	/*IN-MORE-BG-COLOR*/
+	/*IN-MORE-BG-IMAGE*/
+	/*IN-MORE-BORDER*/
+	/*IN-MORE-BORDER-RADIUS*/
+	/*IN-MORE-POSITION*/
+	/*IN-MORE-LOCATION*/
+	/*IN-MORE-TRANSFORM*/
+}
+.lkc3-external-wrap .lkc3-more:hover {
+	/*EX-MORE-HOVER*/
+}
+.lkc3-internal-wrap .lkc3-more:hover {
+	/*IN-MORE-HOVER*/
+}
+.lkc3-external-wrap .lkc3-more:active {
+	/*EX-MORE-ACTIVE*/
+}
+.lkc3-internal-wrap .lkc3-more:active {
+	/*IN-MORE-ACTIVE*/
+}
+.lkc3-column {
+	display: flex /*IMPORTANT*/;
+	flex-direction: row /*IMPORTANT*/;
+	/*COLUMN-FLEX*/
+	align-items: flex-start /*IMPORTANT*/;
+}
+.lkc3-contents {
+	flex: 1;
+	width: 100%;
+	position: relative;
+	word-break: break-all;
+	white-space: normal;
+	overflow: hidden;
+	/*CONTENT-PADDING*/
+	/*CONTENT-INSET*/
+	/*CONTENT-HEIGHT*/
+	/*CONTENT-MARGIN*/
+	/*CONTENT-ORDER*/
+}
+.lkc3-title {
+	display: block;
+	overflow: hidden;
+	word-break: break-all;
+
+	/*TITLE-MARGIN*/
+	/*TITLE-PADDING*/
+
+	/*TITLE-COLOR*/
+	/*TITLE-OUTLINE-COLOR*/
+	/*TITLE-BG-COLOR*/
+	/*TITLE-SIZE*/
+	/*TITLE-HEIGHT*/
+	/*TITLE-MAXLINE*/
+	/*TITLE-TRIM*/
+	/*TITLE-BOLD*/
+	/*TITLE-ITALIC*/
+	/*TITLE-UNDERLINE*/
+	/*TITLE-ELLIPSIS*/
+}
+.lkc3-title:hover {
+	/*TITLE-HOVER*/
+}
+.lkc3-excerpt {
+	padding: 0;
+	overflow: hidden;
+
+	/*EXCERPT-MARGIN*/
+	/*EXCERPT-PADDING*/
+
+	/*EXCERPT-COLOR*/
+	/*EXCERPT-OUTLINE-COLOR*/
+	/*EXCERPT-BG-COLOR*/
+	/*EXCERPT-SIZE*/
+	/*EXCERPT-HEIGHT*/
+	/*EXCERPT-MAXLINE*/
+	/*EXCERPT-TRIM*/
+	/*EXCERPT-BOLD*/
+	/*EXCERPT-ITALIC*/
+	/*EXCERPT-UNDERLINE*/
+	/*EXCERPT-ELLIPSIS*/
+}
+.lkc3-excerpt:hover {
+	/*EXCERPT-HOVER*/
+}
+.lkc3-url {
+	display: block /*IMPORTANT*/;
+	margin: 0;
+	padding: 0;
+	border-radius: 4px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	/*URL-MARGIN*/
+	/*URL-PADDING*/
+
+	/*URL-COLOR*/
+	/*URL-OUTLINE-COLOR*/
+	/*URL-BG-COLOR*/
+	/*URL-SIZE*/
+	/*URL-HEIGHT*/
+	/*URL-MAXLINE*/
+	/*URL-TRIM*/
+	/*URL-BOLD*/
+	/*URL-ITALIC*/
+	/*URL-UNDERLINE*/
+	/*URL-ELLIPSIS*/
+}
+.lkc3-url:hover {
+	/*URL-HOVER*/
+}
+.lkc3-url:link {
+	text-decoration: none;
+}
+.lkc3-date {
+	display: block /*IMPORTANT*/;
+	margin: 0 0 2px 0;
+	padding: 0 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+
+	/*DATE-MARGIN*/
+	/*DATE-PADDING*/
+
+	/*DATE-COLOR*/
+	/*DATE-OUTLINE-COLOR*/
+	/*DATE-BG-COLOR*/
+	/*DATE-SIZE*/
+	/*DATE-HEIGHT*/
+	/*DATE-MAXLINE*/
+	/*DATE-TRIM*/
+	/*DATE-BOLD*/
+	/*DATE-ITALIC*/
+	/*DATE-UNDERLINE*/
+	/*DATE-ELLIPSIS*/
+}
+.lkc3-date:hover {
+	/*DATE-HOVER*/
+}
+.lkc3-date-r {
+	display: block /*IMPORTANT*/;
+	margin: 0 0 2px 0;
+	padding: 0 4px;
+	width: 100%;
+	border-radius: 4px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: right;
+
+	/*DATE-MARGIN*/
+	/*DATE-PADDING*/
+
+	/*DATE-COLOR*/
+	/*DATE-OUTLINE-COLOR*/
+	/*DATE-BG-COLOR*/
+	/*DATE-SIZE*/
+	/*DATE-HEIGHT*/
+	/*DATE-MAXLINE*/
+	/*DATE-TRIM*/
+	/*DATE-BOLD*/
+	/*DATE-ITALIC*/
+	/*DATE-UNDERLINE*/
+	/*DATE-ELLIPSIS*/
+}
+.lkc3-external-wrap > .lkc3-added {
+	/*EX-INFO-TEXT*/
+}
+.lkc3-internal-wrap > .lkc3-added {
+	/*IN-INFO-TEXT*/
+}
+.lkc3-added {
+	display: inline /*IMPORTANT*/;
+	border-radius: 4px;
+
+	/*ADDED-MARGIN*/
+	/*ADDED-PADDING*/
+
+	/*ADDED-COLOR*/
+	/*ADDED-OUTLINE-COLOR*/
+	/*ADDED-BG-COLOR*/
+	/*ADDED-SIZE*/
+	/*ADDED-HEIGHT*/
+	/*ADDED-MAXLINE*/
+	/*ADDED-TRIM*/
+	/*ADDED-BOLD*/
+	/*ADDED-ITALIC*/
+	/*ADDED-UNDERLINE*/
+	/*ADDED-ELLIPSIS*/
+}
+.lkc3-added:hover {
+	/*ADDED-HOVER*/
+}
+.lkc3-url-info {
+	font-weight: normal;
+	text-decoration: underline;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	/*URL-MARGIN*/
+	/*URL-PADDING*/
+
+	/*URL-COLOR*/
+	/*URL-OUTLINE-COLOR*/
+	/*URL-BG-COLOR*/
+	/*URL-SIZE*/
+	/*URL-HEIGHT*/
+	/*URL-MAXLINE*/
+	/*URL-TRIM*/
+	/*URL-BOLD*/
+	/*URL-ITALIC*/
+	/*URL-UNDERLINE*/
+	/*URL-ELLIPSIS*/
+}
+.lkc3-url-info:hover {
+	/*URL-HOVER*/
+}
+.lkc3-thumbnail {
+	display: flex;
+}
+.lkc3-thumbnail img {
+	object-fit: cover;
+	/*TRANSFORM*/
+}
+.lkc3-external-wrap .lkc3-thumbnail {
+	/*EX-THUMBNAIL-MARGIN*/
+	/*EX-THUMBNAIL-POSITION*/
+	/*EX-THUMBNAIL-HEIGHT*/
+	/*EX-THUMBNAIL-WIDTH*/
+	/*EX-THUMBNAIL-ADJUST*/
+	/*EX-THUMBNAIL-ORDER*/
+}
+.lkc3-internal-wrap .lkc3-thumbnail {
+	/*IN-THUMBNAIL-MARGIN*/
+	/*IN-THUMBNAIL-POSITION*/
+	/*IN-THUMBNAIL-HEIGHT*/
+	/*IN-THUMBNAIL-WIDTH*/
+	/*IN-THUMBNAIL-ADJUST*/
+	/*IN-THUMBNAIL-ORDER*/
+}
+.lkc3-external-wrap .lkc3-thumbnail-img {
+	/*EX-THUMBNAIL-BORDER*/
+	/*EX-THUMBNAIL-BORDER-RADIUS*/
+	/*EX-THUMBNAIL-SHADOW*/
+	/*EX-THUMBNAIL-IMG-HEIGHT*/
+	/*EX-THUMBNAIL-IMG-WIDTH*/
+	/*EX-THUMBNAIL-TRANSFORM*/
+}
+.lkc3-internal-wrap .lkc3-thumbnail-img {
+	/*IN-THUMBNAIL-BORDER*/
+	/*IN-THUMBNAIL-BORDER-RADIUS*/
+	/*IN-THUMBNAIL-SHADOW*/
+	/*IN-THUMBNAIL-IMG-HEIGHT*/
+	/*IN-THUMBNAIL-IMG-WIDTH*/
+	/*IN-THUMBNAIL-TRANSFORM*/
+}
+.lkc3-info {
+	/*INFO-DISPLAY*/
+	margin: 0 4px 0 0;
+	padding: 0;
+	align-items: center;
+	overflow: hidden;
+	white-space: nowrap;
+
+	/*INFO-MARGIN*/
+	/*INFO-PADDING*/
+	/*INFO-POSITION*/
+
+	/*INFO-COLOR*/
+	/*INFO-OUTLINE-COLOR*/
+	/*INFO-BG-COLOR*/
+	/*INFO-SIZE*/
+	/*INFO-HEIGHT*/
+	/*INFO-MAXLINE*/
+	/*INFO-TRIM*/
+	/*INFO-BOLD*/
+	/*INFO-ITALIC*/
+	/*INFO-UNDERLINE*/
+	/*INFO-ELLIPSIS*/
+
+	/*INFO-ORDER*/
+	/*SEPARATOR*/
+}
+.lkc3-info:hover {
+	/*INFO-HOVER*/
+}
+.lkc3-siteicon {
+	display: contents /*IMPORTANT*/;
+	margin: 0 4px 0 0;
+	vertical-align: middle /*IMPORTANT*/;
+	border: none;
+
+	/*SITEICON-HEIGHT*/
+	/*SITEICON-WIDTH*/
+}
+.lkc3-siteicon img {
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+	object-fit: cover;
+}
+.lkc3-domain {
+	display: inline-flex /*IMPORTANT*/;
+	vertical-align: middle /*IMPORTANT*/;
+	text-decoration: none;
+
+	/*INFO-MARGIN*/
+	/*INFO-PADDING*/
+	/*INFO-POSITION*/
+	/*INFO-NONE*/
+
+	/*INFO-COLOR*/
+	/*INFO-OUTLINE-COLOR*/
+	/*INFO-BG-COLOR*/
+	/*INFO-SIZE*/
+	/*INFO-HEIGHT*/
+	/*INFO-MAXLINE*/
+	/*INFO-TRIM*/
+	/*INFO-BOLD*/
+	/*INFO-ITALIC*/
+	/*INFO-UNDERLINE*/
+	/*INFO-ELLIPSIS*/
+}
+.lkc3-sitename {
+	display: flex /*IMPORTANT*/;
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+}
+.lkc3-line {
+	display: block /*IMPORTANT*/;	
+}
+.lkc3-sns-list {
+	display: flex /*IMPORTANT*/;
+	align-items: center;
+
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+	padding: 1px 1px;
+	text-shadow: none;
+	white-space: nowrap;
+	overflow: visible;
+	text-overflow: clip;
+	line-height: 0;
+}
+.lkc3-sns-list a {
+	display: flex /*IMPORTANT*/;
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+	padding: 2px 6px /*IMPORTANT*/;
+	vertical-align: middle;
+	align-items: center;
+
+	/*SNS-MARGIN*/
+	/*SNS-PADDING*/
+
+	/*SNS-COLOR*/
+	/*SNS-OUTLINE-COLOR*/
+	/*SNS-BG-COLOR*/
+	/*SNS-SIZE*/
+	/*SNS-HEIGHT*/
+	/*SNS-MAXLINE*/
+	/*SNS-TRIM*/
+	/*SNS-BOLD*/
+	/*SNS-ITALIC*/
+	/*SNS-UNDERLINE*/
+	/*SNS-ELLIPSIS*/
+}
+.lkc3-sns-x {
+	color: #ffffff /*IMPORTANT*/;
+	background-color: #333 /*IMPORTANT*/;
+}
+.lkc3-sns-tw {
+	color: #5ea9dd /*IMPORTANT*/;
+	background-color: #e0f8fa /*IMPORTANT*/;
+}
+.lkc3-sns-fb {
+	color: #ffffff /*IMPORTANT*/;
+	background-color: #3864a3 /*IMPORTANT*/;
+}
+.lkc3-sns-hb {
+	color: #ff6464 /*IMPORTANT*/;
+	background-color: #ffefef /*IMPORTANT*/;
+}
+.lkc3-sns-gp {
+	color: #dd4e42 /*IMPORTANT*/;
+	background-color: #ffffff /*IMPORTANT*/;
+}
+.lkc3-sns-po {
+	color: #eeeeee /*IMPORTANT*/;
+	background-color: #ee4055 /*IMPORTANT*/;
+}
+.lkc3-cat-list {
+	display: flex /*IMPORTANT*/;
+	align-items: center;
+
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+	padding: 1px 1px /*IMPORTANT*/;
+	text-shadow: none;
+	white-space: nowrap;
+	overflow: visible;
+	text-overflow: clip;
+	line-height: 0;
+}
+.lkc3-cat-list a {
+	display: flex /*IMPORTANT*/;
+	margin: 0 4px 0 0 /*IMPORTANT*/;
+	padding: 2px 6px /*IMPORTANT*/;
+	vertical-align: middle;
+	align-items: center;
+
+	border-radius: 4px;
+	border: 1px solid #000;
+
+	/*CAT-MARGIN*/
+	/*CAT-PADDING*/
+
+	/*CAT-COLOR*/
+	/*CAT-OUTLINE-COLOR*/
+	/*CAT-BG-COLOR*/
+	/*CAT-SIZE*/
+	/*CAT-HEIGHT*/
+	/*CAT-MAXLINE*/
+	/*CAT-TRIM*/
+	/*CAT-BOLD*/
+	/*CAT-ITALIC*/
+	/*CAT-UNDERLINE*/
+	/*CAT-ELLIPSIS*/
+}
+.lkc3-link {
+}
+.lkc3-unlink {
+	cursor:	not-allowed;
+	/*UNLINK-BORDER-COLOR*/
+}
+#lkc3-error {
+	display: block;
+	padding-top: 50px;
+	margin-top: -16px;
+}
+.lkc3-clear {
+	clear: both;
+}
+blockquote.linkcard3 {
+	background-color: transparent;
+	background-image: none;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+blockquote.linkcard3::before {
+	content: '';
+}
+blockquote.linkcard3::after {
+	content: '';
+}
+/*OPTION*/
+/*CSS-ADD*/
+/*RESIZE*/

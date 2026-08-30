@@ -1,0 +1,5298 @@
+# Copyright (C) 2013 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pz-LinkCard\n"
+"Report-Msgid-Bugs-To: https://wppolyglots.wordpress.com\n"
+"POT-Creation-Date: 2026-08-23 15:26+0900\n"
+"PO-Revision-Date: 2026-08-23 15:26+0900\n"
+"Last-Translator: poporon\n"
+"Language-Team: poporon\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:22
+msgid "Update"
+msgstr "更新"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:22
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:36 ../lib/pz-lkc3-cacheman-editor.php:108
+#, php-format
+msgid "%s characters"
+msgstr "%s文字"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:50
+msgid "Media"
+msgstr "メディア"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:75
+msgid "All Categories"
+msgstr "全てのカテゴリ"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:92 ../lib/pz-lkc3-cacheman-editor.php:93
+#: ../lib/pz-lkc3-cacheman-list.php:249 ../lib/pz-lkc3-settings-card.php:86
+#: ../lib/pz-lkc3-settings-letter.php:54 ../lib/pz-lkc3-settings.php:204
+#: ../lib/pz-lkc3-settings.php:239
+msgid "Title"
+msgstr "タイトル"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:97 ../lib/pz-lkc3-cacheman-editor.php:174
+#: ../lib/pz-lkc3-cacheman-editor.php:185 ../lib/pz-lkc3-cacheman-list.php:248
+#: ../lib/pz-lkc3-settings-letter.php:56
+#: ../lib/pz-lkc3-settings-multisite.php:88 ../lib/pz-lkc3-settings.php:203
+#: ../lib/pz-lkc3-settings.php:241 ../pz-linkcard3.php:1027
+#: ../pz-linkcard3.php:1071
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:101
+msgid "Redirect URL"
+msgstr "転送先URL"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:109 ../lib/pz-lkc3-cacheman-list.php:250
+#: ../lib/pz-lkc3-cacheman.php:194 ../lib/pz-lkc3-settings-card.php:102
+#: ../lib/pz-lkc3-settings-letter.php:55 ../lib/pz-lkc3-settings.php:240
+msgid "Excerpt"
+msgstr "抜粋文"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:114
+msgid "Site Data"
+msgstr "サイト情報"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:116
+#: ../lib/pz-lkc3-settings-multisite.php:87 ../lib/pz-lkc3-settings.php:198
+#: ../lib/pz-lkc3-settings.php:246
+msgid "Site Name"
+msgstr "サイト名称"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:117 ../lib/pz-lkc3-cacheman-list.php:252
+#: ../lib/pz-lkc3-cacheman.php:196 ../lib/pz-lkc3-settings-multisite.php:89
+#: ../lib/pz-lkc3-settings.php:199
+msgid "Domain"
+msgstr "ドメイン"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:121
+msgid "Internal Link Data"
+msgstr "内部リンク情報"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:126
+#: ../lib/pz-lkc3-cacheman-editor.php:234 ../lib/pz-lkc3-cacheman.php:202
+#: ../lib/pz-lkc3-settings-admin.php:261 ../lib/pz-lkc3-settings-error.php:17
+msgid "Post ID"
+msgstr "記事ID"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:128 ../lib/pz-lkc3-settings.php:205
+#: ../lib/pz-lkc3-settings.php:242 ../lib/pz-lkc3-settings.php:297
+msgid "Post Date"
+msgstr "投稿日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:129 ../lib/pz-lkc3-settings.php:298
+msgid "Modified Date"
+msgstr "更新日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:130 ../lib/pz-lkc3-get-post.php:118
+#: ../lib/pz-lkc3-get-post.php:122 ../lib/pz-lkc3-settings-letter.php:62
+#: ../lib/pz-lkc3-settings.php:200 ../lib/pz-lkc3-settings.php:244
+msgid "Category"
+msgstr "カテゴリー"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:134
+msgid "Registration Data"
+msgstr "登録情報"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:136
+msgid "Registration Title"
+msgstr "登録時のタイトル"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:137
+msgid "Registration Excerpt"
+msgstr "登録時の抜粋文"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:138
+msgid "Registration Character Set"
+msgstr "登録時の文字セット"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:139
+#: ../lib/pz-lkc3-cacheman-editor.php:160 ../lib/pz-lkc3-cacheman.php:198
+msgid "Registration Date"
+msgstr "登録日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:142
+msgid "Registration Result Code"
+msgstr "登録時の結果コード"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:150
+msgid "Reload"
+msgstr "更新"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:151
+msgid "Cache Editor"
+msgstr "キャッシュエディター"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:157
+msgid "ID"
+msgstr "ID"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:158
+msgid "Character Set"
+msgstr "文字セット"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:158
+msgid "->"
+msgstr "→"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:159 ../lib/pz-lkc3-cacheman.php:203
+#: ../lib/pz-lkc3-settings-check.php:67
+msgid "Click Count"
+msgstr "クリック回数"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:161
+#: ../lib/pz-lkc3-cacheman-editor.php:199 ../lib/pz-lkc3-cacheman.php:199
+msgid "Update Date"
+msgstr "更新日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:171
+msgid "Thumbnail Image"
+msgstr "サムネイル画像"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:182 ../lib/pz-lkc3-settings-card.php:174
+#: ../lib/pz-lkc3-settings.php:197
+msgid "Site Icon"
+msgstr "サイトアイコン"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:193
+msgid "Status"
+msgstr "状態"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:196
+msgid "Ignore the result code when it indicates an error."
+msgstr "エラーを無視する。"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:203
+msgid "Result Code of Update"
+msgstr "更新時の結果コード"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:207
+msgid "Last Alive Check"
+msgstr "存在確認日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:211
+msgid "Result Code of Alive Check"
+msgstr "存在確認時の結果コード"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:214
+msgid "Next Alive Check"
+msgstr "次回存在確認日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:234
+msgid ", "
+msgstr "、"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:240 ../lib/pz-lkc3-cacheman.php:197
+msgid "SNS"
+msgstr "SNS"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:243
+msgid "Tw:"
+msgstr "𝕏："
+
+#: ../lib/pz-lkc3-cacheman-editor.php:244
+msgid "fb:"
+msgstr "fb："
+
+#: ../lib/pz-lkc3-cacheman-editor.php:245
+msgid "B!:"
+msgstr "B!："
+
+#: ../lib/pz-lkc3-cacheman-editor.php:252
+msgid "(Not yet acquired)"
+msgstr "（未取得）"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:263
+msgid "Last SNS Check"
+msgstr "SNS確認日"
+
+#: ../lib/pz-lkc3-cacheman-editor.php:266
+msgid "Next SNS Check"
+msgstr "次回SNS確認日"
+
+#: ../lib/pz-lkc3-cacheman-list.php:112 ../lib/pz-lkc3-file-export-menu.php:13
+#, php-format
+msgid "%s item"
+msgstr "%s個の項目"
+
+#: ../lib/pz-lkc3-cacheman-list.php:112 ../lib/pz-lkc3-file-export-menu.php:13
+#, php-format
+msgid "%s items"
+msgstr "%s個の項目"
+
+#: ../lib/pz-lkc3-cacheman-list.php:113
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:114
+msgid "&lsaquo;"
+msgstr "&lsaquo;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:121
+msgid "&rsaquo;"
+msgstr "&rsaquo;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:122
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:130
+msgid "Screen Options"
+msgstr "表示オプション"
+
+#: ../lib/pz-lkc3-cacheman-list.php:134
+msgid "Columns"
+msgstr "カラム"
+
+#: ../lib/pz-lkc3-cacheman-list.php:144
+msgid "Pagination"
+msgstr "ページネーション"
+
+#: ../lib/pz-lkc3-cacheman-list.php:146
+msgid "Number of items per page:"
+msgstr "ページごとに表示する項目数:"
+
+#: ../lib/pz-lkc3-cacheman-list.php:165
+msgid "All"
+msgstr "すべて"
+
+#: ../lib/pz-lkc3-cacheman-list.php:166
+msgid "Internal"
+msgstr "内部"
+
+#: ../lib/pz-lkc3-cacheman-list.php:167
+msgid "External"
+msgstr "外部"
+
+#: ../lib/pz-lkc3-cacheman-list.php:168
+msgid "Modify"
+msgstr "更新あり"
+
+#: ../lib/pz-lkc3-cacheman-list.php:169
+msgid "Unlink"
+msgstr "リンク切れ"
+
+#: ../lib/pz-lkc3-cacheman-list.php:181
+msgid "Text search by title and excerpt"
+msgstr "タイトルと抜粋文からテキスト検索します"
+
+#: ../lib/pz-lkc3-cacheman-list.php:185 ../lib/pz-lkc3-settings.php:604
+msgid "Search"
+msgstr "検索"
+
+#: ../lib/pz-lkc3-cacheman-list.php:193
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: ../lib/pz-lkc3-cacheman-list.php:194 ../lib/pz-lkc3-cacheman.php:358
+msgid "Renew Cache"
+msgstr "記事内容の再取得"
+
+#: ../lib/pz-lkc3-cacheman-list.php:195 ../lib/pz-lkc3-cacheman.php:380
+msgid "Renew Thumbnail Image"
+msgstr "サムネイル画像を再取得する"
+
+#: ../lib/pz-lkc3-cacheman-list.php:196 ../lib/pz-lkc3-cacheman.php:403
+msgid "Renew SNS Count"
+msgstr "ソーシャルカウントを再取得する"
+
+#: ../lib/pz-lkc3-cacheman-list.php:197 ../lib/pz-lkc3-cacheman.php:428
+msgid "Renew Post ID"
+msgstr "記事IDの再取得"
+
+#: ../lib/pz-lkc3-cacheman-list.php:198
+msgid "Check Status"
+msgstr "状態チェック"
+
+#: ../lib/pz-lkc3-cacheman-list.php:199
+msgid "Delete from Cache"
+msgstr "キャッシュから削除する"
+
+#: ../lib/pz-lkc3-cacheman-list.php:201 ../lib/pz-lkc3-cacheman-list.php:449
+#: ../lib/pz-lkc3-cacheman-list.php:450 ../lib/pz-lkc3-file-import-menu.php:14
+#: ../lib/pz-lkc3-file-import-menu.php:38 ../lib/pz-lkc3-settings-admin.php:97
+#: ../lib/pz-lkc3-settings-admin.php:201 ../lib/pz-lkc3-settings-etc.php:38
+#: ../lib/pz-lkc3-settings-etc.php:254 ../lib/pz-lkc3-settings-initialize.php:9
+msgid "Are you sure?"
+msgstr "実行しますか？"
+
+#: ../lib/pz-lkc3-cacheman-list.php:201
+msgid "Execute"
+msgstr "実行"
+
+#: ../lib/pz-lkc3-cacheman-list.php:207
+msgid "All Domain"
+msgstr "すべてのドメイン"
+
+#: ../lib/pz-lkc3-cacheman-list.php:218
+msgid "Refine Search"
+msgstr "絞り込み"
+
+#: ../lib/pz-lkc3-cacheman-list.php:247
+msgid "Card<br>ID"
+msgstr "カード<br>ID"
+
+#: ../lib/pz-lkc3-cacheman-list.php:251 ../lib/pz-lkc3-cacheman.php:195
+msgid "Charset"
+msgstr "文字ｾｯﾄ"
+
+#: ../lib/pz-lkc3-cacheman-list.php:253
+msgid "Thumbnail<br>Image"
+msgstr "サムネイル<br>画像"
+
+#: ../lib/pz-lkc3-cacheman-list.php:254
+msgid "Site<br>Icon"
+msgstr "サイト<br>アイコン"
+
+#: ../lib/pz-lkc3-cacheman-list.php:257
+msgid "Tw"
+msgstr "𝕏"
+
+#: ../lib/pz-lkc3-cacheman-list.php:264
+msgid "fb"
+msgstr "fb"
+
+#: ../lib/pz-lkc3-cacheman-list.php:269
+msgid "B!"
+msgstr "B!"
+
+#: ../lib/pz-lkc3-cacheman-list.php:274
+msgid "Registration<br>Date"
+msgstr "登録<br>日時"
+
+#: ../lib/pz-lkc3-cacheman-list.php:275
+msgid "Update<br>Date"
+msgstr "更新<br>日時"
+
+#: ../lib/pz-lkc3-cacheman-list.php:276
+msgid "SNS<br>Check<br>Date"
+msgstr "ｼｪｱ数<br>取得<br>日時"
+
+#: ../lib/pz-lkc3-cacheman-list.php:277
+msgid "Alive<br>Check<br>Date"
+msgstr "状態<br>確認<br>日時"
+
+#: ../lib/pz-lkc3-cacheman-list.php:278
+msgid "Post<br>ID"
+msgstr "記事<br>ID"
+
+#: ../lib/pz-lkc3-cacheman-list.php:279
+msgid "Click<br>Count"
+msgstr "ｸﾘｯｸ<br>回数"
+
+#: ../lib/pz-lkc3-cacheman-list.php:280
+msgid "Result<br>Code"
+msgstr "結果<br>コード"
+
+#: ../lib/pz-lkc3-cacheman-list.php:321
+msgid "&#x26A0;&#xFE0F;"
+msgstr "&#x26A0;&#xFE0F;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:323
+msgid "The latest HTTP status code indicates an error, but it is ignored."
+msgstr "最新のHTTPステータスコードはエラーですが、無視されています。"
+
+#: ../lib/pz-lkc3-cacheman-list.php:325
+msgid "&#x26D4;&#xFE0F;"
+msgstr "&#x26D4;&#xFE0F;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:327
+msgid ""
+"The latest HTTP status code indicates an error. You can ignore this error "
+"from the edit screen."
+msgstr ""
+"最新のHTTPステータスコードがエラーです。編集画面からこのエラーを無視するよう"
+"に変更できます。"
+
+#: ../lib/pz-lkc3-cacheman-list.php:332
+msgid "&#x21AA;&#xFE0F;"
+msgstr "&#x21AA;&#xFE0F;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:334 ../lib/pz-lkc3-settings-check.php:19
+msgid "Redirect"
+msgstr "転送先URL"
+
+#: ../lib/pz-lkc3-cacheman-list.php:359
+msgid "&#x23F3;&#xFE0F;"
+msgstr "&#x23F3;&#xFE0F;"
+
+#: ../lib/pz-lkc3-cacheman-list.php:360
+msgid "しばらくしたら画面を更新してください…"
+msgstr "しばらくしたら画面を更新してください…"
+
+#: ../lib/pz-lkc3-cacheman-list.php:435
+msgid "Ignore"
+msgstr "無視"
+
+#: ../lib/pz-lkc3-cacheman-list.php:448 ../pz-linkcard3.php:3270
+msgid "Edit"
+msgstr "編集"
+
+#: ../lib/pz-lkc3-cacheman-list.php:449
+msgid "Renew"
+msgstr "再取得"
+
+#: ../lib/pz-lkc3-cacheman-list.php:450
+msgid "Delete"
+msgstr "削除"
+
+#: ../lib/pz-lkc3-cacheman-list.php:482
+msgid "Domains shown in red are local IP links."
+msgstr "※ドメインが赤文字なリンク先はローカルIPです。"
+
+#: ../lib/pz-lkc3-cacheman.php:97
+msgid "Not selected"
+msgstr "選択されていません"
+
+#: ../lib/pz-lkc3-cacheman.php:100
+msgid "..."
+msgstr "..."
+
+#: ../lib/pz-lkc3-cacheman.php:100
+#, php-format
+msgid "(Success:%d Skip:%d)"
+msgstr "（成功：%d／スキップ：%d）"
+
+#: ../lib/pz-lkc3-cacheman.php:127
+msgid "Administrator"
+msgstr "管理者"
+
+#: ../lib/pz-lkc3-cacheman.php:128
+msgid "Product Environment"
+msgstr "本番環境"
+
+#: ../lib/pz-lkc3-cacheman.php:129
+msgid "Development Environment"
+msgstr "開発環境"
+
+#: ../lib/pz-lkc3-cacheman.php:130
+msgid "Local Environment"
+msgstr "開発環境（ローカル）"
+
+#: ../lib/pz-lkc3-cacheman.php:131 ../lib/pz-lkc3-settings-advanced.php:130
+msgid "Debug Mode"
+msgstr "デバッグ モード"
+
+#: ../lib/pz-lkc3-cacheman.php:132 ../lib/pz-lkc3-settings-advanced.php:142
+msgid "Log Mode"
+msgstr "記録モード"
+
+#: ../lib/pz-lkc3-cacheman.php:133
+msgid "Running"
+msgstr "実行中"
+
+#: ../lib/pz-lkc3-cacheman.php:138 ../pz-linkcard3.php:3641
+msgid "Settings"
+msgstr "設定"
+
+#: ../lib/pz-lkc3-cacheman.php:139
+msgid "Go to the Settings page"
+msgstr "設定画面へ移動"
+
+#: ../lib/pz-lkc3-cacheman.php:144
+msgid "Import"
+msgstr "インポート"
+
+#: ../lib/pz-lkc3-cacheman.php:145
+msgid "Export"
+msgstr "エクスポート"
+
+#: ../lib/pz-lkc3-cacheman.php:153
+msgid "Pz-LinkCard Cache Manager"
+msgstr "Pz リンクカード・キャッシュ管理"
+
+#: ../lib/pz-lkc3-cacheman.php:155 ../lib/pz-lkc3-settings.php:577
+msgid "Help"
+msgstr "ヘルプ"
+
+#: ../lib/pz-lkc3-cacheman.php:193
+msgid "Card ID"
+msgstr "カードID"
+
+#: ../lib/pz-lkc3-cacheman.php:200
+msgid "SNS Check Date"
+msgstr "ｼｪｱ数取得日"
+
+#: ../lib/pz-lkc3-cacheman.php:201
+msgid "Alive Check Date"
+msgstr "状態確認日"
+
+#: ../lib/pz-lkc3-cacheman.php:204
+msgid "Result Code"
+msgstr "結果コード"
+
+#: ../lib/pz-lkc3-cacheman.php:261 ../lib/pz-lkc3-settings.php:657
+msgid "Invalid URL parameter in "
+msgstr "URLパラメーターの指定が無効です→"
+
+#: ../lib/pz-lkc3-cacheman.php:261 ../lib/pz-lkc3-settings.php:657
+msgid "*"
+msgstr "※"
+
+#: ../lib/pz-lkc3-cacheman.php:261 ../lib/pz-lkc3-settings.php:657
+#, php-format
+msgid "You can cancel this message from <a href=\"%s\">the setting screen</a>."
+msgstr "このメッセージの表示は<a href=\"%s\">設定画面</a>から解除できます。"
+
+#: ../lib/pz-lkc3-cacheman.php:313
+msgid "Update Cache"
+msgstr "キャッシュを更新しました"
+
+#: ../lib/pz-lkc3-cacheman.php:456
+msgid "Alive check"
+msgstr "リンク先のチェック"
+
+#: ../lib/pz-lkc3-cacheman.php:476
+msgid "Delete Cache"
+msgstr "キャッシュ削除"
+
+#: ../lib/pz-lkc3-cacheman.php:514
+#, php-format
+msgid "Undefined process chosen. (action=\"%s\")"
+msgstr "未定義の処理が選択されました (action=\"%s\")"
+
+#: ../lib/pz-lkc3-cron-alive.php:5
+msgid "Clear schedule \"Site Alive Check\"."
+msgstr "リンク先の存在チェックのスケジュールをクリアしました。"
+
+#: ../lib/pz-lkc3-cron-alive.php:9
+msgid "\"Site Alive Check\" Disabled."
+msgstr "「リンク先の生存確認」はオフになっています。"
+
+#: ../lib/pz-lkc3-cron-alive.php:25
+#, php-format
+msgid "%d links are past their next \"Link Alive Check\" time."
+msgstr "次回のリンク先存在確認日時を過ぎたリンクが%d件あります。"
+
+#: ../lib/pz-lkc3-cron-alive.php:40 ../lib/pz-lkc3-cron-regist.php:37
+#: ../lib/pz-lkc3-cron-sns.php:40
+msgid "Stopped."
+msgstr "中断しました。"
+
+#: ../lib/pz-lkc3-cron-alive.php:66
+#, php-format
+msgid ""
+"[%d] Completed the \"Link Alive Check\". (Next time=%s Result=%s URL=%s)"
+msgstr "[%d] リンク先存在確認が完了しました。（次回=%s / 結果=%s / URL=%s）"
+
+#: ../lib/pz-lkc3-cron-regist.php:21
+#, php-format
+msgid "%d links are ready for content retrieval."
+msgstr "記事内容の取得対象リンクが%d件あります。"
+
+#: ../lib/pz-lkc3-cron-regist.php:69
+#, php-format
+msgid "[%d] Retrieved the link content. (Result=%s URL=%s)"
+msgstr "[%d] リンク先の記事内容を取得しました。（結果=%s / URL=%s）"
+
+#: ../lib/pz-lkc3-cron-sns.php:5
+msgid "Clear schedule \"SNS Count Check\"."
+msgstr "SNSカウントチェックのスケジュールをクリアしました。"
+
+#: ../lib/pz-lkc3-cron-sns.php:9
+msgid "\"SNS Count Check\" Disabled."
+msgstr "「ソーシャルカウントの取得」はオフになっています。"
+
+#: ../lib/pz-lkc3-cron-sns.php:25
+#, php-format
+msgid "%d links are past their next \"SNS Count Check\" time."
+msgstr "次回のSNSカウント確認日時を過ぎたリンクが%d件あります。"
+
+#: ../lib/pz-lkc3-cron-sns.php:49
+#, php-format
+msgid "[%d] Completed the \"SNS Count Check\". (Next time=%s URL=%s)"
+msgstr "[%d] SNSカウント確認が完了しました。（次回=%s / URL=%s）"
+
+#: ../lib/pz-lkc3-file-export-menu.php:7 ../lib/pz-lkc3-file-import-csv.php:182
+#: ../lib/pz-lkc3-file-import-host.php:282
+#: ../lib/pz-lkc3-file-import-menu.php:2
+msgid "Return to Cache Manager"
+msgstr "管理画面へ戻る"
+
+#: ../lib/pz-lkc3-file-export-menu.php:8
+msgid "Export LinkCard Data"
+msgstr "リンクカード情報をエクスポート"
+
+#: ../lib/pz-lkc3-file-export-menu.php:9
+msgid ""
+"Export the cache contents to a CSV file. All registered items will be "
+"exported."
+msgstr ""
+"キャッシュの内容をCSVファイルに書き出します。登録されている全件が書き出されま"
+"す。"
+
+#: ../lib/pz-lkc3-file-export-menu.php:13
+msgid "Download the export file"
+msgstr "エクスポートしたファイルをダウンロード"
+
+#: ../lib/pz-lkc3-file-export.php:31
+msgid "Failed to open the export file."
+msgstr "エクスポートファイルを開くのを失敗しました。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:8 ../lib/pz-lkc3-file-import-csv.php:109
+#: ../lib/pz-lkc3-file-import-csv.php:116 ../lib/pz-lkc3-file-import-host.php:9
+#: ../lib/pz-lkc3-file-import-host.php:15
+#: ../lib/pz-lkc3-file-import-host.php:21
+#: ../lib/pz-lkc3-file-import-host.php:30
+#: ../lib/pz-lkc3-file-import-host.php:36
+#: ../lib/pz-lkc3-file-import-host.php:220
+msgid "DB Access Error."
+msgstr "データベースへのアクセスでエラーが発生しました。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:8 ../lib/pz-lkc3-file-import-csv.php:109
+#: ../lib/pz-lkc3-file-import-csv.php:116
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-csv.php:179
+#: ../lib/pz-lkc3-file-import-host.php:15
+#: ../lib/pz-lkc3-file-import-host.php:21
+#: ../lib/pz-lkc3-file-import-host.php:30
+#: ../lib/pz-lkc3-file-import-host.php:36
+#: ../lib/pz-lkc3-file-import-host.php:220
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279 ../lib/pz-lkc3-get-post.php:119
+#: ../lib/pz-lkc3-get-post.php:136 ../lib/pz-lkc3-settings-letter.php:88
+#: ../lib/pz-lkc3-settings-letter.php:93
+msgid "("
+msgstr "（"
+
+#: ../lib/pz-lkc3-file-import-csv.php:8 ../lib/pz-lkc3-file-import-csv.php:109
+#: ../lib/pz-lkc3-file-import-csv.php:116
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-csv.php:179
+#: ../lib/pz-lkc3-file-import-host.php:15
+#: ../lib/pz-lkc3-file-import-host.php:21
+#: ../lib/pz-lkc3-file-import-host.php:30
+#: ../lib/pz-lkc3-file-import-host.php:36
+#: ../lib/pz-lkc3-file-import-host.php:220
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279 ../lib/pz-lkc3-get-post.php:119
+#: ../lib/pz-lkc3-get-post.php:136 ../lib/pz-lkc3-settings-letter.php:90
+#: ../lib/pz-lkc3-settings-letter.php:95
+msgid ")"
+msgstr "）"
+
+#: ../lib/pz-lkc3-file-import-csv.php:84
+msgid "Import File Not Found."
+msgstr "インポートファイルが見つかりません。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:90
+msgid "Import File Open Error."
+msgstr "インポートファイルが開けませんでした。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:96
+msgid "Import File Read Error."
+msgstr "インポートファイルが読み込めませんでした。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-host.php:277
+msgid "Import Successful."
+msgstr "インポートが成功しました。"
+
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-csv.php:179
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Read:"
+msgstr "読み込み："
+
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-host.php:277
+msgid "Success:"
+msgstr "成功："
+
+#: ../lib/pz-lkc3-file-import-csv.php:177
+#: ../lib/pz-lkc3-file-import-csv.php:179
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Skip:"
+msgstr "スキップ："
+
+#: ../lib/pz-lkc3-file-import-csv.php:179 ../lib/pz-lkc3-file-import-host.php:9
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Import Failure."
+msgstr "インポートが失敗しました。"
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Images:"
+msgstr "画像："
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Copied:"
+msgstr "修正："
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Converted:"
+msgstr "変換："
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Existing:"
+msgstr "存在："
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Missing:"
+msgstr "不存在："
+
+#: ../lib/pz-lkc3-file-import-host.php:277
+#: ../lib/pz-lkc3-file-import-host.php:279
+msgid "Failed:"
+msgstr "失敗："
+
+#: ../lib/pz-lkc3-file-import-menu.php:4
+msgid "Import LinkCard Data"
+msgstr "リンクカード情報をインポート"
+
+#: ../lib/pz-lkc3-file-import-menu.php:5
+msgid ""
+"Import files exported from the Pz-LinkCard series and load them into the "
+"cache manager."
+msgstr ""
+"Pz-LinkCardシリーズからエクスポートしたファイルを読み込み、カード管理へ取り込"
+"みます。"
+
+#: ../lib/pz-lkc3-file-import-menu.php:11
+#: ../lib/pz-lkc3-file-import-menu.php:35
+msgid "Clear all cache entries"
+msgstr "全てのキャッシュを消去"
+
+#: ../lib/pz-lkc3-file-import-menu.php:14
+#: ../lib/pz-lkc3-file-import-menu.php:38
+msgid "Start the import immediately"
+msgstr "今すぐインポートを開始"
+
+#: ../lib/pz-lkc3-file-import-menu.php:23
+msgid "From an Older Version"
+msgstr "旧バージョンから"
+
+#: ../lib/pz-lkc3-file-import-menu.php:24
+msgid ""
+"Import directly from the database of the previous Pz-LinkCard series and "
+"load it into the cache manager."
+msgstr ""
+"前バージョンのPz-LinkCardのDBから直接読み込み、カード管理へ取り込みます。"
+
+#: ../lib/pz-lkc3-file-import-menu.php:29
+msgid "Select an import source:"
+msgstr "インポート元を選択してください："
+
+#: ../lib/pz-lkc3-get-cache.php:13
+msgid "No key specified. Please provide a data ID, URL, or post ID."
+msgstr ""
+"キーが指定されていません。ID、URL、投稿IDのいずれかを指定してください。キーが"
+"指定されていません。ID、URL、投稿IDのいずれかを指定してください。"
+
+#: ../lib/pz-lkc3-get-cache.php:36
+#, php-format
+msgid "Database error occurred. (%s)"
+msgstr "データベースへのアクセス時にエラーが発生しました。（%s）"
+
+#: ../lib/pz-lkc3-get-curl.php:124
+msgid "Invalid URL"
+msgstr "Error: 使用出来ないURLです。"
+
+#: ../lib/pz-lkc3-get-post.php:118 ../lib/pz-lkc3-get-post.php:122
+#: ../lib/pz-lkc3-get-post.php:135 ../lib/pz-lkc3-get-post.php:139
+msgid "‘"
+msgstr "「"
+
+#: ../lib/pz-lkc3-get-post.php:118 ../lib/pz-lkc3-get-post.php:122
+#: ../lib/pz-lkc3-get-post.php:135 ../lib/pz-lkc3-get-post.php:139
+msgid "’"
+msgstr "」"
+
+#: ../lib/pz-lkc3-get-post.php:119 ../lib/pz-lkc3-get-post.php:136
+msgid "Count"
+msgstr "件数"
+
+#: ../lib/pz-lkc3-get-post.php:123 ../lib/pz-lkc3-get-post.php:140
+msgid "Not Found"
+msgstr "見つかりません"
+
+#: ../lib/pz-lkc3-get-post.php:135 ../lib/pz-lkc3-get-post.php:139
+#: ../lib/pz-lkc3-settings-position.php:164
+msgid "Tag"
+msgstr "タグ"
+
+#: ../lib/pz-lkc3-input-url.php:4 ../lib/pz-lkc3-settings.php:758
+msgid "×"
+msgstr "×"
+
+#: ../lib/pz-lkc3-input-url.php:8
+msgid "Input URL"
+msgstr "リンクカードを作成するURLを入力してください"
+
+#: ../lib/pz-lkc3-input-url.php:11
+msgid "Insert"
+msgstr "挿入"
+
+#: ../lib/pz-lkc3-settings-admin.php:63 ../lib/pz-lkc3-settings-etc.php:227
+msgid "Rows"
+msgstr "件数"
+
+#: ../lib/pz-lkc3-settings-admin.php:64
+msgid "Total Usage"
+msgstr "総使用量"
+
+#: ../lib/pz-lkc3-settings-admin.php:65
+msgid "Data Usage"
+msgstr "データ"
+
+#: ../lib/pz-lkc3-settings-admin.php:66
+msgid "Index Usage"
+msgstr "インデックス"
+
+#: ../lib/pz-lkc3-settings-admin.php:89
+msgid "Sec."
+msgstr "秒"
+
+#: ../lib/pz-lkc3-settings-admin.php:97 ../lib/pz-lkc3-settings-etc.php:254
+msgid "Run Now"
+msgstr "今すぐ実行"
+
+#: ../lib/pz-lkc3-settings-admin.php:107
+msgid "Do not use this normally, as it may disable some features."
+msgstr "動作不能に陥る設定が可能なため、通常は使用しないでください。"
+
+#: ../lib/pz-lkc3-settings-admin.php:110
+msgid "Environment Information"
+msgstr "環境情報"
+
+#: ../lib/pz-lkc3-settings-admin.php:113
+msgid "WordPress Version"
+msgstr "WordPressのバージョン"
+
+#: ../lib/pz-lkc3-settings-admin.php:117
+msgid "PHP Version"
+msgstr "PHPのバージョン"
+
+#: ../lib/pz-lkc3-settings-admin.php:121
+msgid "cURL Version"
+msgstr "cURLのバージョン"
+
+#: ../lib/pz-lkc3-settings-admin.php:125
+msgid "DBMS Version"
+msgstr "MySQLのバージョン"
+
+#: ../lib/pz-lkc3-settings-admin.php:131
+msgid "Plugin Information"
+msgstr "プラグイン情報"
+
+#: ../lib/pz-lkc3-settings-admin.php:134
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: ../lib/pz-lkc3-settings-admin.php:135
+msgid "Name"
+msgstr "名称"
+
+#: ../lib/pz-lkc3-settings-admin.php:139 ../lib/pz-lkc3-settings-admin.php:163
+#: ../lib/pz-lkc3-settings-admin.php:181 ../lib/pz-lkc3-settings.php:738
+msgid "Version"
+msgstr "バージョン"
+
+#: ../lib/pz-lkc3-settings-admin.php:145
+#: ../lib/pz-lkc3-settings-multisite.php:51
+msgid "Option Name"
+msgstr "オプション名"
+
+#: ../lib/pz-lkc3-settings-admin.php:151
+msgid "Link-Card"
+msgstr "リンクカード情報"
+
+#: ../lib/pz-lkc3-settings-admin.php:152 ../lib/pz-lkc3-settings-admin.php:170
+#: ../lib/pz-lkc3-settings-etc.php:226 ../lib/pz-lkc3-settings-multisite.php:57
+msgid "Table Name"
+msgstr "テーブル名称"
+
+#: ../lib/pz-lkc3-settings-admin.php:159 ../lib/pz-lkc3-settings-admin.php:177
+msgid "Usage"
+msgstr "使用量"
+
+#: ../lib/pz-lkc3-settings-admin.php:169
+msgid "Click-Log"
+msgstr "クリック ログ"
+
+#: ../lib/pz-lkc3-settings-admin.php:187 ../lib/pz-lkc3-settings-basic.php:108
+msgid "Last Saved Settings"
+msgstr "最後に設定を保存した日時"
+
+#: ../lib/pz-lkc3-settings-admin.php:196
+msgid "for Debug"
+msgstr "デバグ用"
+
+#: ../lib/pz-lkc3-settings-admin.php:199
+msgid "Reboot This Plugin"
+msgstr "プラグインの再起動"
+
+#: ../lib/pz-lkc3-settings-admin.php:201 ../lib/pz-lkc3-settings-admin.php:298
+#: ../lib/pz-lkc3-settings-initialize.php:9
+msgid "Run"
+msgstr "実行"
+
+#: ../lib/pz-lkc3-settings-admin.php:202
+msgid "Perform initial setup."
+msgstr "プラグインの初期処理を実行します。"
+
+#: ../lib/pz-lkc3-settings-admin.php:202
+msgid "\"Settings\" will not be initialized."
+msgstr "設定値は初期化しません。"
+
+#: ../lib/pz-lkc3-settings-admin.php:206
+msgid "DB Update Mode"
+msgstr "DB更新モード"
+
+#: ../lib/pz-lkc3-settings-admin.php:211
+msgid "Forced access to links even if they are recorded in DB."
+msgstr "DBにキャッシュがあっても常にリンク先へアクセスして記事内容を取得する。"
+
+#: ../lib/pz-lkc3-settings-admin.php:216
+msgid "Style Confirmation<br>(Setting Page)"
+msgstr "スタイル確認（設定画面）"
+
+#: ../lib/pz-lkc3-settings-admin.php:221
+msgid ""
+"* Set a border around the element on the settings screen to confirm the "
+"style."
+msgstr "※ スタイルを確認するために設定画面の要素に枠線を設定します。"
+
+#: ../lib/pz-lkc3-settings-admin.php:226
+msgid "Style Confirmation<br>(Link Card)"
+msgstr "スタイル確認（リンクカード）"
+
+#: ../lib/pz-lkc3-settings-admin.php:231
+msgid "* Set a border around the link card element to check its style."
+msgstr "※ スタイルを確認するためにリンクカードの要素に枠線を設定します。"
+
+#: ../lib/pz-lkc3-settings-admin.php:236 ../lib/pz-lkc3-settings-display.php:74
+msgid "Social Count"
+msgstr "ソーシャル カウント"
+
+#: ../lib/pz-lkc3-settings-admin.php:241
+msgid "* Randomly display social counts."
+msgstr "※ ソーシャルカウントをランダムで表示させる。"
+
+#: ../lib/pz-lkc3-settings-admin.php:248 ../lib/pz-lkc3-settings-error.php:11
+msgid "Error Settings"
+msgstr "エラーの設定"
+
+#: ../lib/pz-lkc3-settings-admin.php:251
+msgid "Error Conditions"
+msgstr "エラー状態"
+
+#: ../lib/pz-lkc3-settings-admin.php:256
+msgid "Check to enable error conditions."
+msgstr "チェックを付けると記述エラーの状態になります。"
+
+#: ../lib/pz-lkc3-settings-admin.php:265 ../lib/pz-lkc3-settings-error.php:23
+msgid "Post URL"
+msgstr "記事URL"
+
+#: ../lib/pz-lkc3-settings-admin.php:269 ../lib/pz-lkc3-settings-error.php:29
+msgid "Occurrence Time"
+msgstr "発生日時"
+
+#: ../lib/pz-lkc3-settings-admin.php:279 ../lib/pz-lkc3-settings-admin.php:281
+msgid "Execution Result"
+msgstr "実行結果"
+
+#: ../lib/pz-lkc3-settings-admin.php:288
+msgid "WP-Cron Information"
+msgstr "処理スケジュール情報"
+
+#: ../lib/pz-lkc3-settings-admin.php:292
+msgid "View all schedules."
+msgstr "すべてのスケジュールを表示する。"
+
+#: ../lib/pz-lkc3-settings-admin.php:299
+msgid "Hook"
+msgstr "フック（割込）"
+
+#: ../lib/pz-lkc3-settings-admin.php:300
+msgid "Next Time"
+msgstr "次回の日時"
+
+#: ../lib/pz-lkc3-settings-admin.php:301
+msgid "Schedule"
+msgstr "スケジュール"
+
+#: ../lib/pz-lkc3-settings-advanced.php:6
+msgid "Advanced Settings"
+msgstr "上級者向けの設定"
+
+#: ../lib/pz-lkc3-settings-advanced.php:10
+msgid "Trailing Slash"
+msgstr "末尾のスラッシュの除去"
+
+#: ../lib/pz-lkc3-settings-advanced.php:16
+msgid "Keep as is"
+msgstr "そのまま"
+
+#: ../lib/pz-lkc3-settings-advanced.php:17
+msgid "Remove only for domain-only URLs"
+msgstr "ドメインのみの場合は削除"
+
+#: ../lib/pz-lkc3-settings-advanced.php:18
+msgid "Always remove"
+msgstr "常に削除"
+
+#: ../lib/pz-lkc3-settings-advanced.php:25
+msgid "Filter Priority"
+msgstr "フィルター優先度"
+
+#: ../lib/pz-lkc3-settings-advanced.php:28
+msgid "(Null or 0-9999)"
+msgstr "（空欄もしくは0～9999）"
+
+#: ../lib/pz-lkc3-settings-advanced.php:29
+msgid "Try a larger value if the insert button does not appear in the editor."
+msgstr "エディターに挿入ボタンが表示されない場合は、大きな値を試してください。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:35
+msgid "Stylesheet"
+msgstr "スタイルシート"
+
+#: ../lib/pz-lkc3-settings-advanced.php:36
+msgid "Importance"
+msgstr "スタイルシートの重要度"
+
+#: ../lib/pz-lkc3-settings-advanced.php:38
+msgid "Apply “!important” to style sheets."
+msgstr "スタイルシートに「!important」を適用する。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:38 ../lib/pz-lkc3-settings-check.php:15
+#: ../lib/pz-lkc3-settings-check.php:48 ../lib/pz-lkc3-settings-check.php:54
+msgid "(Recommended)"
+msgstr "<span style=\"color: #00f;\">（推奨）</span>"
+
+#: ../lib/pz-lkc3-settings-advanced.php:42
+msgid "Compress"
+msgstr "圧縮"
+
+#: ../lib/pz-lkc3-settings-advanced.php:44
+msgid "Compress CSS and JavaScript to improve access speed."
+msgstr "CSSやJavaScriptを圧縮してアクセス速度を向上させます。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:49
+msgid "Text Selection"
+msgstr "テキストの選択"
+
+#: ../lib/pz-lkc3-settings-advanced.php:51
+msgid "Prohibit the selection of text in the Link-Card."
+msgstr "リンクカード内の文字を選択できないようにします。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:56
+msgid "Quick Menu"
+msgstr "クイックメニュー"
+
+#: ../lib/pz-lkc3-settings-advanced.php:58
+msgid "This will enable the Quick Menu."
+msgstr "管理者のときだけクイックメニューを開くアイコンを表示します。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:62
+msgid "Date Format (Manager)"
+msgstr "管理画面での日付の書式"
+
+#: ../lib/pz-lkc3-settings-advanced.php:67
+msgid "Input Lock Time"
+msgstr "入力抑止時間"
+
+#: ../lib/pz-lkc3-settings-advanced.php:69
+msgid ""
+"After pressing a button, the screen goes dark to prevent accidental input."
+msgstr "誤入力を防ぐため、処理中は入力禁止にする。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:73
+msgid "Google AMP Detection"
+msgstr "Google AMP判定"
+
+#: ../lib/pz-lkc3-settings-advanced.php:76
+msgid ""
+"Use the simplified display when the URL ends with \"/amp\", \"/amp/\", or "
+"\"/?amp=1\"."
+msgstr "URLが「/amp」「/amp/」「/?amp=1」で終わる場合、簡易表示にします。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:76
+#: ../lib/pz-lkc3-settings-advanced.php:83
+#: ../lib/pz-lkc3-settings-advanced.php:132
+#: ../lib/pz-lkc3-settings-advanced.php:138
+#: ../lib/pz-lkc3-settings-advanced.php:144
+#: ../lib/pz-lkc3-settings-advanced.php:156 ../lib/pz-lkc3-settings-check.php:9
+msgid "(Deprecated)"
+msgstr "<span style=\"color: #f00;\">（非推奨）</span>"
+
+#: ../lib/pz-lkc3-settings-advanced.php:81
+msgid "Hide URL Error"
+msgstr "URLエラーを非表示"
+
+#: ../lib/pz-lkc3-settings-advanced.php:83
+msgid "Do not display errors on the admin page."
+msgstr "管理画面にエラーを表示しません。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:89
+msgid "Not Recommended Settings"
+msgstr "非推奨"
+
+#: ../lib/pz-lkc3-settings-advanced.php:92
+#: ../lib/pz-lkc3-settings-letter.php:63 ../lib/pz-lkc3-settings.php:201
+#: ../lib/pz-lkc3-settings.php:245
+msgid "SNS Count"
+msgstr "ソーシャル カウント"
+
+#: ../lib/pz-lkc3-settings-advanced.php:93
+#: ../lib/pz-lkc3-settings-advanced.php:106
+#: ../lib/pz-lkc3-settings-check.php:80 ../lib/pz-lkc3-settings-display.php:93
+msgid "Recurrence"
+msgstr "定期実行"
+
+#: ../lib/pz-lkc3-settings-advanced.php:99
+#: ../lib/pz-lkc3-settings-advanced.php:112
+msgid "Items per Run"
+msgstr "1回あたりの処理件数"
+
+#: ../lib/pz-lkc3-settings-advanced.php:105
+msgid "Link Availability Check"
+msgstr "リンク先の存在確認"
+
+#: ../lib/pz-lkc3-settings-advanced.php:120
+msgid "Extension Settings"
+msgstr "拡張機能の設定"
+
+#: ../lib/pz-lkc3-settings-advanced.php:123
+msgid "Admin Bar"
+msgstr "管理者バー"
+
+#: ../lib/pz-lkc3-settings-advanced.php:125
+msgid ""
+"Add a menu to the admin bar. It will appear after the screen is refreshed."
+msgstr "管理者バーにメニューを追加します。画面を更新してから表示されます。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:132
+msgid "Enable debugging."
+msgstr "デバッグを有効にします。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:136
+msgid "Additional Mode"
+msgstr "追加モード"
+
+#: ../lib/pz-lkc3-settings-advanced.php:138
+msgid "Show additional items."
+msgstr "追加項目を表示します。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:144
+msgid "Collect logs. This may slow down operation."
+msgstr "ログを収集します。動作が遅くなる可能性があります。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:148
+msgid "MultiSite Mode"
+msgstr "マルチサイトタブ"
+
+#: ../lib/pz-lkc3-settings-advanced.php:150
+msgid "Display a menu for multisite."
+msgstr "マルチサイト用のメニューを表示します。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:154
+msgid "Administrator Mode"
+msgstr "管理者モード"
+
+#: ../lib/pz-lkc3-settings-advanced.php:156
+msgid ""
+"Display information that is not normally needed and enable special settings."
+msgstr "通常は必要のない情報を表示し、特別な設定を有効にします。"
+
+#: ../lib/pz-lkc3-settings-advanced.php:161
+msgid "Development Mode"
+msgstr "開発モード"
+
+#: ../lib/pz-lkc3-settings-advanced.php:163
+msgid "Currently working in a development environment."
+msgstr "現在、開発環境で作業中です。"
+
+#: ../lib/pz-lkc3-settings-basic.php:10
+msgid "Changelog"
+msgstr "修正履歴"
+
+#: ../lib/pz-lkc3-settings-basic.php:15
+msgid "Related Information"
+msgstr "関連情報"
+
+#: ../lib/pz-lkc3-settings-basic.php:18
+msgid "How to"
+msgstr "使い方"
+
+#: ../lib/pz-lkc3-settings-basic.php:18
+msgid "(Japanese Only)"
+msgstr "（日本語のみ）"
+
+#: ../lib/pz-lkc3-settings-basic.php:30
+msgid "When in Trouble"
+msgstr "困ったときは"
+
+#: ../lib/pz-lkc3-settings-basic.php:35
+msgid "Pz-LinkCard Forum"
+msgstr "Pz-LinkCard フォーラム"
+
+#: ../lib/pz-lkc3-settings-basic.php:36
+msgid "This is a forum for Pz-LinkCard by the official WordPress.org website."
+msgstr "WordPress.org公式サイトのPz-LinkCardフォーラムです。"
+
+#: ../lib/pz-lkc3-settings-basic.php:46 ../lib/pz-lkc3-settings-basic.php:69
+#: ../pz-linkcard3.php:3781
+msgid "Popozure."
+msgstr "ぽぽづれ。"
+
+#: ../lib/pz-lkc3-settings-basic.php:47
+msgid "If you find any problems, please let us know via direct message."
+msgstr "不具合などを見つけたらダイレクトメッセージなどでお知らせください。"
+
+#: ../lib/pz-lkc3-settings-basic.php:57
+msgid "Poporon@Popozure."
+msgstr "ぽぽろん＠ぽぽづれ。"
+
+#: ../lib/pz-lkc3-settings-basic.php:58
+msgid "It's okay here too."
+msgstr "こちらでも同様に受け付けます。"
+
+#: ../lib/pz-lkc3-settings-basic.php:64
+msgid "Author's Site"
+msgstr "作者のサイト"
+
+#: ../lib/pz-lkc3-settings-basic.php:70
+msgid "Poporon's PC Daily Diary"
+msgstr "ぽぽろんのパソコンつれづれ（ズレズレ？）日記"
+
+#: ../lib/pz-lkc3-settings-basic.php:76 ../lib/pz-lkc3-settings-basic.php:89
+msgid "Donation"
+msgstr "寄付"
+
+#: ../lib/pz-lkc3-settings-basic.php:81 ../lib/pz-lkc3-settings-basic.php:94
+msgid "Amazon"
+msgstr "Amazon"
+
+#: ../lib/pz-lkc3-settings-basic.php:82
+msgid ""
+"You do not have to send me a gift, but if you make your own purchases "
+"through this link, I will receive a little extra money. That helps keep me "
+"motivated."
+msgstr ""
+"贈り物を送る必要はありませんが、このリンクからご自身の買い物をしていただく"
+"と、私に少しだけ紹介料が入ります。それが励みになります。"
+
+#: ../lib/pz-lkc3-settings-basic.php:95
+msgid ""
+"If you give me a gift, it will motivate me, but even if you don't give me a "
+"gift, I will respond with additional features and fixes."
+msgstr ""
+"ギフトを頂けたらモチベーションに繋がりますが、ギフトを頂かなくても機能追加や"
+"修正にお応えしていく予定です。"
+
+#: ../lib/pz-lkc3-settings-basic.php:105
+msgid "Basic Settings"
+msgstr "基本の設定"
+
+#: ../lib/pz-lkc3-settings-card.php:26
+msgid "External Link Settings"
+msgstr "外部リンクの設定"
+
+#: ../lib/pz-lkc3-settings-card.php:27
+msgid "Internal Link Settings"
+msgstr "内部リンクの設定"
+
+#: ../lib/pz-lkc3-settings-card.php:39 ../lib/pz-lkc3-settings.php:823
+msgid "Basic"
+msgstr "基本"
+
+#: ../lib/pz-lkc3-settings-card.php:43
+msgid "Open New Window/Tab"
+msgstr "新しいウィンドウまたはタブで開く"
+
+#: ../lib/pz-lkc3-settings-card.php:54
+msgid "Article Contents"
+msgstr "記事内容"
+
+#: ../lib/pz-lkc3-settings-card.php:59 ../lib/pz-lkc3-settings-card.php:145
+msgid "Display Items"
+msgstr "表示する項目"
+
+#: ../lib/pz-lkc3-settings-card.php:66 ../lib/pz-lkc3-settings-card.php:175
+#: ../lib/pz-lkc3-settings-card.php:883
+msgid "Method of acquisition"
+msgstr "取得方法"
+
+#: ../lib/pz-lkc3-settings-card.php:85
+msgid "Custom Field"
+msgstr "カスタム フィールド"
+
+#: ../lib/pz-lkc3-settings-card.php:117 ../lib/pz-lkc3-settings-card.php:120
+msgid "Get Redirect"
+msgstr "リダイレクト先からの取得"
+
+#: ../lib/pz-lkc3-settings-card.php:118 ../lib/pz-lkc3-settings-check.php:21
+msgid "Track when the link destination is redirected."
+msgstr "リンク先がリダイレクトされている場合に追跡します。"
+
+#: ../lib/pz-lkc3-settings-card.php:121
+msgid ""
+"If you are unable to read or access the article, please click the external "
+"link to view it."
+msgstr ""
+"記事が読めなかった取得出来なかった場合、外部リンクとしてアクセスします。"
+
+#: ../lib/pz-lkc3-settings-card.php:140 ../lib/pz-lkc3-settings-letter.php:60
+#: ../lib/pz-lkc3-settings-position.php:83 ../lib/pz-lkc3-settings.php:247
+msgid "Site Information"
+msgstr "サイト情報"
+
+#: ../lib/pz-lkc3-settings-card.php:153
+msgid "Site Classification"
+msgstr "サイト区分の文字列"
+
+#: ../lib/pz-lkc3-settings-card.php:160 ../lib/pz-lkc3-settings.php:277
+msgid "External site"
+msgstr "外部サイト"
+
+#: ../lib/pz-lkc3-settings-card.php:161 ../lib/pz-lkc3-settings.php:278
+msgid "This site"
+msgstr "このサイト内"
+
+#: ../lib/pz-lkc3-settings-card.php:162
+msgid "This page"
+msgstr "同ページへのリンク"
+
+#: ../lib/pz-lkc3-settings-card.php:185 ../lib/pz-lkc3-settings-card.php:891
+#: ../lib/pz-lkc3-settings.php:142 ../lib/pz-lkc3-settings.php:170
+#: ../lib/pz-lkc3-settings.php:189 ../lib/pz-lkc3-settings.php:196
+#: ../lib/pz-lkc3-settings.php:211 ../lib/pz-lkc3-settings.php:238
+#: ../lib/pz-lkc3-settings.php:267 ../lib/pz-lkc3-settings.php:284
+msgid "None"
+msgstr "なし"
+
+#: ../lib/pz-lkc3-settings-card.php:186 ../lib/pz-lkc3-settings-card.php:892
+msgid "Direct"
+msgstr "直接取得する"
+
+#: ../lib/pz-lkc3-settings-card.php:187 ../lib/pz-lkc3-settings-card.php:893
+msgid "Direct > Use Web API"
+msgstr "直接取得 > Web APIを使用"
+
+#: ../lib/pz-lkc3-settings-card.php:188 ../lib/pz-lkc3-settings-card.php:894
+msgid "Use Web API"
+msgstr "Web APIを使用"
+
+#: ../lib/pz-lkc3-settings-card.php:197 ../lib/pz-lkc3-settings-card.php:923
+msgid "Alternative text"
+msgstr "代替テキスト"
+
+#: ../lib/pz-lkc3-settings-card.php:207
+msgid "Use the same settings as Internal Link"
+msgstr "内部リンク用の設定が使用されます"
+
+#: ../lib/pz-lkc3-settings-card.php:218
+msgid "Card"
+msgstr "カード"
+
+#: ../lib/pz-lkc3-settings-card.php:224 ../lib/pz-lkc3-settings-card.php:432
+#: ../lib/pz-lkc3-settings-card.php:678 ../lib/pz-lkc3-settings-card.php:934
+#: ../lib/pz-lkc3-settings-card.php:1148
+msgid "Decoration"
+msgstr "装飾"
+
+#: ../lib/pz-lkc3-settings-card.php:225 ../lib/pz-lkc3-settings-card.php:433
+#: ../lib/pz-lkc3-settings-card.php:679 ../lib/pz-lkc3-settings-card.php:935
+#: ../lib/pz-lkc3-settings-card.php:1149
+msgid "Translate"
+msgstr "調整"
+
+#: ../lib/pz-lkc3-settings-card.php:228 ../lib/pz-lkc3-settings-card.php:279
+#: ../lib/pz-lkc3-settings-card.php:309 ../lib/pz-lkc3-settings-card.php:357
+#: ../lib/pz-lkc3-settings-card.php:436 ../lib/pz-lkc3-settings-card.php:487
+#: ../lib/pz-lkc3-settings-card.php:517 ../lib/pz-lkc3-settings-card.php:565
+#: ../lib/pz-lkc3-settings-card.php:682 ../lib/pz-lkc3-settings-card.php:733
+#: ../lib/pz-lkc3-settings-card.php:764 ../lib/pz-lkc3-settings-card.php:813
+#: ../lib/pz-lkc3-settings-card.php:938 ../lib/pz-lkc3-settings-card.php:989
+#: ../lib/pz-lkc3-settings-card.php:1038 ../lib/pz-lkc3-settings-card.php:1152
+#: ../lib/pz-lkc3-settings-card.php:1203 ../lib/pz-lkc3-settings-card.php:1233
+#: ../lib/pz-lkc3-settings-card.php:1283
+#: ../lib/pz-lkc3-settings-multisite.php:12 ../lib/pz-lkc3-settings.php:9
+msgid "Enabled"
+msgstr "有効化"
+
+#: ../lib/pz-lkc3-settings-card.php:237 ../lib/pz-lkc3-settings-card.php:372
+#: ../lib/pz-lkc3-settings-card.php:445 ../lib/pz-lkc3-settings-card.php:580
+#: ../lib/pz-lkc3-settings-card.php:691 ../lib/pz-lkc3-settings-card.php:829
+#: ../lib/pz-lkc3-settings-card.php:947 ../lib/pz-lkc3-settings-card.php:1054
+#: ../lib/pz-lkc3-settings-card.php:1161 ../lib/pz-lkc3-settings-card.php:1299
+msgid "Horizontal Offset"
+msgstr "水平方向"
+
+#: ../lib/pz-lkc3-settings-card.php:246 ../lib/pz-lkc3-settings-card.php:381
+#: ../lib/pz-lkc3-settings-card.php:454 ../lib/pz-lkc3-settings-card.php:589
+#: ../lib/pz-lkc3-settings-card.php:700 ../lib/pz-lkc3-settings-card.php:838
+#: ../lib/pz-lkc3-settings-card.php:956 ../lib/pz-lkc3-settings-card.php:1063
+#: ../lib/pz-lkc3-settings-card.php:1170 ../lib/pz-lkc3-settings-card.php:1308
+msgid "Vertical Offset"
+msgstr "垂直方向"
+
+#: ../lib/pz-lkc3-settings-card.php:255 ../lib/pz-lkc3-settings-card.php:463
+#: ../lib/pz-lkc3-settings-card.php:709 ../lib/pz-lkc3-settings-card.php:965
+#: ../lib/pz-lkc3-settings-card.php:1179
+msgid "Rotate"
+msgstr "回転"
+
+#: ../lib/pz-lkc3-settings-card.php:264 ../lib/pz-lkc3-settings-card.php:472
+#: ../lib/pz-lkc3-settings-card.php:718 ../lib/pz-lkc3-settings-card.php:974
+#: ../lib/pz-lkc3-settings-card.php:1188
+msgid "Scale"
+msgstr "スケール"
+
+#: ../lib/pz-lkc3-settings-card.php:276 ../lib/pz-lkc3-settings-card.php:484
+#: ../lib/pz-lkc3-settings-card.php:730 ../lib/pz-lkc3-settings-card.php:1200
+#: ../lib/pz-lkc3-settings-letter.php:44
+msgid "Background Color"
+msgstr "背景色"
+
+#: ../lib/pz-lkc3-settings-card.php:288 ../lib/pz-lkc3-settings-card.php:318
+#: ../lib/pz-lkc3-settings-card.php:366 ../lib/pz-lkc3-settings-card.php:496
+#: ../lib/pz-lkc3-settings-card.php:526 ../lib/pz-lkc3-settings-card.php:574
+#: ../lib/pz-lkc3-settings-card.php:774 ../lib/pz-lkc3-settings-card.php:823
+#: ../lib/pz-lkc3-settings-card.php:999 ../lib/pz-lkc3-settings-card.php:1048
+#: ../lib/pz-lkc3-settings-card.php:1243 ../lib/pz-lkc3-settings-card.php:1293
+msgid "Color"
+msgstr "色"
+
+#: ../lib/pz-lkc3-settings-card.php:295 ../lib/pz-lkc3-settings-card.php:503
+#: ../lib/pz-lkc3-settings-card.php:749 ../lib/pz-lkc3-settings-card.php:1219
+msgid "Shorthand Property"
+msgstr "一括指定プロパティ"
+
+#: ../lib/pz-lkc3-settings-card.php:306 ../lib/pz-lkc3-settings-card.php:514
+#: ../lib/pz-lkc3-settings-card.php:761 ../lib/pz-lkc3-settings-card.php:986
+#: ../lib/pz-lkc3-settings-card.php:1230 ../lib/pz-lkc3-settings-check.php:38
+msgid "Border"
+msgstr "枠線"
+
+#: ../lib/pz-lkc3-settings-card.php:324 ../lib/pz-lkc3-settings-card.php:532
+#: ../lib/pz-lkc3-settings-card.php:780 ../lib/pz-lkc3-settings-card.php:1005
+#: ../lib/pz-lkc3-settings-card.php:1250
+msgid "Line Style"
+msgstr "線の種類"
+
+#: ../lib/pz-lkc3-settings-card.php:334 ../lib/pz-lkc3-settings-card.php:542
+#: ../lib/pz-lkc3-settings-card.php:790 ../lib/pz-lkc3-settings-card.php:1015
+#: ../lib/pz-lkc3-settings-card.php:1260
+msgid "Border Width"
+msgstr "枠線の幅"
+
+#: ../lib/pz-lkc3-settings-card.php:342 ../lib/pz-lkc3-settings-card.php:550
+#: ../lib/pz-lkc3-settings-card.php:798 ../lib/pz-lkc3-settings-card.php:1023
+#: ../lib/pz-lkc3-settings-card.php:1268 ../lib/pz-lkc3-settings.php:272
+msgid "Radius"
+msgstr "角の丸み"
+
+#: ../lib/pz-lkc3-settings-card.php:354 ../lib/pz-lkc3-settings-card.php:562
+#: ../lib/pz-lkc3-settings-card.php:810 ../lib/pz-lkc3-settings-card.php:1035
+#: ../lib/pz-lkc3-settings-card.php:1280
+msgid "Shadow"
+msgstr "影"
+
+#: ../lib/pz-lkc3-settings-card.php:390 ../lib/pz-lkc3-settings-card.php:598
+#: ../lib/pz-lkc3-settings-card.php:847 ../lib/pz-lkc3-settings-card.php:1072
+#: ../lib/pz-lkc3-settings-card.php:1317
+msgid "Blur"
+msgstr "ぼかし"
+
+#: ../lib/pz-lkc3-settings-card.php:397 ../lib/pz-lkc3-settings-card.php:605
+#: ../lib/pz-lkc3-settings-card.php:854 ../lib/pz-lkc3-settings-card.php:1079
+#: ../lib/pz-lkc3-settings-card.php:1324
+msgid "Spread"
+msgstr "広がり"
+
+#: ../lib/pz-lkc3-settings-card.php:404 ../lib/pz-lkc3-settings-card.php:612
+#: ../lib/pz-lkc3-settings-card.php:861 ../lib/pz-lkc3-settings-card.php:1086
+#: ../lib/pz-lkc3-settings-card.php:1331
+msgid "Inset Shadow"
+msgstr "内側の影"
+
+#: ../lib/pz-lkc3-settings-card.php:426
+msgid "Hover"
+msgstr "ポイントした時"
+
+#: ../lib/pz-lkc3-settings-card.php:650 ../lib/pz-lkc3-settings-position.php:33
+msgid "Header"
+msgstr "ヘッダー"
+
+#: ../lib/pz-lkc3-settings-card.php:655 ../lib/pz-lkc3-settings-card.php:1107
+msgid "Text"
+msgstr "テキスト"
+
+#: ../lib/pz-lkc3-settings-card.php:659
+msgid "When a string is entered, it is overlaid on the top border."
+msgstr "文字列を設定すると上側の枠に重ねて表示します。"
+
+#: ../lib/pz-lkc3-settings-card.php:877 ../lib/pz-lkc3-settings-card.php:882
+#: ../lib/pz-lkc3-settings-position.php:101
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: ../lib/pz-lkc3-settings-card.php:904
+msgid "Resolution"
+msgstr "解像度"
+
+#: ../lib/pz-lkc3-settings-card.php:1102
+msgid "More-Read Button"
+msgstr "続きを読むボタン"
+
+#: ../lib/pz-lkc3-settings-card.php:1110
+msgid ""
+"When a string is entered, it is overlaid on the lower right corner of the "
+"article content."
+msgstr "文字列を設定すると記事内容の右下に重ねて表示します。"
+
+#: ../lib/pz-lkc3-settings-card.php:1115
+msgid "More..."
+msgstr "続き…"
+
+#: ../lib/pz-lkc3-settings-card.php:1116
+msgid "Read more"
+msgstr "続きを読む"
+
+#: ../lib/pz-lkc3-settings-card.php:1117
+msgid "Go read the article"
+msgstr "記事を読みに行く"
+
+#: ../lib/pz-lkc3-settings-card.php:1131
+#: ../lib/pz-lkc3-settings-position.php:85
+#: ../lib/pz-lkc3-settings-position.php:103 ../lib/pz-lkc3-settings.php:824
+msgid "Position"
+msgstr "配置"
+
+#: ../lib/pz-lkc3-settings-check.php:4
+msgid "Link Check Settings"
+msgstr "リンク先の検査の設定"
+
+#: ../lib/pz-lkc3-settings-check.php:7
+msgid "Set No-Follow"
+msgstr "リンク先を信用しない"
+
+#: ../lib/pz-lkc3-settings-check.php:9
+msgid "Add \"nofollow\" to external links."
+msgstr "外部リンクに「nofollow」を追加します。"
+
+#: ../lib/pz-lkc3-settings-check.php:13
+msgid "Set No-Opener"
+msgstr "リンク元タブを保護する"
+
+#: ../lib/pz-lkc3-settings-check.php:15
+msgid "Add \"noopener\" to external links."
+msgstr "外部リンクに「noopener」を追加します。"
+
+#: ../lib/pz-lkc3-settings-check.php:25
+msgid "Set Referer"
+msgstr "リファラーの通知"
+
+#: ../lib/pz-lkc3-settings-check.php:27
+msgid "Send the article URL to the link destination."
+msgstr "リンク先に記事URLを通知します。"
+
+#: ../lib/pz-lkc3-settings-check.php:31
+msgid "When Not Found"
+msgstr "見つからない場合"
+
+#: ../lib/pz-lkc3-settings-check.php:32
+msgid "Disable Link"
+msgstr "リンクを無効化"
+
+#: ../lib/pz-lkc3-settings-check.php:34
+msgid "Unlink when the access status is \"403\", \"404\", or \"410\"."
+msgstr "アクセス状態が「403」「404」「410」の場合、リンクを無効にします。"
+
+#: ../lib/pz-lkc3-settings-check.php:41
+msgid "The settings are located on the “Display” tab."
+msgstr "「表示」タブに設定項目があります。"
+
+#: ../lib/pz-lkc3-settings-check.php:46
+msgid "SSL Verification"
+msgstr "SSL証明書を検証"
+
+#: ../lib/pz-lkc3-settings-check.php:48
+msgid "Verifying SSL/TLS Certificates During HTTPS Communication."
+msgstr "HTTPS通信時にSSL/TLS証明書の検証をします。"
+
+#: ../lib/pz-lkc3-settings-check.php:52
+msgid "Block local IP addresses"
+msgstr "ローカルIPアドレスをブロック"
+
+#: ../lib/pz-lkc3-settings-check.php:54
+msgid "Blocking local IP addresses prevents SSRF."
+msgstr "ローカルIPアドレスをブロックするとSSRFを防止できます。"
+
+#: ../lib/pz-lkc3-settings-check.php:58
+msgid "Use User-Agent"
+msgstr "ユーザーエージェントの通知"
+
+#: ../lib/pz-lkc3-settings-check.php:69
+msgid "Record the number of times the link card is clicked."
+msgstr "リンクカードをクリックした回数を記録します。"
+
+#: ../lib/pz-lkc3-settings-check.php:73
+msgid "Broken Link Count"
+msgstr "リンク切れカウント"
+
+#: ../lib/pz-lkc3-settings-check.php:74 ../lib/pz-lkc3-settings-display.php:9
+#: ../lib/pz-lkc3-settings-display.php:76 ../lib/pz-lkc3-settings.php:825
+msgid "Display"
+msgstr "表示"
+
+#: ../lib/pz-lkc3-settings-check.php:76
+msgid "The number of broken links is displayed next to the submenu."
+msgstr "サブメニューの横にリンク切れの件数を表示します。"
+
+#: ../lib/pz-lkc3-settings-check.php:82 ../lib/pz-lkc3-settings-display.php:95
+msgid "The settings are located on the “Advanced” tab."
+msgstr "「上級者向け」タブに設定項目があります。"
+
+#: ../lib/pz-lkc3-settings-display.php:4
+msgid "Display Settings"
+msgstr "表示の設定"
+
+#: ../lib/pz-lkc3-settings-display.php:12
+msgid "Separator"
+msgstr "区切り線"
+
+#: ../lib/pz-lkc3-settings-display.php:15
+msgid "Displays a line between site information and article content."
+msgstr "サイト情報と記事内容の間に線を表示します"
+
+#: ../lib/pz-lkc3-settings-display.php:20
+msgid "Contents Frame"
+msgstr "記事情報の枠"
+
+#: ../lib/pz-lkc3-settings-display.php:23
+msgid "Frame the article information."
+msgstr "記事情報を枠で囲います"
+
+#: ../lib/pz-lkc3-settings-display.php:28
+msgid "Border color for broken links"
+msgstr "リンク切れの枠線"
+
+#: ../lib/pz-lkc3-settings-display.php:33
+msgid ""
+"* If you do not wish to change the border color, press the “Clear” button to "
+"leave it blank."
+msgstr ""
+"※ 枠色の変更をしたくない場合は「クリア」ボタンを押して空欄にしてください。"
+
+#: ../lib/pz-lkc3-settings-display.php:41 ../lib/pz-lkc3-settings.php:299
+msgid "Post Date & Modified Date"
+msgstr "投稿日＆更新日"
+
+#: ../lib/pz-lkc3-settings-display.php:44
+msgid "Contents"
+msgstr "記事内容"
+
+#: ../lib/pz-lkc3-settings-display.php:52
+msgid "Date Icon"
+msgstr "日付のアイコン"
+
+#: ../lib/pz-lkc3-settings-display.php:56
+msgid "Post Date:"
+msgstr "投稿日："
+
+#: ../lib/pz-lkc3-settings-display.php:58
+msgid "Modified Date:"
+msgstr "更新日："
+
+#: ../lib/pz-lkc3-settings-display.php:65
+msgid "Format"
+msgstr "書式"
+
+#: ../lib/pz-lkc3-settings-display.php:80
+msgid "X (Twitter)"
+msgstr "X（旧ツイッター）"
+
+#: ../lib/pz-lkc3-settings-display.php:80
+#: ../lib/pz-lkc3-settings-display.php:84
+msgid "* number is not updated"
+msgstr "※ 数字は更新されません。"
+
+#: ../lib/pz-lkc3-settings-display.php:81
+msgid "Change the unit of measure to \"tweets\"."
+msgstr "単位を「Post」では無く「Tweet」にする"
+
+#: ../lib/pz-lkc3-settings-display.php:84
+msgid "Facebook"
+msgstr "フェイスブック（シェア数）"
+
+#: ../lib/pz-lkc3-settings-display.php:87
+msgid "Hatena"
+msgstr "はてなブックマーク"
+
+#: ../lib/pz-lkc3-settings-editor.php:6
+msgid "Shortcode 2"
+msgstr "ショートコード2"
+
+#: ../lib/pz-lkc3-settings-editor.php:7
+msgid "Shortcode 3"
+msgstr "ショートコード3"
+
+#: ../lib/pz-lkc3-settings-editor.php:8
+msgid "Shortcode 4"
+msgstr "ショートコード4"
+
+#: ../lib/pz-lkc3-settings-editor.php:13 ../lib/pz-lkc3-settings-editor.php:89
+msgid "Case-sensitive"
+msgstr "大文字と小文字を区別します"
+
+#: ../lib/pz-lkc3-settings-editor.php:20
+msgid "Convert Settings"
+msgstr "変換設定"
+
+#: ../lib/pz-lkc3-settings-editor.php:23
+msgid "Convert from Text Link"
+msgstr "テキストリンク行を変換"
+
+#: ../lib/pz-lkc3-settings-editor.php:25
+msgid "Convert lines that contain only a text link into LinkCards."
+msgstr "テキストリンクのみの行をリンクカードに変換します。"
+
+#: ../lib/pz-lkc3-settings-editor.php:27 ../lib/pz-lkc3-settings-editor.php:37
+msgid "ex."
+msgstr "例."
+
+#: ../lib/pz-lkc3-settings-editor.php:28 ../lib/pz-lkc3-settings-editor.php:38
+msgid "Lines like the following are converted."
+msgstr "次の行のような書き方が変換されます。"
+
+#: ../lib/pz-lkc3-settings-editor.php:28 ../lib/pz-lkc3-settings-editor.php:38
+msgid "Lines like the previous one are converted."
+msgstr "前の行のような書き方が変換されます。"
+
+#: ../lib/pz-lkc3-settings-editor.php:33
+msgid "Convert from URL"
+msgstr "URL行を変換"
+
+#: ../lib/pz-lkc3-settings-editor.php:35
+msgid "Convert lines that contain only a URL into LinkCards."
+msgstr "URLのみの行をリンクカードに変換します。"
+
+#: ../lib/pz-lkc3-settings-editor.php:43
+msgid "Enable Shortcodes"
+msgstr "ショートコード 実行"
+
+#: ../lib/pz-lkc3-settings-editor.php:45
+msgid "Force shortcode rendering."
+msgstr "ショートコードを強制的に実行します。"
+
+#: ../lib/pz-lkc3-settings-editor.php:49
+msgid "External Link Only"
+msgstr "外部リンクのみ"
+
+#: ../lib/pz-lkc3-settings-editor.php:51
+msgid "Convert only external links."
+msgstr "テキストリンク・URLからの変換を外部リンクのみにする。"
+
+#: ../lib/pz-lkc3-settings-editor.php:51
+msgid "* The shortcode will be a link card regardless of this setting."
+msgstr "※ ショートコードで記述したものはこの設定に関わらず変換されます。"
+
+#: ../lib/pz-lkc3-settings-editor.php:57
+msgid "Editor Settings"
+msgstr "エディターの設定"
+
+#: ../lib/pz-lkc3-settings-editor.php:60
+msgid "Add Insert Button"
+msgstr "リンクカードボタンを追加"
+
+#: ../lib/pz-lkc3-settings-editor.php:62
+msgid "Add an insert button to the visual editor."
+msgstr ""
+"ビジュアル エディタにリンクカードのショートコードを挿入するボタンを追加する。"
+"ビジュアル エディタにリンクカードのショートコードを挿入するボタンを追加する。"
+
+#: ../lib/pz-lkc3-settings-editor.php:66
+msgid "Add Quick Tag"
+msgstr "クイックタグを追加"
+
+#: ../lib/pz-lkc3-settings-editor.php:68
+msgid "Add a Quick Tag button to the text editor."
+msgstr "テキストエディターにクイックタグボタンを追加します。"
+
+#: ../lib/pz-lkc3-settings-editor.php:72
+msgid "Clear Excerpt"
+msgstr "抜粋文をクリア"
+
+#: ../lib/pz-lkc3-settings-editor.php:74
+msgid "If the TITLE parameter is specified, EXCERPT is also cleared."
+msgstr "TITLEパラメーターが指定されている場合、EXCERPTも消去します。"
+
+#: ../lib/pz-lkc3-settings-editor.php:80
+msgid "Shortcode Settings"
+msgstr "ショートコード設定"
+
+#: ../lib/pz-lkc3-settings-editor.php:83
+msgid "Shortcode 1"
+msgstr "ショートコード1"
+
+#: ../lib/pz-lkc3-settings-editor.php:93
+msgid "Use Inline Text"
+msgstr "インラインテキストを使用"
+
+#: ../lib/pz-lkc3-settings-editor.php:97
+msgid "Do not use"
+msgstr "使用しない"
+
+#: ../lib/pz-lkc3-settings-editor.php:98
+msgid "Use for excerpt"
+msgstr "抜粋文に使用"
+
+#: ../lib/pz-lkc3-settings-editor.php:99
+msgid "Use for title"
+msgstr "タイトルに使用"
+
+#: ../lib/pz-lkc3-settings-editor.php:102
+msgid "This setting applies only to Shortcode 1."
+msgstr "ショートコード1にのみ適用されます"
+
+#: ../lib/pz-lkc3-settings-editor.php:111
+msgid "Example Entry"
+msgstr "記入例"
+
+#: ../lib/pz-lkc3-settings-editor.php:113 ../lib/pz-lkc3-settings-etc.php:106
+#: ../lib/pz-lkc3-settings-etc.php:115
+msgid "ex1."
+msgstr "例1."
+
+#: ../lib/pz-lkc3-settings-editor.php:113
+msgid "Specify only URL parameters."
+msgstr "URLパラメーターだけを指定する場合"
+
+#: ../lib/pz-lkc3-settings-editor.php:114 ../lib/pz-lkc3-settings-etc.php:107
+#: ../lib/pz-lkc3-settings-etc.php:116
+msgid "ex2."
+msgstr "例2."
+
+#: ../lib/pz-lkc3-settings-editor.php:114
+msgid "Specify URL and title parameters."
+msgstr "URLパラメーターとtitleパラメーターを指定する場合"
+
+#: ../lib/pz-lkc3-settings-editor.php:115
+msgid "ex3."
+msgstr "例3."
+
+#: ../lib/pz-lkc3-settings-editor.php:115
+msgid "Specify URL, title and content parameters."
+msgstr ""
+"URLパラメーターとtitleパラメーターとcontentパラメーターを指定する場合。URLパ"
+"ラメーターとtitleパラメーターとcontentパラメーターを指定する場合。"
+
+#: ../lib/pz-lkc3-settings-editor.php:116
+msgid ""
+"For any shortcode, you can change the title and excerpt using the `title` "
+"and `content` parameters."
+msgstr ""
+"どのショートコードでも、`title` パラメーターと `content` パラメーターでタイト"
+"ルと抜粋文を変更できます。"
+
+#: ../lib/pz-lkc3-settings-error.php:13
+msgid ""
+"The shortcode description is incorrect. Please open the \"Linked Articles\" "
+"section and correct it."
+msgstr ""
+"ショートコードの記述に誤りがあります。リンクされた記事を開いて修正してくださ"
+"い。"
+
+#: ../lib/pz-lkc3-settings-error.php:35
+msgid "Error Reset"
+msgstr "エラーの解除"
+
+#: ../lib/pz-lkc3-settings-error.php:37
+msgid "Reset"
+msgstr "エラー解除"
+
+#: ../lib/pz-lkc3-settings-error.php:38
+msgid "Cancel the error condition."
+msgstr "エラー状態を解除します。"
+
+#: ../lib/pz-lkc3-settings-error.php:39
+msgid ""
+"* If you have not corrected the error, you may still get an error even if "
+"you cancel the error."
+msgstr ""
+"※ エラーを訂正していない場合、その記事を表示した際に再度エラー状態になりま"
+"す。"
+
+#: ../lib/pz-lkc3-settings-etc.php:30
+msgid "Used"
+msgstr "使用中"
+
+#: ../lib/pz-lkc3-settings-etc.php:30
+msgid ": "
+msgstr "："
+
+#: ../lib/pz-lkc3-settings-etc.php:34 ../lib/pz-lkc3-settings-etc.php:43
+msgid "Files:"
+msgstr "ファイル数:"
+
+#: ../lib/pz-lkc3-settings-etc.php:99
+msgid "Web API Settings"
+msgstr "Web API設定"
+
+#: ../lib/pz-lkc3-settings-etc.php:102
+msgid "Site Icon API"
+msgstr "サイトアイコン取得API"
+
+#: ../lib/pz-lkc3-settings-etc.php:105
+msgid "%DOMAIN% is replaced with the domain name."
+msgstr "%DOMAIN%はドメイン名に置換されます。"
+
+#: ../lib/pz-lkc3-settings-etc.php:105 ../lib/pz-lkc3-settings-etc.php:114
+#, php-format
+msgid "(ex. %s)"
+msgstr "（例． %s）"
+
+#: ../lib/pz-lkc3-settings-etc.php:105
+msgid "%DOMAIN_URL% is replaced with the domain URL."
+msgstr "%DOMAIN_URL%はドメインURLに置換されます。"
+
+#: ../lib/pz-lkc3-settings-etc.php:105 ../lib/pz-lkc3-settings-etc.php:114
+msgid "%URL% is replaced with the URL."
+msgstr "%URL%はURLに置換されます。"
+
+#: ../lib/pz-lkc3-settings-etc.php:111
+msgid "Thumbnail API"
+msgstr "サムネイル画像取得API"
+
+#: ../lib/pz-lkc3-settings-etc.php:123
+msgid "Stylesheet Settings"
+msgstr "スタイルシートの設定"
+
+#: ../lib/pz-lkc3-settings-etc.php:126 ../lib/pz-lkc3-settings-etc.php:130
+msgid "CSS File URL"
+msgstr "CSSファイルのURL"
+
+#: ../lib/pz-lkc3-settings-etc.php:130
+msgid "(Compressed)"
+msgstr "（圧縮）"
+
+#: ../lib/pz-lkc3-settings-etc.php:134
+msgid "Stylesheet Template File"
+msgstr "ひな型CSSファイル"
+
+#: ../lib/pz-lkc3-settings-etc.php:141
+msgid "Image Cache Information"
+msgstr "画像キャッシュ情報"
+
+#: ../lib/pz-lkc3-settings-etc.php:157
+msgid "Image Cache URL"
+msgstr "画像キャッシュを保存するディレクトリのURL"
+
+#: ../lib/pz-lkc3-settings-etc.php:161 ../lib/pz-lkc3-settings-etc.php:207
+msgid "Schemes (http and https) are omitted."
+msgstr "スキーム（ http: や https: ）は省略されています。"
+
+#: ../lib/pz-lkc3-settings-etc.php:162
+msgid "Clear Image Cache"
+msgstr "画像キャッシュ全削除"
+
+#: ../lib/pz-lkc3-settings-etc.php:162
+msgid "* The directory is created when the image cache is output."
+msgstr "※ ディレクトリはログ出力時に作成されます。"
+
+#: ../lib/pz-lkc3-settings-etc.php:167
+msgid "Image Cache Directory"
+msgstr "画像キャッシュを保存するディレクトリ"
+
+#: ../lib/pz-lkc3-settings-etc.php:173
+msgid "Image Size"
+msgstr "画像サイズ"
+
+#: ../lib/pz-lkc3-settings-etc.php:187
+msgid "Log Settings"
+msgstr "ログ設定"
+
+#: ../lib/pz-lkc3-settings-etc.php:195 ../lib/pz-lkc3-settings-etc.php:196
+#: ../lib/pz-lkc3-settings.php:1008
+msgid "Not Found."
+msgstr "Not found."
+
+#: ../lib/pz-lkc3-settings-etc.php:203
+msgid "Log URL"
+msgstr "ログ格納ディレクトリURL"
+
+#: ../lib/pz-lkc3-settings-etc.php:208
+msgid "Clear Log Files"
+msgstr "ログファイルを全削除"
+
+#: ../lib/pz-lkc3-settings-etc.php:208
+msgid "* The directory is created when log files are output."
+msgstr "※ ディレクトリはログ出力時に作成されます。"
+
+#: ../lib/pz-lkc3-settings-etc.php:213
+msgid "Log Directory"
+msgstr "ログ格納ディレクトリ"
+
+#: ../lib/pz-lkc3-settings-etc.php:221
+msgid "Database Information"
+msgstr "DB情報"
+
+#: ../lib/pz-lkc3-settings-etc.php:225 ../lib/pz-lkc3-settings-multisite.php:17
+msgid "Type"
+msgstr "種類"
+
+#: ../lib/pz-lkc3-settings-etc.php:228
+msgid "Total Size"
+msgstr "総容量"
+
+#: ../lib/pz-lkc3-settings-etc.php:229
+msgid "Data Size"
+msgstr "データ容量"
+
+#: ../lib/pz-lkc3-settings-etc.php:230
+msgid "Index Size"
+msgstr "インデックス容量"
+
+#: ../lib/pz-lkc3-settings-etc.php:235 ../lib/pz-lkc3-settings-etc.php:242
+msgid "DB Cache"
+msgstr "DBキャッシュ"
+
+#: ../lib/pz-lkc3-settings-etc.php:236
+msgid "Click Log"
+msgstr "クリックログ"
+
+#: ../lib/pz-lkc3-settings-etc.php:245
+msgid "Initialize Cache"
+msgstr "キャッシュを全て削除"
+
+#: ../lib/pz-lkc3-settings-etc.php:250
+msgid ""
+"I understand and consent to the deletion of all cache data from the link "
+"card."
+msgstr "全てのリンクカード情報が消去されることを理解して許可する。"
+
+#: ../lib/pz-lkc3-settings-etc.php:255
+msgid "Clear all cache entries."
+msgstr "全てのキャッシュを消去します。"
+
+#: ../lib/pz-lkc3-settings-etc.php:255
+msgid "(Unimplemented)"
+msgstr "（未実装）※設定は反映されません。"
+
+#: ../lib/pz-lkc3-settings-initialize.php:4 ../lib/pz-lkc3-settings.php:834
+msgid "Initialize"
+msgstr "初期化"
+
+#: ../lib/pz-lkc3-settings-initialize.php:7
+msgid "Initialize Settings"
+msgstr "設定の初期化"
+
+#: ../lib/pz-lkc3-settings-initialize.php:10
+msgid "Reset the settings to their initial values."
+msgstr "設定を初期値に戻します。"
+
+#: ../lib/pz-lkc3-settings-initialize.php:14
+msgid "Initialization Exception"
+msgstr "初期化時の例外"
+
+#: ../lib/pz-lkc3-settings-initialize.php:16
+msgid ""
+"Do not initialize \"Log Mode\", \"Administrator Mode\", and \"Additional "
+"Mode\"."
+msgstr "初期化時にデバグモードを解除しません。"
+
+#: ../lib/pz-lkc3-settings-initialize.php:22
+msgid "Deletion Settings"
+msgstr "アンインストール時の設定"
+
+#: ../lib/pz-lkc3-settings-initialize.php:25
+msgid "Delete Database"
+msgstr "データベースを削除"
+
+#: ../lib/pz-lkc3-settings-initialize.php:27
+msgid "When deleting the plugin, also delete it from the database."
+msgstr "プラグインを削除する際、記事内容データも削除します。"
+
+#: ../lib/pz-lkc3-settings-initialize.php:31
+msgid "Delete Image Cache"
+msgstr "画像キャッシュを削除"
+
+#: ../lib/pz-lkc3-settings-initialize.php:33
+msgid "When deleting the plugin, also delete the image cache."
+msgstr "プラグインを削除する際、画像キャッシュも削除します。"
+
+#: ../lib/pz-lkc3-settings-initialize.php:37
+msgid "Delete Settings"
+msgstr "設定の削除"
+
+#: ../lib/pz-lkc3-settings-initialize.php:39
+msgid "When deleting the plugin, also delete its settings."
+msgstr "プラグインを削除する際、設定も削除します。"
+
+#: ../lib/pz-lkc3-settings-letter.php:38
+msgid "Letter Settings"
+msgstr "文字の設定"
+
+#: ../lib/pz-lkc3-settings-letter.php:42
+msgid "Letter Color"
+msgstr "文字の色"
+
+#: ../lib/pz-lkc3-settings-letter.php:43
+msgid "Outline Color"
+msgstr "縁取りの色"
+
+#: ../lib/pz-lkc3-settings-letter.php:45
+msgid "Size"
+msgstr "大きさ"
+
+#: ../lib/pz-lkc3-settings-letter.php:46
+msgid "Line Height"
+msgstr "行の高さ"
+
+#: ../lib/pz-lkc3-settings-letter.php:47
+msgid "Line Limit"
+msgstr "最大行数"
+
+#: ../lib/pz-lkc3-settings-letter.php:48
+msgid "Bold"
+msgstr "太字"
+
+#: ../lib/pz-lkc3-settings-letter.php:49
+msgid "Italic"
+msgstr "斜字"
+
+#: ../lib/pz-lkc3-settings-letter.php:50
+msgid "Underline<br> (On Hover)"
+msgstr "下線<br>（ホバー時）"
+
+#: ../lib/pz-lkc3-settings-letter.php:57
+msgid "Date"
+msgstr "日付"
+
+#: ../lib/pz-lkc3-settings-letter.php:58
+msgid "Header Text"
+msgstr "ヘッダー文字列"
+
+#: ../lib/pz-lkc3-settings-letter.php:59
+msgid "More Button"
+msgstr "続きを読むボタン"
+
+#: ../lib/pz-lkc3-settings-letter.php:61 ../lib/pz-lkc3-settings.php:202
+msgid "Added Text"
+msgstr "サイト区分の文字列"
+
+#: ../lib/pz-lkc3-settings-letter.php:71 ../lib/pz-lkc3-settings-letter.php:72
+#: ../lib/pz-lkc3-settings-position.php:126
+msgid "px"
+msgstr "px"
+
+#: ../lib/pz-lkc3-settings-letter.php:102
+msgid ""
+"* The \"Outline Color\" and \"Background Color\" will become transparent "
+"when you press CLEAR to erase the color code."
+msgstr ""
+"※ 「縁取り」と「背景色」を消したい場合は「クリア」ボタンを押して空欄にしてく"
+"ださい。"
+
+#: ../lib/pz-lkc3-settings-multisite.php:4
+msgid "Multi Site Information"
+msgstr "マルチサイト情報"
+
+#: ../lib/pz-lkc3-settings-multisite.php:5
+#: ../lib/pz-lkc3-settings-multisite.php:42
+#: ../lib/pz-lkc3-settings-multisite.php:81
+msgid "*** Cannot be changed ***"
+msgstr "＊＊＊参照のみで変更はできません＊＊＊"
+
+#: ../lib/pz-lkc3-settings-multisite.php:8 ../lib/pz-lkc3-settings.php:831
+msgid "Multi Site"
+msgstr "マルチサイト"
+
+#: ../lib/pz-lkc3-settings-multisite.php:11 ../lib/pz-lkc3-settings.php:8
+msgid "Disabled"
+msgstr "無効化"
+
+#: ../lib/pz-lkc3-settings-multisite.php:20
+msgid "Subdirectories"
+msgstr "サブディレクトリ型"
+
+#: ../lib/pz-lkc3-settings-multisite.php:21
+msgid "Subdomains"
+msgstr "サブドメイン型"
+
+#: ../lib/pz-lkc3-settings-multisite.php:26
+msgid "Number of Sites"
+msgstr "サイトの数"
+
+#: ../lib/pz-lkc3-settings-multisite.php:32
+msgid "Site Network"
+msgstr "サイトネットワーク"
+
+#: ../lib/pz-lkc3-settings-multisite.php:35
+msgid "Network Active"
+msgstr "サイトネットワークで有効"
+
+#: ../lib/pz-lkc3-settings-multisite.php:41
+msgid "Current Site Information"
+msgstr "現在のサイト情報"
+
+#: ../lib/pz-lkc3-settings-multisite.php:45
+msgid "Current Blog ID"
+msgstr "現在のブログID"
+
+#: ../lib/pz-lkc3-settings-multisite.php:70
+msgid "Links to Subsites"
+msgstr "サブサイトへのリンク"
+
+#: ../lib/pz-lkc3-settings-multisite.php:74
+msgid "Treat links to subsites as external links."
+msgstr "サブサイトへのリンクを外部リンクとして扱う。"
+
+#: ../lib/pz-lkc3-settings-multisite.php:80
+msgid "Site List"
+msgstr "サイトの一覧"
+
+#: ../lib/pz-lkc3-settings-multisite.php:85
+msgid "Current"
+msgstr "現在"
+
+#: ../lib/pz-lkc3-settings-multisite.php:86
+msgid "Blog ID"
+msgstr "ブログID"
+
+#: ../lib/pz-lkc3-settings-multisite.php:90
+msgid "Registered"
+msgstr "登録時"
+
+#: ../lib/pz-lkc3-settings-multisite.php:91
+msgid "Post Count"
+msgstr "投稿数"
+
+#: ../lib/pz-lkc3-settings-position.php:4
+msgid "Position Settings"
+msgstr "配置の設定"
+
+#: ../lib/pz-lkc3-settings-position.php:8
+msgid "Link the Entire Card"
+msgstr "カード全体をリンクにする"
+
+#: ../lib/pz-lkc3-settings-position.php:10
+msgid "Enclose the entire card at anchor."
+msgstr ""
+"カード全体をAタグで囲って、どこをクリックしてもリンク先を開くようにします。"
+"カード全体をAタグで囲って、どこをクリックしてもリンク先を開くようにします。"
+
+#: ../lib/pz-lkc3-settings-position.php:13
+msgid "Resize"
+msgstr "サイズの変更"
+
+#: ../lib/pz-lkc3-settings-position.php:15
+msgid "Adjust thumbnail and letter size according to width."
+msgstr "画面幅に合わせて文字とサムネイルの大きさを調整します。"
+
+#: ../lib/pz-lkc3-settings-position.php:23
+#: ../lib/pz-lkc3-settings-position.php:49
+msgid "Margin top"
+msgstr "上のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:28
+#: ../lib/pz-lkc3-settings-position.php:54
+msgid "Margin left"
+msgstr "左のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:35
+msgid "Horizontal Margin"
+msgstr "左右のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:39
+msgid "Vertical Margin"
+msgstr "上下のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:43
+msgid "* Set the header text to display it."
+msgstr "※表示するにはヘッダーのテキストを設定してください。"
+
+#: ../lib/pz-lkc3-settings-position.php:59
+msgid "Margin right"
+msgstr "右のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:64
+msgid "Margin bottom"
+msgstr "下のマージン"
+
+#: ../lib/pz-lkc3-settings-position.php:70
+msgid "Padding top"
+msgstr "上の余白"
+
+#: ../lib/pz-lkc3-settings-position.php:77
+msgid "Padding left"
+msgstr "左の余白"
+
+#: ../lib/pz-lkc3-settings-position.php:89
+msgid "Site Icon Size"
+msgstr "サイトアイコンのサイズ"
+
+#: ../lib/pz-lkc3-settings-position.php:95
+msgid "Block spacing"
+msgstr "ブロックの間隔"
+
+#: ../lib/pz-lkc3-settings-position.php:107
+#: ../lib/pz-lkc3-settings-position.php:122
+msgid "Width"
+msgstr "幅"
+
+#: ../lib/pz-lkc3-settings-position.php:113
+#: ../lib/pz-lkc3-settings-position.php:132
+msgid "Height"
+msgstr "高さ"
+
+#: ../lib/pz-lkc3-settings-position.php:127
+msgid "%"
+msgstr "%"
+
+#: ../lib/pz-lkc3-settings-position.php:142
+msgid "Padding right"
+msgstr "右の余白"
+
+#: ../lib/pz-lkc3-settings-position.php:148
+msgid "Padding bottom"
+msgstr "下の余白"
+
+#: ../lib/pz-lkc3-settings-position.php:155
+msgid "* Setting both left and right margins to auto will center the content."
+msgstr "※ 左右の余白を Auto にするとセンタリングになります。"
+
+#: ../lib/pz-lkc3-settings-position.php:161
+msgid "Wrapper Tag"
+msgstr "囲みタグ"
+
+#: ../lib/pz-lkc3-settings-position.php:173
+msgid "Additional Class ID (Desktop)"
+msgstr "追加するClass ID（PC）"
+
+#: ../lib/pz-lkc3-settings-position.php:174
+#: ../lib/pz-lkc3-settings-position.php:178
+msgid "* Use only half-width alphanumeric characters, \\‘-\\’, and \\‘_\\’."
+msgstr "※ 半角英数字、『-』、『_』のみ使用。"
+
+#: ../lib/pz-lkc3-settings-position.php:177
+msgid "Additional Class ID (Mobile)"
+msgstr "追加するClass ID（モバイル）"
+
+#: ../lib/pz-lkc3-settings.php:14
+msgid "DIV Tag"
+msgstr "DIVタグ"
+
+#: ../lib/pz-lkc3-settings.php:15
+msgid "BLOCKQUOTE Tag"
+msgstr "BLOCKQUOTEタグ"
+
+#: ../lib/pz-lkc3-settings.php:16
+msgid "FIGURE Tag"
+msgstr "FIGUREタグ"
+
+#: ../lib/pz-lkc3-settings.php:17
+msgid "ARTICLE Tag"
+msgstr "ARTICLEタグ"
+
+#: ../lib/pz-lkc3-settings.php:18
+msgid "SECTION Tag"
+msgstr "SECTIONタグ"
+
+#: ../lib/pz-lkc3-settings.php:19
+msgid "NAV Tag"
+msgstr "NAVタグ"
+
+#: ../lib/pz-lkc3-settings.php:20
+msgid "ASIDE Tag"
+msgstr "ASIDEタグ"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "1px"
+msgstr "1px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:39
+#: ../lib/pz-lkc3-settings.php:143
+msgid "2px"
+msgstr "2px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "3px"
+msgstr "3px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:40
+#: ../lib/pz-lkc3-settings.php:53 ../lib/pz-lkc3-settings.php:72
+#: ../lib/pz-lkc3-settings.php:89 ../lib/pz-lkc3-settings.php:105
+#: ../lib/pz-lkc3-settings.php:129 ../lib/pz-lkc3-settings.php:144
+msgid "4px"
+msgstr "4px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "5px"
+msgstr "5px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:41
+#: ../lib/pz-lkc3-settings.php:145
+msgid "6px"
+msgstr "6px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "7px"
+msgstr "7px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:42
+#: ../lib/pz-lkc3-settings.php:54 ../lib/pz-lkc3-settings.php:73
+#: ../lib/pz-lkc3-settings.php:90 ../lib/pz-lkc3-settings.php:106
+#: ../lib/pz-lkc3-settings.php:130 ../lib/pz-lkc3-settings.php:146
+#: ../lib/pz-lkc3-settings.php:177
+msgid "8px"
+msgstr "8px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "9px"
+msgstr "9px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "10px"
+msgstr "10px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "11px"
+msgstr "11px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:43
+#: ../lib/pz-lkc3-settings.php:55 ../lib/pz-lkc3-settings.php:74
+#: ../lib/pz-lkc3-settings.php:91 ../lib/pz-lkc3-settings.php:107
+#: ../lib/pz-lkc3-settings.php:147
+msgid "12px"
+msgstr "12px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "13px"
+msgstr "13px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "14px"
+msgstr "14px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "15px"
+msgstr "15px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:44
+#: ../lib/pz-lkc3-settings.php:56 ../lib/pz-lkc3-settings.php:75
+#: ../lib/pz-lkc3-settings.php:92 ../lib/pz-lkc3-settings.php:108
+#: ../lib/pz-lkc3-settings.php:131 ../lib/pz-lkc3-settings.php:148
+#: ../lib/pz-lkc3-settings.php:178
+msgid "16px"
+msgstr "16px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "17px"
+msgstr "17px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:45
+msgid "18px"
+msgstr "18px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "19px"
+msgstr "19px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:46
+#: ../lib/pz-lkc3-settings.php:57 ../lib/pz-lkc3-settings.php:76
+#: ../lib/pz-lkc3-settings.php:93 ../lib/pz-lkc3-settings.php:109
+#: ../lib/pz-lkc3-settings.php:149
+msgid "20px"
+msgstr "20px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "21px"
+msgstr "21px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "22px"
+msgstr "22px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "23px"
+msgstr "23px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:58
+#: ../lib/pz-lkc3-settings.php:77 ../lib/pz-lkc3-settings.php:94
+#: ../lib/pz-lkc3-settings.php:110 ../lib/pz-lkc3-settings.php:132
+#: ../lib/pz-lkc3-settings.php:150 ../lib/pz-lkc3-settings.php:179
+msgid "24px"
+msgstr "24px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "25px"
+msgstr "25px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "26px"
+msgstr "26px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "27px"
+msgstr "27px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "28px"
+msgstr "28px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "29px"
+msgstr "29px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "30px"
+msgstr "30px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "31px"
+msgstr "31px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:59
+#: ../lib/pz-lkc3-settings.php:78 ../lib/pz-lkc3-settings.php:95
+#: ../lib/pz-lkc3-settings.php:111 ../lib/pz-lkc3-settings.php:133
+#: ../lib/pz-lkc3-settings.php:151 ../lib/pz-lkc3-settings.php:180
+msgid "32px"
+msgstr "32px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "33px"
+msgstr "33px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "34px"
+msgstr "34px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "35px"
+msgstr "35px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "36px"
+msgstr "36px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "37px"
+msgstr "37px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "38px"
+msgstr "38px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "39px"
+msgstr "39px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:60
+#: ../lib/pz-lkc3-settings.php:79 ../lib/pz-lkc3-settings.php:96
+#: ../lib/pz-lkc3-settings.php:112 ../lib/pz-lkc3-settings.php:134
+#: ../lib/pz-lkc3-settings.php:181
+msgid "40px"
+msgstr "40px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "41px"
+msgstr "41px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "42px"
+msgstr "42px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "43px"
+msgstr "43px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "44px"
+msgstr "44px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "45px"
+msgstr "45px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "46px"
+msgstr "46px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "47px"
+msgstr "47px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:61
+#: ../lib/pz-lkc3-settings.php:80 ../lib/pz-lkc3-settings.php:97
+#: ../lib/pz-lkc3-settings.php:113 ../lib/pz-lkc3-settings.php:135
+#: ../lib/pz-lkc3-settings.php:182
+msgid "48px"
+msgstr "48px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "49px"
+msgstr "49px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "50px"
+msgstr "50px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "51px"
+msgstr "51px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "52px"
+msgstr "52px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "53px"
+msgstr "53px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "54px"
+msgstr "54px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "55px"
+msgstr "55px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:62
+#: ../lib/pz-lkc3-settings.php:81 ../lib/pz-lkc3-settings.php:98
+#: ../lib/pz-lkc3-settings.php:114 ../lib/pz-lkc3-settings.php:136
+#: ../lib/pz-lkc3-settings.php:183
+msgid "56px"
+msgstr "56px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "57px"
+msgstr "57px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "58px"
+msgstr "58px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "59px"
+msgstr "59px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "60px"
+msgstr "60px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "61px"
+msgstr "61px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "62px"
+msgstr "62px"
+
+#: ../lib/pz-lkc3-settings.php:25
+msgid "63px"
+msgstr "63px"
+
+#: ../lib/pz-lkc3-settings.php:25 ../lib/pz-lkc3-settings.php:63
+#: ../lib/pz-lkc3-settings.php:82 ../lib/pz-lkc3-settings.php:99
+#: ../lib/pz-lkc3-settings.php:115 ../lib/pz-lkc3-settings.php:137
+#: ../lib/pz-lkc3-settings.php:152 ../lib/pz-lkc3-settings.php:184
+msgid "64px"
+msgstr "64px"
+
+#: ../lib/pz-lkc3-settings.php:30
+msgid "-20px"
+msgstr "-20px"
+
+#: ../lib/pz-lkc3-settings.php:31
+msgid "-18px"
+msgstr "-18px"
+
+#: ../lib/pz-lkc3-settings.php:32 ../lib/pz-lkc3-settings.php:69
+#: ../lib/pz-lkc3-settings.php:125
+msgid "-16px"
+msgstr "-16px"
+
+#: ../lib/pz-lkc3-settings.php:33
+msgid "-12px"
+msgstr "-12px"
+
+#: ../lib/pz-lkc3-settings.php:34 ../lib/pz-lkc3-settings.php:70
+#: ../lib/pz-lkc3-settings.php:126
+msgid "-8px"
+msgstr "-8px"
+
+#: ../lib/pz-lkc3-settings.php:35
+msgid "-6px"
+msgstr "-6px"
+
+#: ../lib/pz-lkc3-settings.php:36 ../lib/pz-lkc3-settings.php:127
+msgid "-4px"
+msgstr "-4px"
+
+#: ../lib/pz-lkc3-settings.php:37
+msgid "-2px"
+msgstr "-2px"
+
+#: ../lib/pz-lkc3-settings.php:38 ../lib/pz-lkc3-settings.php:52
+#: ../lib/pz-lkc3-settings.php:71 ../lib/pz-lkc3-settings.php:88
+#: ../lib/pz-lkc3-settings.php:104 ../lib/pz-lkc3-settings.php:128
+msgid "0"
+msgstr "0"
+
+#: ../lib/pz-lkc3-settings.php:51
+msgid "Auto"
+msgstr "自動"
+
+#: ../lib/pz-lkc3-settings.php:67 ../lib/pz-lkc3-settings.php:123
+msgid "-32px"
+msgstr "-32px"
+
+#: ../lib/pz-lkc3-settings.php:68 ../lib/pz-lkc3-settings.php:124
+msgid "-24px"
+msgstr "-24px"
+
+#: ../lib/pz-lkc3-settings.php:87
+msgid "auto"
+msgstr "自動"
+
+#: ../lib/pz-lkc3-settings.php:119
+msgid "-64px"
+msgstr "-64px"
+
+#: ../lib/pz-lkc3-settings.php:120
+msgid "-56px"
+msgstr "-56px"
+
+#: ../lib/pz-lkc3-settings.php:121
+msgid "-48px"
+msgstr "-48px"
+
+#: ../lib/pz-lkc3-settings.php:122
+msgid "-40px"
+msgstr "-40px"
+
+#: ../lib/pz-lkc3-settings.php:153
+msgid "50%"
+msgstr "50%"
+
+#: ../lib/pz-lkc3-settings.php:158
+msgid "Solid"
+msgstr "Solid（実線）"
+
+#: ../lib/pz-lkc3-settings.php:159
+msgid "Dotted"
+msgstr "Dotted（点線）"
+
+#: ../lib/pz-lkc3-settings.php:160
+msgid "Dashed"
+msgstr "Dashed（破線）"
+
+#: ../lib/pz-lkc3-settings.php:161
+msgid "Double"
+msgstr "Double（二重線）"
+
+#: ../lib/pz-lkc3-settings.php:162
+msgid "Groove"
+msgstr "Groove（立体的に窪んでいる）"
+
+#: ../lib/pz-lkc3-settings.php:163
+msgid "Ridge"
+msgstr "Ridge（立体的に隆起している）"
+
+#: ../lib/pz-lkc3-settings.php:164
+msgid "Inset"
+msgstr "Inset（窪んでいる）"
+
+#: ../lib/pz-lkc3-settings.php:165
+msgid "Outset"
+msgstr "Outset（隆起している）"
+
+#: ../lib/pz-lkc3-settings.php:171
+msgid "All Devices"
+msgstr "全ての端末"
+
+#: ../lib/pz-lkc3-settings.php:172
+msgid "Non-Mobile Devices"
+msgstr "モバイル以外"
+
+#: ../lib/pz-lkc3-settings.php:190 ../lib/pz-lkc3-settings.php:214
+msgid "Top Side"
+msgstr "上側"
+
+#: ../lib/pz-lkc3-settings.php:191
+msgid "Bottom Side"
+msgstr "下側"
+
+#: ../lib/pz-lkc3-settings.php:206 ../lib/pz-lkc3-settings.php:243
+msgid "Post Date (Right-aligned)"
+msgstr "投稿日（右寄せ）"
+
+#: ../lib/pz-lkc3-settings.php:212
+msgid "Left Side"
+msgstr "左側"
+
+#: ../lib/pz-lkc3-settings.php:213
+msgid "Right Side"
+msgstr "右側"
+
+#: ../lib/pz-lkc3-settings.php:219
+msgid "Thumbnail (150px)"
+msgstr "小サイズ（150ピクセル）"
+
+#: ../lib/pz-lkc3-settings.php:220
+msgid "Medium (300px)"
+msgstr "中サイズ（300ピクセル）"
+
+#: ../lib/pz-lkc3-settings.php:221
+msgid "Large (1024px)"
+msgstr "大サイズ（1024ピクセル）"
+
+#: ../lib/pz-lkc3-settings.php:222
+msgid "Original Size"
+msgstr "元のサイズ"
+
+#: ../lib/pz-lkc3-settings.php:227
+msgid "100px (Thumbnail)"
+msgstr "100px（サムネイル）"
+
+#: ../lib/pz-lkc3-settings.php:228
+msgid "200px (Small)"
+msgstr "200px（小さい）"
+
+#: ../lib/pz-lkc3-settings.php:229
+msgid "300px (Small)"
+msgstr "300px（小さい）"
+
+#: ../lib/pz-lkc3-settings.php:230
+msgid "400px (Medium)"
+msgstr "400px（普通）"
+
+#: ../lib/pz-lkc3-settings.php:231
+msgid "500px (Medium)"
+msgstr "500px（普通）"
+
+#: ../lib/pz-lkc3-settings.php:232
+msgid "600px (Large)"
+msgstr "600px（大きい）"
+
+#: ../lib/pz-lkc3-settings.php:233
+msgid "800px (Large)"
+msgstr "800px（大きい）"
+
+#: ../lib/pz-lkc3-settings.php:252
+msgid "Text only"
+msgstr "テキスト のみ"
+
+#: ../lib/pz-lkc3-settings.php:253
+msgid "Simple button"
+msgstr "シンプルなボタン"
+
+#: ../lib/pz-lkc3-settings.php:254
+msgid "Button"
+msgstr "ボタン"
+
+#: ../lib/pz-lkc3-settings.php:255
+msgid "Push Button"
+msgstr "押せるボタン"
+
+#: ../lib/pz-lkc3-settings.php:260
+msgid "Overlap the bottom-right corner of the article content."
+msgstr "記事内容の右下に重ねます。"
+
+#: ../lib/pz-lkc3-settings.php:261
+msgid "Overlap the bottom-left corner of the article content."
+msgstr "記事内容の左下に重ねます。"
+
+#: ../lib/pz-lkc3-settings.php:262
+msgid "Below Article Content"
+msgstr "記事内容の下"
+
+#: ../lib/pz-lkc3-settings.php:268
+msgid "Lighten"
+msgstr "薄色にする"
+
+#: ../lib/pz-lkc3-settings.php:269
+msgid "Hover (Light)"
+msgstr "浮かせる（薄色）"
+
+#: ../lib/pz-lkc3-settings.php:270
+msgid "Hover (Dark)"
+msgstr "浮かせる（濃色）"
+
+#: ../lib/pz-lkc3-settings.php:271
+msgid "Retract (for Shadow)"
+msgstr "沈む（影を付けるとの組み合わせを推奨）"
+
+#: ../lib/pz-lkc3-settings.php:279
+msgid "Reference"
+msgstr "参考"
+
+#: ../lib/pz-lkc3-settings.php:285
+msgid "Lower right"
+msgstr "右下"
+
+#: ../lib/pz-lkc3-settings.php:286
+msgid "Lower"
+msgstr "下"
+
+#: ../lib/pz-lkc3-settings.php:287
+msgid "Lower left"
+msgstr "左下"
+
+#: ../lib/pz-lkc3-settings.php:288
+msgid "Left"
+msgstr "左"
+
+#: ../lib/pz-lkc3-settings.php:289
+msgid "Upper left"
+msgstr "左上"
+
+#: ../lib/pz-lkc3-settings.php:290
+msgid "Upper"
+msgstr "上"
+
+#: ../lib/pz-lkc3-settings.php:291
+msgid "Upper right"
+msgstr "右上"
+
+#: ../lib/pz-lkc3-settings.php:292
+msgid "Right"
+msgstr "右"
+
+#: ../lib/pz-lkc3-settings.php:304
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: ../lib/pz-lkc3-settings.php:305
+msgid "Y.m.d"
+msgstr "Y.m.d"
+
+#: ../lib/pz-lkc3-settings.php:306
+msgid "Y-m-d"
+msgstr "Y-m-d"
+
+#: ../lib/pz-lkc3-settings.php:307
+msgid "Y年m月d日"
+msgstr "Y年m月d日"
+
+#: ../lib/pz-lkc3-settings.php:308
+msgid "m/d/Y"
+msgstr "m/d/Y"
+
+#: ../lib/pz-lkc3-settings.php:309
+msgid "d/m/Y"
+msgstr "d/m/Y"
+
+#: ../lib/pz-lkc3-settings.php:310
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#: ../lib/pz-lkc3-settings.php:311
+msgid "l jS \\of F Y"
+msgstr "l jS \\of F Y"
+
+#: ../lib/pz-lkc3-settings.php:315
+msgid "&#x1F4C5;&#xFE0F;"
+msgstr "&#x1F4C5;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:316
+msgid "&#x1F5D3;&#xFE0F;"
+msgstr "&#x1F5D3;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:317
+msgid "&#x1F504;&#xFE0F;"
+msgstr "&#x1F504;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:318
+msgid "&#x270F;&#xFE0F;"
+msgstr "&#x270F;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:319
+msgid "&#x1F4DD;&#xFE0F;"
+msgstr "&#x1F4DD;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:320
+msgid "&#x270D;&#xFE0F;"
+msgstr "&#x270D;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:321
+msgid "&#x1F5D2;&#xFE0F;"
+msgstr "&#x1F5D2;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:322
+msgid "&#x1F4CB;&#xFE0F;"
+msgstr "&#x1F4CB;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:323
+msgid "&#x2B50;&#xFE0F;"
+msgstr "&#x2B50;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:324
+msgid "&#x2728;&#xFE0F;"
+msgstr "&#x2728;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:325
+msgid "&#x1F3B5;&#xFE0F;"
+msgstr "&#x1F3B5;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:326
+msgid "&#x1F3B6;&#xFE0F;"
+msgstr "&#x1F3B6;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:327
+msgid "&#x1F389;&#xFE0F;"
+msgstr "&#x1F389;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:328
+msgid "&#x1F380;&#xFE0F;"
+msgstr "&#x1F380;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:329
+msgid "&#x1F381;&#xFE0F;"
+msgstr "&#x1F381;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:330
+msgid "&#x1F4CC;&#xFE0F;"
+msgstr "&#x1F4CC;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:369
+msgid "1 case"
+msgstr "1件"
+
+#: ../lib/pz-lkc3-settings.php:370
+msgid "5 cases"
+msgstr "5件"
+
+#: ../lib/pz-lkc3-settings.php:371
+msgid "10 cases"
+msgstr "10件"
+
+#: ../lib/pz-lkc3-settings.php:372
+msgid "20 cases"
+msgstr "20件"
+
+#: ../lib/pz-lkc3-settings.php:373
+msgid "50 cases"
+msgstr "50件"
+
+#: ../lib/pz-lkc3-settings.php:378
+msgid "Always retrieve the latest post content."
+msgstr "常に最新の記事内容を取得します。"
+
+#: ../lib/pz-lkc3-settings.php:379
+msgid "Always use the latest post content. Prioritize the excerpt."
+msgstr "常に最新の記事内容を使用します。抜粋を優先します。"
+
+#: ../lib/pz-lkc3-settings.php:380
+msgid "Always use the latest post content. Prioritize the custom field."
+msgstr "常に最新の記事内容を使用します。カスタムフィールドを優先します。"
+
+#: ../lib/pz-lkc3-settings.php:381
+msgid "Always display the content registered in the cache manager."
+msgstr "カード管理に登録されている内容を常に表示します。"
+
+#: ../lib/pz-lkc3-settings.php:405
+msgid "Updated the appearance of the LinkCard."
+msgstr ""
+"スタイルシートの更新に成功しました（リンクカードの外観に設定を反映しました）"
+"スタイルシートの更新に成功しました（リンクカードの外観に設定を反映しました）"
+
+#: ../lib/pz-lkc3-settings.php:407
+msgid "Failed to save the CSS file."
+msgstr ""
+"スタイルシートの生成に失敗しました（ディレクトリの権限などを確認してくださ"
+"い）スタイルシートの生成に失敗しました（ディレクトリの権限などを確認してくだ"
+"さい）"
+
+#: ../lib/pz-lkc3-settings.php:409
+msgid "Failed to load the CSS template."
+msgstr ""
+"スタイルシートのひな型の呼び出しに失敗しました（プラグインの不具合の可能性が"
+"あります）スタイルシートのひな型の呼び出しに失敗しました（プラグインの不具合"
+"の可能性があります）"
+
+#: ../lib/pz-lkc3-settings.php:469
+#, php-format
+msgid "Settings saved. (%s)"
+msgstr "設定を保存しました。（%s）"
+
+#: ../lib/pz-lkc3-settings.php:471
+msgid "The settings have not changed."
+msgstr "設定は変更されていません。"
+
+#: ../lib/pz-lkc3-settings.php:485
+#, php-format
+msgid ""
+"Undefined key \"%s\" in properties.<br>This may be a bug. Please inform the "
+"developer. (%s)"
+msgstr ""
+"propertiesに未定義のキー「%s」があります。<br>不具合の可能性があります。開発"
+"者へお知らせください。(%s)"
+
+#: ../lib/pz-lkc3-settings.php:494
+#, php-format
+msgid ""
+"Undefined key \"%s\" in self::DEFAULTS.<br>This may be a bug. Please inform "
+"the developer. (%s)"
+msgstr ""
+"self::DEFAULTSに未定義のキー「%s」があります。<br>不具合の可能性があります。"
+"開発者へお知らせください。(%s)"
+
+#: ../lib/pz-lkc3-settings.php:580
+msgid "Popozure Logo"
+msgstr "「ぽぽづれ。」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:581
+msgid "Pz-LinkCard Logo"
+msgstr "「Pz-LinkCard」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:582
+msgid "WordPress.org Logo"
+msgstr "「WordPress」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:583
+msgid "Twitter Logo"
+msgstr "「旧Twitter」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:584
+msgid "X Logo"
+msgstr "「X（旧Twitter）」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:585
+msgid "Amazon Logo"
+msgstr "「Amazon」ロゴマーク"
+
+#: ../lib/pz-lkc3-settings.php:588
+msgid "PRODUCT"
+msgstr "本番"
+
+#: ../lib/pz-lkc3-settings.php:589
+msgid "DEVELOPMENT"
+msgstr "開発"
+
+#: ../lib/pz-lkc3-settings.php:590
+msgid "LOCAL"
+msgstr "ローカル"
+
+#: ../lib/pz-lkc3-settings.php:591
+msgid "DEBUG"
+msgstr "デバグ"
+
+#: ../lib/pz-lkc3-settings.php:592
+msgid "LOG"
+msgstr "記録"
+
+#: ../lib/pz-lkc3-settings.php:593
+msgid "ADMIN"
+msgstr "管理者"
+
+#: ../lib/pz-lkc3-settings.php:598 ../pz-linkcard3.php:3640
+msgid "Manager"
+msgstr "管理"
+
+#: ../lib/pz-lkc3-settings.php:599
+msgid "Switch to the Cache Manager screen"
+msgstr "カード管理画面へ切り替え"
+
+#: ../lib/pz-lkc3-settings.php:603 ../lib/pz-lkc3-settings.php:758
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ../lib/pz-lkc3-settings.php:604
+msgid "Input keyword"
+msgstr "項目を検索します"
+
+#: ../lib/pz-lkc3-settings.php:612 ../pz-linkcard3.php:3319
+msgid "Pz-LinkCard Settings"
+msgstr "Pz リンクカード設定"
+
+#: ../lib/pz-lkc3-settings.php:663
+msgid "The plugin may have been updated."
+msgstr "プラグインが更新された可能性があります。"
+
+#: ../lib/pz-lkc3-settings.php:680
+msgid "Settings initialized successfully."
+msgstr "設定を初期化しました。"
+
+#: ../lib/pz-lkc3-settings.php:682
+msgid "Failed to initialize the settings."
+msgstr "設定の初期化に失敗しました。"
+
+#: ../lib/pz-lkc3-settings.php:736
+msgid "・"
+msgstr "・"
+
+#: ../lib/pz-lkc3-settings.php:739
+msgid "Added"
+msgstr "機能を追加"
+
+#: ../lib/pz-lkc3-settings.php:740
+msgid "Fixed"
+msgstr "不具合の修正"
+
+#: ../lib/pz-lkc3-settings.php:741
+msgid "Modified"
+msgstr "仕様の変更"
+
+#: ../lib/pz-lkc3-settings.php:742
+msgid "Removed"
+msgstr "機能を削除"
+
+#: ../lib/pz-lkc3-settings.php:743
+msgid "Tested"
+msgstr "動作確認"
+
+#: ../lib/pz-lkc3-settings.php:744
+msgid "Issue"
+msgstr "修正予定"
+
+#: ../lib/pz-lkc3-settings.php:754
+msgid "&#x1F539;&#xFE0F;"
+msgstr "&#x1F539;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:754
+msgid "Not displayed in mobile environments."
+msgstr "モバイル環境では表示しません。"
+
+#: ../lib/pz-lkc3-settings.php:758
+msgid "Close"
+msgstr "閉じる"
+
+#: ../lib/pz-lkc3-settings.php:822
+msgid "Error"
+msgstr "エラー"
+
+#: ../lib/pz-lkc3-settings.php:826
+msgid "Letter"
+msgstr "文字"
+
+#: ../lib/pz-lkc3-settings.php:827
+msgid "External Link"
+msgstr "外部リンク"
+
+#: ../lib/pz-lkc3-settings.php:828
+msgid "Internal Link"
+msgstr "内部リンク"
+
+#: ../lib/pz-lkc3-settings.php:829
+msgid "Link Check"
+msgstr "リンク先の検査"
+
+#: ../lib/pz-lkc3-settings.php:830
+msgid "Editor"
+msgstr "エディター"
+
+#: ../lib/pz-lkc3-settings.php:832
+msgid "Advanced"
+msgstr "上級者向け"
+
+#: ../lib/pz-lkc3-settings.php:833
+msgid "etc."
+msgstr "その他"
+
+#: ../lib/pz-lkc3-settings.php:835
+msgid "Admin"
+msgstr "管理者"
+
+#: ../lib/pz-lkc3-settings.php:868
+msgid "Scroll to the top"
+msgstr "一番上へスクロールさせる"
+
+#: ../lib/pz-lkc3-settings.php:868
+msgid "^<br>Top"
+msgstr "^<br>Top"
+
+#: ../lib/pz-lkc3-settings.php:1006
+msgid "&#x2705;&#xFE0F;"
+msgstr "&#x2705;&#xFE0F;"
+
+#: ../lib/pz-lkc3-settings.php:1006
+msgid "Exists"
+msgstr "存在します"
+
+#: ../lib/pz-lkc3-settings.php:1008
+msgid "&#x1F6AB;&#xFE0F;"
+msgstr "&#x1F6AB;&#xFE0F;"
+
+#: ../pz-linkcard3.php:785 ../pz-linkcard3.php:788
+msgid "Invalid lazy loading token."
+msgstr "遅延読み込みの認証情報が無効です。"
+
+#: ../pz-linkcard3.php:1026 ../pz-linkcard3.php:1027
+msgid "-"
+msgstr "-"
+
+#: ../pz-linkcard3.php:1026
+msgid "Incorrect URL specification."
+msgstr "URLの記述に誤りがあります。"
+
+#: ../pz-linkcard3.php:1071
+msgid "No key specified."
+msgstr "キーが指定されていません。"
+
+#: ../pz-linkcard3.php:1184
+msgid "In preparation..."
+msgstr "処理中です…"
+
+#: ../pz-linkcard3.php:1370
+msgid "Waiting..."
+msgstr "待機中…"
+
+#: ../pz-linkcard3.php:1388
+msgid "&#x23CE;&#xFE0F;"
+msgstr "&#x23CE;&#xFE0F;"
+
+#: ../pz-linkcard3.php:2297
+msgid "No URL was specified."
+msgstr "URLが指定されていません。"
+
+#: ../pz-linkcard3.php:2325
+msgid "Preview failed."
+msgstr "プレビューに失敗しました。"
+
+#: ../pz-linkcard3.php:2557 ../pz-linkcard3.php:2562 ../pz-linkcard3.php:2572
+msgid "Error: Unknown host."
+msgstr "Error: ホスト名の解決に失敗しました。"
+
+#: ../pz-linkcard3.php:2567 ../pz-linkcard3.php:2587 ../pz-linkcard3.php:2616
+msgid "Error: Private IP address range."
+msgstr "エラー: プライベートIPアドレス範囲です。"
+
+#: ../pz-linkcard3.php:2580
+msgid "Error: Local domain."
+msgstr "エラー: ローカルドメインです。"
+
+#: ../pz-linkcard3.php:2585 ../pz-linkcard3.php:2613
+msgid "Error: Loopback address."
+msgstr "Error: ループバック アドレスが指定されました。"
+
+#: ../pz-linkcard3.php:2620
+msgid "Error: Failed to resolve IP address."
+msgstr "Error: IPアドレスの解決に失敗しました。"
+
+#: ../pz-linkcard3.php:2998
+msgid "[Pz] LinkCard3 Manager"
+msgstr "[Pz] カード管理3"
+
+#: ../pz-linkcard3.php:2999
+msgid "[Pz] LinkCard3 Settings"
+msgstr "[Pz] カード設定3"
+
+#: ../pz-linkcard3.php:3001
+msgid "[Pz] LinkCard Manager"
+msgstr "[Pz] カード管理"
+
+#: ../pz-linkcard3.php:3002
+msgid "[Pz] LinkCard Settings"
+msgstr "[Pz] カード設定"
+
+#: ../pz-linkcard3.php:3075
+msgid "You do not have permission to export LinkCard data."
+msgstr "リンクカードのデータをエクスポートする権限がありません。"
+
+#: ../pz-linkcard3.php:3102 ../pz-linkcard3.php:3128
+msgid "Discard changes?"
+msgstr "変更を破棄しますか？"
+
+#: ../pz-linkcard3.php:3113
+msgid "Clear"
+msgstr "クリア"
+
+#: ../pz-linkcard3.php:3114
+msgid "Select color"
+msgstr "色を選択"
+
+#: ../pz-linkcard3.php:3129
+msgid "Select Media"
+msgstr "メディアを選択"
+
+#: ../pz-linkcard3.php:3130
+msgid "Use this media"
+msgstr "このメディアを使用"
+
+#: ../pz-linkcard3.php:3223
+msgid "Enter the URL and press Enter"
+msgstr "URLを入力して[Enter]を押してください"
+
+#: ../pz-linkcard3.php:3224
+msgid "Create a Pz-LinkCard3 shortcode."
+msgstr "Pz-LinkCard3のショートコードを作る"
+
+#: ../pz-linkcard3.php:3267
+msgid "Copy title"
+msgstr "タイトルをコピーする"
+
+#: ../pz-linkcard3.php:3268
+msgid "Copy excerpt"
+msgstr "概要文をコピーする"
+
+#: ../pz-linkcard3.php:3269
+msgid "Copy link address"
+msgstr "リンクのアドレスをコピーする"
+
+#: ../pz-linkcard3.php:3271
+msgid "Refresh post content"
+msgstr "記事内容を再取得"
+
+#: ../pz-linkcard3.php:3272
+msgid "Refresh thumbnail image"
+msgstr "サムネイル画像を再取得"
+
+#: ../pz-linkcard3.php:3275
+msgid "Retrieving..."
+msgstr "取得中..."
+
+#: ../pz-linkcard3.php:3276
+msgid "Failed to retrieve the post content."
+msgstr "記事の取得に失敗しました。"
+
+#: ../pz-linkcard3.php:3316
+msgid "Pz-LinkCard"
+msgstr "Pz-LinkCard"
+
+#: ../pz-linkcard3.php:3318
+msgid "Pz-LinkCard Manager"
+msgstr "Pz リンクカード管理"
+
+#: ../pz-linkcard3.php:3437 ../pz-linkcard3.php:3506
+msgid "You do not have permission to update LinkCard data."
+msgstr "リンクカードのデータを更新する権限がありません。"
+
+#: ../pz-linkcard3.php:3442 ../pz-linkcard3.php:3511
+msgid "Invalid request."
+msgstr "リクエストが無効です。"
+
+#: ../pz-linkcard3.php:3448 ../pz-linkcard3.php:3517
+msgid "Invalid card ID"
+msgstr "カードIDが無効です"
+
+#: ../pz-linkcard3.php:3454 ../pz-linkcard3.php:3485 ../pz-linkcard3.php:3523
+msgid "Card not found"
+msgstr "カードが見つかりません"
+
+#: ../pz-linkcard3.php:3782
+msgid "Pz-LinkCard3 - WordPress plugin to display links in card format"
+msgstr "Pz-LinkCard3 - リンクをカード形式で表示するWordPressプラグイン"
+
+#: ../pz-linkcard3.php:3783
+msgid ""
+"Pz-LinkCard3 is a WordPress plugin that displays links in card format. Say "
+"goodbye to plain text links!"
+msgstr ""
+"Pz-LinkCard3は、リンクをカード形式で表示するWordPressプラグインです。テキスト"
+"だけのリンクとはさようなら！"
+
+#~ msgid "X from oEmbed"
+#~ msgstr "Xのポストを表示"
+
+#~ msgid "Retrieve the X post via oEmbed. This is not cached."
+#~ msgstr ""
+#~ "oEmbedを使ってXのポストを表示します。ポスト内容はキャッシュはされません。"
+
+#~ msgid "tweet"
+#~ msgstr "Tweet"
+
+#~ msgid "post"
+#~ msgstr "Post"
+
+#~ msgid "share"
+#~ msgstr "Share"
+
+#~ msgid "user"
+#~ msgstr "User"
+
+#~ msgid "Scheme"
+#~ msgstr "スキーム"
+
+#~ msgid "Posts from X (formerly Twitter) are not cached."
+#~ msgstr "Xポストはキャッシュされません。"
+
+#~ msgid "Failed to retrieve X (formerly Twitter) link."
+#~ msgstr "X（旧Twitter）リンクの取得に失敗しました。"
+
+#~ msgid "Context Menu"
+#~ msgstr "右クリックメニュー"
+
+#~ msgid "Show a dedicated menu when right-clicking."
+#~ msgstr "右クリックをしたとき、専用のメニューを表示します。"
+
+#~ msgid "&#x27A1;&#xFE0F;"
+#~ msgstr "&#x27A1;&#xFE0F;"
+
+#~ msgid "Not Exists"
+#~ msgstr "存在しません"
+
+#~ msgid "Error: Failed to retrieve link."
+#~ msgstr "Error: 情報取得に失敗しました。"
+
+#~ msgid "Blocked by robots.txt."
+#~ msgstr "robots.txt により取得が禁止されています。"
+
+#~ msgid "Try this setting if the content of the SSL site cannot be retrieved."
+#~ msgstr ""
+#~ "SSLサイトのタイトルや記事内容が取得できない場合に設定することで取得できる"
+#~ "可能性があります。"
+
+#~ msgid "Menu"
+#~ msgstr "メニュー"
+
+#~ msgid "Open in new tab"
+#~ msgstr "新しいタブで開く"
+
+#~ msgid "Basic Data"
+#~ msgstr "基本情報"
+
+#~ msgid "Open"
+#~ msgstr "開く"
+
+#~ msgid "Ignore Failure"
+#~ msgstr "失敗を無視"
+
+#~ msgid "Thumbnail URL"
+#~ msgstr "サムネイル画像URL"
+
+#~ msgid "Site Icon URL"
+#~ msgstr "サイトアイコンURL"
+
+#~ msgid "<span style=\"color: #0a4 !important;\">Exists</span>"
+#~ msgstr "<span style=\"color: #0a4 !important;\">存在しています</span>"
+
+#~ msgid "<span style=\"color: #d00 !important;\">Not Exists</span>"
+#~ msgstr "<span style=\"color: #d00 !important;\">存在していません</span>"
+
+#~ msgid "No Failure"
+#~ msgstr "エラーを無視"
+
+#~ msgid "The result code is inaccessible but can actually be accessed."
+#~ msgstr "結果コードはエラーでも、アクセス可能とする。"
+
+#~ msgid "Site-icon URL"
+#~ msgstr "サイトアイコンURL"
+
+#~ msgid "Internal-Link Data"
+#~ msgstr "内部リンク情報"
+
+#~ msgid "Regist<br>Date"
+#~ msgstr "登録<br>日時"
+
+#~ msgid "The latest HTTP code is in error, but ignore it."
+#~ msgstr "HTTP結果コードがエラーの場合でもリンクを有効にする。"
+
+#~ msgid ""
+#~ "The latest HTTP code is in error. You can change it to ignore the error "
+#~ "from the edit screen."
+#~ msgstr "HTTP結果コードがエラー。編集画面から無視するように設定できます。"
+
+#~ msgid "Develop Environment"
+#~ msgstr "開発環境"
+
+#~ msgid "Go to Settings Page"
+#~ msgstr "設定画面を開く"
+
+#~ msgid "Regist Date"
+#~ msgstr "登録日"
+
+#~ msgid "Result code"
+#~ msgstr "結果コード"
+
+#~ msgid "Renew Post Id"
+#~ msgstr "記事IDの再取得"
+
+#, php-format
+#~ msgid ""
+#~ "There were %d links that passed the next \"Link Alive Check\" "
+#~ "confirmation date and time."
+#~ msgstr "リンク先の次回存在確認日時を通過したリンクが %d 件ありました。"
+
+#~ msgid "Break."
+#~ msgstr "処理毎の件数を超過したため処理を中断しました。"
+
+#, php-format
+#~ msgid ""
+#~ "[%d] Confirmed the \"Link Alive Check\". (NextTime=%s Result=%s URL=%s)"
+#~ msgstr ""
+#~ "【%d】　リンク先の存在チェックをしました。（次回のチェック=%s / 結果=%s / "
+#~ "URL=%s）"
+
+#, php-format
+#~ msgid ""
+#~ "There were %d links that passed the next \"Get Contents\" confirmation "
+#~ "date and time."
+#~ msgstr "記事内容取得の次回確認日時を通過したリンクが %d 件ありました。"
+
+#, php-format
+#~ msgid "[%d] Confirmed the \"Regist Contents\". (Result=%s URL=%s)"
+#~ msgstr "【%d】　記事内容を取得しました。（結果コード=%s / URL=%s）"
+
+#, php-format
+#~ msgid ""
+#~ "There were %d links that passed the next \"Check SNS Count\" confirmation "
+#~ "date and time."
+#~ msgstr "SNSカウントの次回確認日時を通過したリンクが %d 件ありました。"
+
+#, php-format
+#~ msgid "[%d] Confirmed the \"Check SNS Count\". (NextTime=%s URL=%s)"
+#~ msgstr ""
+#~ "【%d】　ソーシャルカウントを取得しました。（次回のチェック=%s / URL=%s）"
+
+#~ msgid "Export Linkcard Data"
+#~ msgstr "リンクカードの情報をエクスポート"
+
+#~ msgid "Import Linkcard Data"
+#~ msgstr "リンクカードの情報をインポート"
+
+#~ msgid ""
+#~ "Import files exported from the Pz-LinkCard series and load them into the "
+#~ "cache."
+#~ msgstr ""
+#~ "Pz-LinkCardシリーズからエクスポートしたファイルを読み込んでキャッシュとし"
+#~ "て取り込みます。"
+
+#~ msgid "Clear all cache"
+#~ msgstr "すべてのキャッシュを消去"
+
+#~ msgid ""
+#~ "Import directly from the database of the previous Pz-LinkCard series and "
+#~ "load into the cache."
+#~ msgstr ""
+#~ "前のバージョンのPz-LinkCardのDBから直接キャッシュを読み込んでキャッシュと"
+#~ "して取り込みます。"
+
+#~ msgid "Senior Settings"
+#~ msgstr "上級者向けの設定"
+
+#~ msgid "As it"
+#~ msgstr "そのまま"
+
+#~ msgid "When only domain name, remove"
+#~ msgstr "ドメイン名のみのときだけ削除"
+
+#~ msgid ""
+#~ "Setting a larger value may improve when the insert button does not appear "
+#~ "in the editor."
+#~ msgstr ""
+#~ "挿入ボタンが表示されないときに11以上の値を入力すると改善される場合がありま"
+#~ "す。"
+
+#~ msgid "(Recommend)"
+#~ msgstr "<span style=\"color: #38f !important;\">（推奨）</span>"
+
+#~ msgid "Input Inhibit Time"
+#~ msgstr "入力抑制"
+
+#~ msgid "Google AMP determination"
+#~ msgstr "Goole AMPの判定"
+
+#~ msgid ""
+#~ "Simplified display if the URL ends with \"/amp\", \"/amp/\", or \"/?"
+#~ "amp=1\"."
+#~ msgstr ""
+#~ "URLの末尾が「/amp」、「/amp/」または「/?amp=1\"」の場合、簡易表示する。"
+
+#~ msgid "(Deprecation)"
+#~ msgstr "<span style=\"color: #e40 !important;\">（非推奨）</span>"
+
+#~ msgid "Do not display an error on the admin page."
+#~ msgstr "管理画面にURLエラーを表示しません。"
+
+#~ msgid "Recurrent"
+#~ msgstr "処理する頻度"
+
+#~ msgid "Number of cases per process"
+#~ msgstr "処理毎の件数"
+
+#~ msgid "Linked Existence Check"
+#~ msgstr "リンク先の生存確認"
+
+#~ msgid "Perform debugging"
+#~ msgstr "デバグモードへ切り替えます。"
+
+#~ msgid "Add More Displayed Items."
+#~ msgstr "設定画面や管理画面に表示する項目を増やします。"
+
+#~ msgid "Collect logs. May slow down operation."
+#~ msgstr "ログを収集します。動作が遅くなる可能性があります。"
+
+#~ msgid "Displays a menu for Multi-Site"
+#~ msgstr "設定画面に「マルチサイト」タブを表示します。"
+
+#~ msgid ""
+#~ "Display information that is not normally needed or open special settings."
+#~ msgstr "通常は必要のない情報を表示したり、特別な設定を開放します。"
+
+#~ msgid "Develop Mode"
+#~ msgstr "開発モード"
+
+#~ msgid ""
+#~ "You do not have to send me a gift. But by making your own purchases "
+#~ "through this link, I will receive a little extra money.And that is "
+#~ "motivation."
+#~ msgstr ""
+#~ "ギフトを贈る必要はありませんが、このリンクからAmazonへ行って貴方自身の買い"
+#~ "物をしてくれると少し報酬が貰えます。そしてそれはモチベーションへ繋がりま"
+#~ "す。"
+
+#~ msgid "Direct > Use WebAPI"
+#~ msgstr "直接取得する、取得出来なかったらWebAPIを利用する"
+
+#~ msgid "Use WebAPI"
+#~ msgstr "WebAPIを利用する"
+
+#~ msgid "Width of borders"
+#~ msgstr "枠線の幅"
+
+#~ msgid "In the case of an external site, it puts the \"nofollow\"."
+#~ msgstr ""
+#~ "外部へのリンク時、アンカータグに rel=\"nofollow\" を追加して、検索エンジン"
+#~ "の評価から外すことを宣言します。"
+
+#~ msgid "In the case of an external site, it puts the \"noopener\"."
+#~ msgstr ""
+#~ "外部へのリンク時、アンカータグに rel=\"noopener\" を追加して、リンク先サイ"
+#~ "トからリンク元タブに対する操作を無効にします。"
+
+#~ msgid "Notify the article URL to the link destination."
+#~ msgstr "リンク先に記事のURLを知らせます。"
+
+#~ msgid "When access status is \"403\", \"404\", \"410\", unlink."
+#~ msgstr "ステータスが「403」「404」「410」のときにリンクを無効にします。"
+
+#~ msgid "ShortCode 2"
+#~ msgstr "ショートコード 2"
+
+#~ msgid "ShortCode 3"
+#~ msgstr "ショートコード 3"
+
+#~ msgid "ShortCode 4"
+#~ msgstr "ショートコード 4"
+
+#~ msgid "Convert lines with text link only to Linkcard."
+#~ msgstr "テキストリンクだけしか書かれていない行をリンクカードに変換する。"
+
+#~ msgid "The writing style like the following line is converted."
+#~ msgstr "次の行のような書き方が変換されます。"
+
+#~ msgid "The writing style like the previous line is converted."
+#~ msgstr "前の行のような書き方が変換されます。"
+
+#~ msgid "Convert lines with URL only to Linkcard."
+#~ msgstr "URLだけしか書かれていない行をリンクカードに変換する。"
+
+#~ msgid "Force shortcode development."
+#~ msgstr ""
+#~ "テキストリンク・URLから変換したときにショートコードを強制的に実行する。"
+
+#~ msgid "Add quick tag button to text editor."
+#~ msgstr ""
+#~ "テキスト エディタにリンクカードのショートコードを挿入するクイックタグを追"
+#~ "加する。"
+
+#~ msgid "If TITLE parameter is specified, EXCERPT is also cleared."
+#~ msgstr "ショートコードにTITLEパラメーターを指定した場合、抜粋文もクリアする"
+
+#~ msgid "ShortCode 1"
+#~ msgstr "ショートコード 1"
+
+#~ msgid "Use InLineText"
+#~ msgstr "ショートコードで囲んだ文字列を使用する"
+
+#~ msgid "No use"
+#~ msgstr "使用しない"
+
+#~ msgid "Use to excerpt"
+#~ msgstr "抜粋文として使用"
+
+#~ msgid "Use to title"
+#~ msgstr "タイトルとして使用"
+
+#~ msgid ""
+#~ "For any shortcode you can change the title and excerpt with `title` "
+#~ "parameter and `content` parameter"
+#~ msgstr ""
+#~ "いずれのショートコードでも  title パラメータと content パラメータが使用で"
+#~ "きます。"
+
+#~ msgid "Shure?"
+#~ msgstr "実行しますか？"
+
+#~ msgid "Web-API Settings"
+#~ msgstr "WebAPIの設定"
+
+#~ msgid "%DOMAIN% replace to domain name."
+#~ msgstr "%DOMAIN% と記述するとドメイン名に置き換わります。"
+
+#~ msgid "%DOMAIN_URL% replace to domain URL."
+#~ msgstr "%DOMAIN_URL% と記述するとドメインのURLに置き換わります。"
+
+#~ msgid "%URL% replace to URL."
+#~ msgstr "%URL% と記述すると記事のURLに置き換わります。"
+
+#~ msgid "Survey Settings"
+#~ msgstr "調査モードの設定"
+
+#~ msgid "Clear LOG File"
+#~ msgstr "ログファイル全削除"
+
+#~ msgid "* The directory is created when the log file is output."
+#~ msgstr "※ ディレクトリはログ出力時に作成されます。"
+
+#~ msgid "Run now"
+#~ msgstr "今すぐ実行"
+
+#~ msgid "Clear all cache."
+#~ msgstr "すべてのキャッシュを消去。"
+
+#~ msgid "Reset the \"Settings\" to the initial value."
+#~ msgstr "すべての設定を初期状態に戻します。"
+
+#~ msgid "Delete DataBase"
+#~ msgstr "データベースの削除"
+
+#~ msgid "Site Netweork"
+#~ msgstr "サイトネットワーク"
+
+#~ msgid "This Site Information"
+#~ msgstr "このサイトの情報"
+
+#~ msgid "Link to SubSite"
+#~ msgstr "サブサイトへのリンク"
+
+#~ msgid "Link the Whole"
+#~ msgstr "カード全体をリンクする"
+
+#~ msgid "Size of Site-icon"
+#~ msgstr "アイコンサイズ"
+
+#~ msgid "Encloser Tag"
+#~ msgstr "領域を囲うタグ"
+
+#~ msgid "Class ID to be Added (for PC)"
+#~ msgstr "PCのときに追加するクラス名"
+
+#~ msgid "Class ID to be Added (for Mobile)"
+#~ msgstr "モバイルのときに追加するクラス名"
+
+#~ msgid "ARTICLE; Tag"
+#~ msgstr "ARTICLEタグ"
+
+#~ msgid "All Client"
+#~ msgstr "すべての端末"
+
+#~ msgid "Other Than Mobile"
+#~ msgstr "モバイル端末以外"
+
+#~ msgid "Post Date（Right-aligned)"
+#~ msgstr "投稿日（右寄せ）"
+
+#~ msgid "Overlap to the bottom right of the article content."
+#~ msgstr "記事内容の右下に被せる"
+
+#~ msgid "Overlap to the bottom left of the article content."
+#~ msgstr "記事内容の左下に被せる"
+
+#~ msgid "Under Article Content"
+#~ msgstr "記事内容の下"
+
+#~ msgid "Always extract from the latest articles"
+#~ msgstr "常に最新の記事内容から抜粋文を作成する"
+
+#~ msgid "Always use the most recent article content. Prioritize \"Excerpt\""
+#~ msgstr "常に最新の記事内容を使用するが、「抜粋文」を優先する"
+
+#~ msgid ""
+#~ "Always use the most recent article content. Prioritize \"Custom-Field\""
+#~ msgstr ""
+#~ "常に最新の記事内容を使用するが、指定したカスタムフィールドを優先する"
+
+#~ msgid "Always display the content registered in card management."
+#~ msgstr "常にカード管理に登録された内容を表示"
+
+#, php-format
+#~ msgid ""
+#~ "Undefined key \"%s\" in Properties.<br>It may be a glitch. Please inform "
+#~ "the developer. (%s)"
+#~ msgstr ""
+#~ "設定画面に $prop['%s'] が定義されていません。<br>これはプラグインの不具合"
+#~ "の可能性があります。（%s）"
+
+#, php-format
+#~ msgid ""
+#~ "Undefined key \"%s\" in self::DEFAULTS.<br>It may be a glitch. Please "
+#~ "inform the developer. (%s)"
+#~ msgstr ""
+#~ "初期値に self::DEFAULTS['%s'] が定義されていません。<br>これはプラグインの"
+#~ "不具合の可能性があります。（%s）"
+
+#~ msgid "DEVELOP"
+#~ msgstr "開発"
+
+#~ msgid "Switch to Cache Manager screen"
+#~ msgstr "管理画面を開く"
+
+#~ msgid "Error: Local Domain."
+#~ msgstr "Error: ローカルネットワークのドメインが指定されました。"
+
+#~ msgid "Error: Private range."
+#~ msgstr "Error: プライベートIPアドレスが指定されました。"
+
+#~ msgid "Deprecated"
+#~ msgstr "非推奨"
+
+#~ msgid "Recommended"
+#~ msgstr "推奨"
+
+#~ msgid "Survey Mode"
+#~ msgstr "調査モード"
+
+#~ msgid "Host"
+#~ msgstr "インポート元"
+
+#~ msgid "Overhead"
+#~ msgstr "オーバーヘッド"
+
+#~ msgid "1 item"
+#~ msgstr "1件表示"
+
+#~ msgid "Cached Image Settings"
+#~ msgstr "画像キャッシュの設定"
+
+#~ msgid "Save Changes"
+#~ msgstr "変更を保存"
+
+#~ msgid "Saved DateTime"
+#~ msgstr "保存した日時"
+
+#~ msgid "Displays normally hidden items to find and fix defects."
+#~ msgstr "不具合を発見するために、通常は隠されている項目を表示する。"
+
+#~ msgid "Debug SNS Count"
+#~ msgstr "ソーシャルカウントの表示テスト"
+
+#~ msgid "Display SNS count at random"
+#~ msgstr "シェア数をランダムで表示する"
+
+#~ msgid "Relative URL"
+#~ msgstr "相対指定URL"
+
+#~ msgid "For relative-specified URLs, complement the site URL."
+#~ msgstr "相対指定のURLの場合、サイトURLを補完します。"
+
+#~ msgid "Delete the image cache when deleting the plugin."
+#~ msgstr "プラグインを削除する際、画像キャッシュも削除します。"
+
+#~ msgid "&#x1F50D;&#xFE0F;"
+#~ msgstr "&#x1F50D;&#xFE0F;"
+
+#~ msgid "Cacheman"
+#~ msgstr "DBキャッシュ管理"
+
+#~ msgid "Upload and import file"
+#~ msgstr "ファイルをアップロードしてインポート"
+
+#~ msgid "Import from an Older Version"
+#~ msgstr "前バージョンのPz-LinkCardからインポートする"
+
+#~ msgid "Background"
+#~ msgstr "背景"
+
+#~ msgid "Shadow the inside of the card."
+#~ msgstr "カードの内側に影を付けます。"
+
+#~ msgid "File Not Found."
+#~ msgstr "ファイルが見つかりません。"
+
+#~ msgid "Site-Icon"
+#~ msgstr "サイトアイコン"
+
+#~ msgid "Directions"
+#~ msgstr "方向"
+
+#~ msgid "Distance"
+#~ msgstr "距離"
+
+#~ msgid "More-Read Button String"
+#~ msgstr "ボタンの文字列"
+
+#~ msgid "Style"
+#~ msgstr "見た目"
+
+#~ msgid "Not defined"
+#~ msgstr "設定しない"
+
+#~ msgid "&#x1F310;&#xFE0F"
+#~ msgstr "&#x1F310;&#xFE0F"
+
+#~ msgid "Header String"
+#~ msgstr "ヘッダーの文字列"
+
+#~ msgid "Example"
+#~ msgstr "例"
+
+#~ msgid "This Link-card is example."
+#~ msgstr "このリンクカードは例です。"
+
+#~ msgid "It is common with setting Internal-card"
+#~ msgstr "内部リンク用の設定が使用されます"
+
+#~ msgid "Centering"
+#~ msgstr "中央に寄せる"
+
+#~ msgid "Misalignment of images"
+#~ msgstr "画像のスタイルリセット"
+
+#~ msgid ""
+#~ "When unnecessary frame is displayed on the image, you can improve it by "
+#~ "case"
+#~ msgstr "画像がずれて表示されるときに改善される可能性が有ります"
+
+#~ msgid "Display the file menu on the card management screen."
+#~ msgstr "カード管理画面へ「ファイルメニュー」を表示します。"
+
+#~ msgid ""
+#~ "* The resolution of cached images should be set in the “Image Settings” "
+#~ "in the “Others” tab."
+#~ msgstr ""
+#~ "※ キャッシュ画像の解像度は「その他」タブの「キャッシュ画像の設定」で設定し"
+#~ "てください。"
+
+#~ msgid "Underline"
+#~ msgstr "下線"
+
+#~ msgid "Thumbnail (100px)"
+#~ msgstr "サムネイルサイズ（100ピクセル）"
+
+#~ msgid "Small (200px)"
+#~ msgstr "小サイズ（200ピクセル）"
+
+#~ msgid "Medium (400px)"
+#~ msgstr "中サイズ（400ピクセル）"
+
+#~ msgid "Large (800px)"
+#~ msgstr "大サイズ（800ピクセル）"
+
+#~ msgid "Accessing now..."
+#~ msgstr "取得中…"
+
+#~ msgid "* A–Z, a–z, 0–9, -, _ can be used."
+#~ msgstr "※ 半角英数字、『-』、『_』が使用できます。"
+
+#~ msgid "Plugin Version"
+#~ msgstr "プラグインバージョン"
+
+#~ msgid "Plugin DB Version"
+#~ msgstr "テーブルバージョン"
+
+#~ msgid "Pz-LkC Default"
+#~ msgstr "Pz リンクカード オリジナル"
+
+#~ msgid "Normal"
+#~ msgstr "ノーマル（はてなブログカード風）"
+
+#~ msgid "Compact"
+#~ msgstr "コンパクト"
+
+#~ msgid "Simple"
+#~ msgstr "シンプル"
+
+#~ msgid "Headline"
+#~ msgstr "ヘッダー"
+
+#~ msgid "Cellophane tape \"center\""
+#~ msgstr "セロハンテープ（中央）"
+
+#~ msgid "Cellophane tape \"Top corner\""
+#~ msgstr "セロハンテープ（左上と右上）"
+
+#~ msgid "Cellophane tape \"long\""
+#~ msgstr "セロハンテープ（長め）"
+
+#~ msgid "Cellophane tape \"digonal\""
+#~ msgstr "セロハンテープ（斜め）"
+
+#~ msgid "Cellophane tape and curling"
+#~ msgstr "セロハンテープと紙めくれた効果"
+
+#~ msgid "Curling paper"
+#~ msgstr "紙がめくれた効果"
+
+#~ msgid "Stitch blue & red"
+#~ msgstr "縫い目（青と赤）"
+
+#~ msgid "Stitch green & yellow"
+#~ msgstr "縫い目（緑と黄色）"
+
+#~ msgid "Square"
+#~ msgstr "スクエア"
+
+#~ msgid "Reflection"
+#~ msgstr "反射"
+
+#~ msgid "Infomation orange"
+#~ msgstr "インフォメーション オレンジ"
+
+#~ msgid "Neutral bluegreen"
+#~ msgstr "ニュートラル ブルーグリーン"
+
+#~ msgid "Enlightened green"
+#~ msgstr "エンライテド グリーン"
+
+#~ msgid "Registance blue"
+#~ msgstr "レジスタンス ブルー"
+
+#~ msgid "Windows XP"
+#~ msgstr "Windows XP 風"
+
+#~ msgid "Windows 95"
+#~ msgstr "Windows 95 風"
+
+#~ msgid "Slanting"
+#~ msgstr "斜め"
+
+#~ msgid "Pushpin"
+#~ msgstr "押しピン"
+
+#~ msgid "Easy Format"
+#~ msgstr "かんたん書式設定"
+
+#~ msgid "* It applies over other formatting settings."
+#~ msgstr "※ ほかの項目よりも優先して適用されます。"
+
+#~ msgid "Saved Datetime"
+#~ msgstr "保存した日時"
+
+#~ msgid "Select the CSV file to import Linkcard data."
+#~ msgstr "インポートするCSVファイルを指定してください。"
+
+#~ msgid "(Last)"
+#~ msgstr "(最新)"
+
+#~ msgid "&#x1F4C4;&#xFE0F;"
+#~ msgstr "&#x1F4C4;&#xFE0F;"
+
+#~ msgid "Export To Local File"
+#~ msgstr "ファイルへエクスポートする"
+
+#~ msgid "&#x2699;&#xFE0F;"
+#~ msgstr "&#x2699;&#xFE0F;"
+
+#~ msgid "&#x1F5C3;&#xFE0F;"
+#~ msgstr "&#x1F5C3;&#xFE0F;"
+
+#~ msgid "Same Page Link Settings"
+#~ msgstr "同ページへのリンクの設定"
+
+#~ msgid "Same Page Link"
+#~ msgstr "同ページへのリンク"
+
+#~ msgid "Initialize Tab"
+#~ msgstr "初期化タブ"
+
+#~ msgid "Display the initialize tab on the settings screen."
+#~ msgstr "設定画面に「初期化」タブを表示します。"
+
+#~ msgid "Pz-LinkCard3 Manager"
+#~ msgstr "Pzリンクカード管理 v3"
+
+#~ msgid "Pz-LinkCard3 Settings"
+#~ msgstr "Pz リンクカード設定 v3"
+
+#~ msgid "Category: "
+#~ msgstr "カテゴリー："
+
+#, php-format
+#~ msgid "(Count: %d)"
+#~ msgstr "（件数：%d）"
+
+#, php-format
+#~ msgid "‘%s’"
+#~ msgstr "「%s」"
+
+#~ msgid "Tag: "
+#~ msgstr "タグ："
+
+#~ msgid "&#x1F53C;&#xFE0F;"
+#~ msgstr "&#x1F53C;&#xFE0F;"
+
+#~ msgid "&#x1F53D;&#xFE0F;"
+#~ msgstr "&#x1F53D;&#xFE0F;"
+
+#~ msgid "▲"
+#~ msgstr "▲"
+
+#~ msgid "▼"
+#~ msgstr "▼"
+
+#~ msgid "Apply"
+#~ msgstr "適用"
+
+#~ msgid "Currently retrieving data..."
+#~ msgstr "現在、データを取得中です..."
+
+#~ msgid "Please refresh the screen after a while."
+#~ msgstr "しばらくしてから画面を更新してください。"
+
+#~ msgid "Po:"
+#~ msgstr "Po："
+
+#~ msgid "Po"
+#~ msgstr "Po"
+
+#~ msgid "Pocket"
+#~ msgstr "Pocket"
+
+#~ msgid "Length"
+#~ msgstr "桁数"
+
+#~ msgid ""
+#~ "<span style=\"border: 1px solid #fff; border-radius: 3px; color: #000; "
+#~ "background-color: #fff;\">Pz</span> LinkCard Manager"
+#~ msgstr ""
+#~ "<span style=\"border: 1px solid #fff; border-radius: 3px; color: #000; "
+#~ "background-color: #fff;\">Pz</span> カード管理"
+
+#~ msgid ""
+#~ "<span style=\"border: 1px solid #fff; border-radius: 3px; color: #000; "
+#~ "background-color: #fff;\">Pz</span> LinkCard Settings"
+#~ msgstr ""
+#~ "<span style=\"border: 1px solid #fff; border-radius: 3px; color: #000; "
+#~ "background-color: #fff;\">Pz</span> カード設定"
+
+#~ msgid "tag: "
+#~ msgstr "タグ："
+
+#~ msgid "Change the color of the border if the link is an error."
+#~ msgstr "リンク先がエラーの場合、枠線の色を変更します。"
+
+#~ msgid "Do Not Link at Error"
+#~ msgstr "エラーのときリンクしない"
+
+#~ msgid "Saved Time"
+#~ msgstr "保存した日時"
+
+#~ msgid "Display Menu"
+#~ msgstr "メニューへの表示"
+
+#~ msgid "Show \"File Menu\""
+#~ msgstr "ファイルメニューを表示する"
+
+#~ msgid ""
+#~ "The “File Menu” has been moved to the lower left corner of the “Pz Card "
+#~ "Management” screen."
+#~ msgstr "「ファイル メニュー」は「Pz カード管理」画面の左下に移動しました。"
+
+#~ msgid "Specifies the user agent for retrieving article content."
+#~ msgstr "記事内容を取得する際のユーザーエージェントを指定します。"
+
+#~ msgid "When right-clicking on a link card, a dedicated menu is displayed."
+#~ msgstr "右クリックで表示されるメニューを専用のものに置き換えます。"
+
+#~ msgid "Copy adddress"
+#~ msgstr "URLをコピーする"
+
+#~ msgid "Open New Tab"
+#~ msgstr "新しいタブで開く"
+
+#~ msgid "Reget Article"
+#~ msgstr "記事内容を再取得"
+
+#~ msgid "Reget Thumbnail"
+#~ msgstr "サムネイルを再取得"
+
+#~ msgid "Refresh"
+#~ msgstr "このページを再読み込み"
+
+#~ msgid "Modified-Date Icon"
+#~ msgstr "更新日のアイコン"
+
+#~ msgid "Modify Title"
+#~ msgstr "タイトルの変更"
+
+#~ msgid "Modify Excerpt"
+#~ msgstr "抜粋文の変更"
+
+#~ msgid "Post:"
+#~ msgstr "投稿："
+
+#~ msgid "Update:"
+#~ msgstr "更新："
+
+#~ msgid "sc"
+#~ msgstr "しょとか！"
+
+#~ msgid "abc"
+#~ msgstr "テスト"
+
+#~ msgid "Reserved"
+#~ msgstr "予備"
+
+#~ msgid "When the `Post ID` can not be acquired, it is acquired again."
+#~ msgstr "記事IDが取得できなかった場合に、リダイレクト先のURLを取得する。"
+
+#~ msgid "Follow Location"
+#~ msgstr "リダイレクト処理する"
+
+#~ msgid "Information"
+#~ msgstr "情報"
+
+#~ msgid "Could not retrieve the content to be changed."
+#~ msgstr ""
+#~ "変更した内容を取得できませんでした。\n"
+#~ "※不具合の可能性がありますので基本設定に記載されている開発元に連絡くださ"
+#~ "い。"
+
+#~ msgid "Notify using Pz-LinkCard to the link destination."
+#~ msgstr "リンク先にPz-LinkCardを使用していることを知らせます。"
+
+#~ msgid "Every 10 minute"
+#~ msgstr "10分ごと"
+
+#~ msgid "Hourly"
+#~ msgstr "1時間ごと"
+
+#~ msgid "Twicedaily"
+#~ msgstr "1日に2回"
+
+#~ msgid "Daily"
+#~ msgstr "1日に1回"
+
+#~ msgid "Weekly"
+#~ msgstr "1週に1回"
+
+#~ msgid "Twice a Month"
+#~ msgstr "1月に2回"
+
+#~ msgid ""
+#~ "* The background color will be the background color of the “Read More” "
+#~ "section in “Letter Tab”."
+#~ msgstr "※背景色は「文字」タブの「続きを読む」の「背景色」が使用されます。"
+
+#~ msgid "Size to be Saved"
+#~ msgstr "保存する際のサイズ"
+
+#~ msgid ""
+#~ "* The background color will be the background color of the “Read More” "
+#~ "section in “Display Tab”."
+#~ msgstr "※背景色は「表示」タブの「続きを読む」"
+
+#~ msgid "* The background color of the text setting is linked."
+#~ msgstr "文字設定の「続きを読むボタン」の背景色が設定されます。"
+
+#~ msgid ""
+#~ "No gift to me is necessary, but it will give me some pleasure to make "
+#~ "your purchase through this link!"
+#~ msgstr ""
+#~ "私へのギフトは必要ありませんが、このリンクから貴方の買い物をすることで、私"
+#~ "が少し喜びます"
+
+#~ msgid "Amazon Wish List"
+#~ msgstr "Amazon 欲しいものリスト"
+
+#~ msgid ""
+#~ "These are the items I plan to purchase. No gift is necessary. I would "
+#~ "appreciate it if you would open this link and do your own shopping."
+#~ msgstr ""
+#~ "開発者が購入予定のリストです。ギフトで贈っていただく必要はありませんが、こ"
+#~ "のリンクから開いてあなた自身の買い物をしていただくと助かります。"
+
+#~ msgid "&#x1F552;&#xFE0F;"
+#~ msgstr "&#x1F552;&#xFE0F;"
+
+#~ msgid "&#x1F501;&#xFE0F;"
+#~ msgstr "&#x1F501;&#xFE0F;"
+
+#~ msgid "Border Color"
+#~ msgstr "枠線の色"
+
+#~ msgid "Background Image"
+#~ msgstr "背景画像"
+
+#~ msgid "Use WebAPI ,if can not direct"
+#~ msgstr "直接取得できない場合、WebAPIを利用する"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "サムネイルの大きさ"
+
+#~ msgid "Full size"
+#~ msgstr "元のサイズ"
+
+#~ msgid "Thubnail Alt Text"
+#~ msgstr "サムネイルの代替テキスト"
+
+#~ msgid "Site Icon Alt Text"
+#~ msgstr "サイトアイコンの代替テキスト"
+
+#~ msgid "Added Information"
+#~ msgstr "サイト区分情報"
+
+#~ msgid "Text of More Button"
+#~ msgstr "続きを読むボタンの文字"
+
+#~ msgid "All client"
+#~ msgstr "すべての端末"
+
+#~ msgid "Other than mobile"
+#~ msgstr "モバイル端末以外"
+
+#~ msgid "Get Contents"
+#~ msgstr "記事の取得方法"
+
+#~ msgid "If \"excerpt\" is set, give priority to it"
+#~ msgstr "「抜粋」を設定していたら、それを優先"
+
+#~ msgid "Set NoFollow"
+#~ msgstr "リンク先を信用しない"
+
+#~ msgid "<span class=\"pz-warning\">(Deprecated)</span>"
+#~ msgstr "<span class=\"pz-warning\">（非推奨）</span>"
+
+#~ msgid "Set NoOpener"
+#~ msgstr "リンク元タブを保護する"
+
+#~ msgid "Retry Get PID"
+#~ msgstr "記事URLの再取得"
+
+#~ msgid "Linkcard"
+#~ msgstr "リンクカード"
+
+#~ msgid "Make Linkcard"
+#~ msgstr "リンクカードのショートコードを挿入する"
+
+#~ msgid "Broken Link Checker"
+#~ msgstr "リンク切れチェッカー"
+
+#~ msgid "Alive confirmation of the link destination."
+#~ msgstr "リンク先がアクセスできるか定期的に確認します。"
+
+#~ msgid "Number of items to be retrieved in one process."
+#~ msgstr "1度の処理で取得する件数。"
+
+#~ msgid "Number"
+#~ msgstr "件数"
+
+#~ msgid "Period"
+#~ msgstr "周期"
+
+#~ msgid "Every 5 minutes"
+#~ msgstr "5分ごと"
+
+#~ msgid "Every 30 minutes"
+#~ msgstr "30分ごと"
+
+#~ msgid "Every 2 Hours"
+#~ msgstr "2時間ごと"
+
+#~ msgid "Every 3 Hours"
+#~ msgstr "3時間ごと"
+
+#~ msgid "Every 6 Hours"
+#~ msgstr "6時間ごと"
+
+#~ msgid "Every 12 Hours"
+#~ msgstr "12時間ごと"
+
+#~ msgid "Every 18 Hours"
+#~ msgstr "18時間ごと"
+
+#~ msgid "Every 24 Hours"
+#~ msgstr "24時間ごと"
+
+#~ msgid "Every 3 days"
+#~ msgstr "3日ごと"
+
+#~ msgid "Every 7 days"
+#~ msgstr "7日ごと"
+
+#~ msgid "Every 10 days"
+#~ msgstr "10日ごと"
+
+#~ msgid "Every 28 days"
+#~ msgstr "4週ごと"
+
+#~ msgid "Heading"
+#~ msgstr "ヘッダー"
+
+#~ msgid "Black 2px"
+#~ msgstr "黒色 2px"
+
+#~ msgid "Black 4px"
+#~ msgstr "黒色 4px"
+
+#~ msgid "Black 6px"
+#~ msgstr "黒色 6px"
+
+#~ msgid "Black 8px"
+#~ msgstr "黒色 8px"
+
+#~ msgid "Gray 2px"
+#~ msgstr "灰色 2px"
+
+#~ msgid "Gray 4px"
+#~ msgstr "灰色 4px"
+
+#~ msgid "Gray 6px"
+#~ msgstr "灰色 6px"
+
+#~ msgid "Gray 8px"
+#~ msgstr "灰色 8px"
+
+#~ msgid "White 2px"
+#~ msgstr "白色 2px"
+
+#~ msgid "White 4px"
+#~ msgstr "白色 4px"
+
+#~ msgid "White 6px"
+#~ msgstr "白色 6px"
+
+#~ msgid "White 8px"
+#~ msgstr "白色 8px"
+
+#~ msgid "Red 6px"
+#~ msgstr "赤色 6px"
+
+#~ msgid "Green 6px"
+#~ msgstr "緑色 6px"
+
+#~ msgid "Blue 6px"
+#~ msgstr "青色 6px"
+
+#~ msgid "Get"
+#~ msgstr "取得"
+
+#~ msgid "Enter a string to display after the site name."
+#~ msgstr ""
+#~ "文字列を設定するとサイト名の後ろに表示します。（例．「内部リンク」「外部リ"
+#~ "ンク」など）"
+
+#~ msgid "1 Case"
+#~ msgstr "1件"
+
+#~ msgid "5 Case"
+#~ msgstr "5件"
+
+#~ msgid "10 Case"
+#~ msgstr "10件"
+
+#~ msgid "20 Case"
+#~ msgstr "20件"
+
+#~ msgid "Border Style"
+#~ msgstr "枠線の書式"
+
+#~ msgid "Period to be checked"
+#~ msgstr "チェックする周期"
+
+#~ msgid "Inset Shadow "
+#~ msgstr "内側の影"
+
+#~ msgid "Shadow-inset"
+#~ msgstr "影を内側に付ける"
+
+#~ msgid "More button"
+#~ msgstr "続きを読むボタン"
+
+#~ msgid "When the mouse is on"
+#~ msgstr "マウスが上に乗ったとき、"
+
+#~ msgid "How to get Site-Icon"
+#~ msgstr "サイトアイコンの取得方法"
+
+#~ msgid "Custom Field (Excerpt)"
+#~ msgstr "抜粋文にするカスタムフィールド"
+
+#~ msgid "How to get Thumbnail"
+#~ msgstr "サムネイルの取得方法"
+
+#~ msgid "Offset-X"
+#~ msgstr "右へ"
+
+#~ msgid "Offset-Y"
+#~ msgstr "下へ"
+
+#~ msgid "Show Excerpt"
+#~ msgstr "抜粋文を表示"
+
+#~ msgid "LineType"
+#~ msgstr "線種"
+
+#~ msgid "Importance of Style-Sheet"
+#~ msgstr "スタイルシートの重要度"
+
+#~ msgid "No preference for style to be set by Pz-LinkCard."
+#~ msgstr ""
+#~ "Pz-LinkCardで設定するスタイルを優先しない（「!important」を適用しない）"
+
+#~ msgid "Frame all elements to check style."
+#~ msgstr "スタイルをチェックするために全ての要素を枠で囲みます。"
+
+#~ msgid "Side Margins"
+#~ msgstr "左右の余白"
+
+#~ msgid "Show Thumbnail Border"
+#~ msgstr "サムネイル画像に枠線を表示する"
+
+#~ msgid "Rounded corners"
+#~ msgstr "角を丸める"
+
+#~ msgid "No display above or below"
+#~ msgstr "上にも下にも表示しない"
+
+#~ msgid "Siteicon URL"
+#~ msgstr "サイトアイコンURL"
+
+#~ msgid "Enable / Disable"
+#~ msgstr "有効／無効"
+
+#~ msgid "Convert the link to card format."
+#~ msgstr "リンクカードに変換するのを有効にします。"
+
+#~ msgid "Show Thumbnail Shadow"
+#~ msgstr "サムネイル画像に影を表示する"
+
+#~ msgid "Round a square"
+#~ msgstr "角を丸める"
+
+#~ msgid "Site Infomation"
+#~ msgstr "サイト情報"
+
+#~ msgid "Site Information Placement"
+#~ msgstr "サイト情報の配置"
+
+#~ msgid "Thumbnail Placement"
+#~ msgstr "サムネイルの配置"
+
+#~ msgid "Width/Height"
+#~ msgstr "幅・高さ"
+
+#~ msgid "Side margins of header"
+#~ msgstr "左右の余白"
+
+#~ msgid "More"
+#~ msgstr "続き"
+
+#~ msgid "X Account"
+#~ msgstr "X アカウント"
+
+#~ msgid "Wishlist"
+#~ msgstr "ほしい物リスト"
+
+#, php-format
+#~ msgid "%d tweets"
+#~ msgstr "%d Tweets"
+
+#, php-format
+#~ msgid "%d posts"
+#~ msgstr "%d Posts"
+
+#, php-format
+#~ msgid "%d shares"
+#~ msgstr "%d Shares"
+
+#, php-format
+#~ msgid "%d users"
+#~ msgstr "%d Users"
+
+#, php-format
+#~ msgid "%d pocket"
+#~ msgstr "%d Pocket"
+
+#, php-format
+#~ msgid "%d pockets"
+#~ msgstr "%d Pockets"
+
+#~ msgid "Use Blockquote Tag"
+#~ msgstr "BLOCKQUOTEタグを使用する"
+
+#~ msgid "Without using DIV tag, and use BLOCKQUOTE tag."
+#~ msgstr "&lt;BLOCKQUOTE&gt;で囲んで引用扱いにします。"
+
+#~ msgid "Position to display URL"
+#~ msgstr "URLを表示する位置"
+
+#~ msgid "Under Title"
+#~ msgstr "タイトルの下の行"
+
+#~ msgid "Bihind Site-Info"
+#~ msgstr "サイト情報の後ろ"
+
+#~ msgid "For internal links, display date instead of URL."
+#~ msgstr "内部リンクの場合、URLの代わりに投稿日／更新日を表示します。"
+
+#~ msgid "Off"
+#~ msgstr "オフ"
+
+#~ msgid "Post date"
+#~ msgstr "投稿日"
+
+#~ msgid "Update date"
+#~ msgstr "更新日"
+
+#~ msgid "Post date and Update date"
+#~ msgstr "投稿日と更新日"
+
+#~ msgid "Display SNS Count"
+#~ msgstr "シェア数を表示する"
+
+#~ msgid "Above the Title"
+#~ msgstr "タイトルの上側"
+
+#~ msgid "Under Side"
+#~ msgstr "下側"
+
+#~ msgid "Use SiteName"
+#~ msgstr "サイト名称を使用"
+
+#~ msgid "Do not display thumbnail"
+#~ msgstr "サムネイル画像を表示しない"
+
+#~ msgid "Thumbnail on the left"
+#~ msgstr "サムネイルを左側"
+
+#, fuzzy
+#~| msgid "Thumbnail position"
+#~ msgid "Thumbnail on the right"
+#~ msgstr "サムネイルの位置"
+
+#, fuzzy
+#~| msgid "Thumbnail renew"
+#~ msgid "Thumbnail on the top"
+#~ msgstr "サムネイル画像を再取得"
+
+#~ msgid "URL Key"
+#~ msgstr "URLキー"
+
+#~ msgid "Outputs some events and setting information to a log file."
+#~ msgstr "いくつかのイベントや設定情報等をログファイルへ出力します。"
+
+#~ msgid "Text to be displayed in the header."
+#~ msgstr "ヘッダーのテキスト"
+
+#~ msgid "Text to be displayed in the More."
+#~ msgstr "続きを表示するボタンのテキスト"
+
+#~ msgid "Text to be displayed in the added."
+#~ msgstr "サイト情報への付加テキスト"
+
+#~ msgid "Dark"
+#~ msgstr "ダーク"
+
+#~ msgid ""
+#~ "It is recommended that you leave the card height blank when using this "
+#~ "setting."
+#~ msgstr ""
+#~ "この設定を使用するときはカードの高さを空欄にすることをお勧めします。"
+
+#~ msgid "Bihind Title"
+#~ msgstr "タイトルの後ろ"
+
+#~ msgid "Show Card Inside-Shadow"
+#~ msgstr "カードの内側に影を表示する"
+
+#~ msgid "Show Card Shadow"
+#~ msgstr "カードの影を表示する"
+
+#~ msgid "Trim"
+#~ msgstr "文字数"
+
+#, fuzzy
+#~| msgid "Heading"
+#~ msgid "Heading Format"
+#~ msgstr "見出し（付加情報のテキストが見出しとして表示されます）"
+
+#, fuzzy
+#~| msgid "Relative URL"
+#~ msgid "Related"
+#~ msgstr "相対指定URL"
+
+#, fuzzy
+#~| msgid "More Button Text"
+#~ msgid "More Button Format"
+#~ msgstr "続きを読むボタンの文字列"
+
+#, fuzzy
+#~| msgid "fb"
+#~ msgid "b"
+#~ msgstr "fb"
+
+#~ msgid "Text of Site Information"
+#~ msgstr "サイト情報の文字列"
+
+#~ msgid "Text after the Site Name."
+#~ msgstr "付加情報のテキスト"
+
+#~ msgid "Make additional information heading display"
+#~ msgstr "付加情報を見出し表示にする"
+
+#~ msgid "Text of Header Button"
+#~ msgstr "ヘッダーの文字"
+
+#~ msgid "Turn off the anchor text underlining"
+#~ msgstr "リンク文字のアンダーラインを除去する"
+
+#~ msgid "Wrap"
+#~ msgstr "折り返し"
+
+#~ msgid "Nowrap"
+#~ msgstr "折り返しの有無"
+
+#~ msgid "Layout"
+#~ msgstr "レイアウト"
+
+#~ msgid "Display URL"
+#~ msgstr "リンク先URLの表示"
+
+#~ msgid "display-excerpt"
+#~ msgstr "抜粋文を表示する"
+
+#~ msgid "shadow"
+#~ msgstr "影を付ける"
+
+#~ msgid "Reset Image Style"
+#~ msgstr "画像のスタイルのリセット"
+
+#~ msgid "Stylesheet File"
+#~ msgstr "CSSファイルのパス"
+
+#~ msgid "Import File"
+#~ msgstr "ファイルからインポートする"
+
+#~ msgid "Export File"
+#~ msgstr "ファイルへエクスポートする"
+
+#~ msgid "Select"
+#~ msgstr "選択してください"
+
+#~ msgid "Submit"
+#~ msgstr "適用"
+
+#~ msgid "(last )"
+#~ msgstr "(直近)"
+
+#~ msgid "Plugin Abbreviation"
+#~ msgstr "プラグイン略称"
+
+#~ msgid "Plugin Path"
+#~ msgstr "プラグインのパス"
+
+#~ msgid "Author Name"
+#~ msgstr "作者の名前"
+
+#~ msgid "Author Twitter"
+#~ msgstr "作者のツイッター"
+
+#~ msgid "Hollow"
+#~ msgstr "内側に影を付ける"
+
+#~ msgid "Parameters"
+#~ msgstr "パラメータ"
+
+#~ msgid "Succeeded in saving the Stylesheet."
+#~ msgstr "スタイルシートの生成に成功しました。"
+
+#~ msgid "Pz LkC Cache"
+#~ msgstr "Pz カード管理"
+
+#~ msgid "Use HatenaBlogCard"
+#~ msgstr "はてなブログカードを使用する"
+
+#~ msgid "External links will use Always HatenaBlogCard."
+#~ msgstr "外部リンクは「はてなブログカード」を利用する。"
+
+#~ msgid "Display Restrictions"
+#~ msgstr "エラー表示の抑制"
+
+#~ msgid "Prevent errors from showing up in other admin screens."
+#~ msgstr "Pz-LinkCard以外の管理画面へエラーメッセージを表示させなくします。"
+
+#~ msgid "PHP"
+#~ msgstr "PHP"
+
+#~ msgid "DB"
+#~ msgstr "DB"
+
+#~ msgid "Initialize Operation"
+#~ msgstr "プラグインの再起動"
+
+#~ msgid "Notice"
+#~ msgstr "通知"
+
+#~ msgid "Simplified display if header is not processed."
+#~ msgstr "ヘッダー処理がされなかった場合、簡易表示する。"
+
+#~ msgid "Google AMP URL"
+#~ msgstr "URLによるAMP判断"
+
+#~ msgid "If the URL is AMP, display simple."
+#~ msgstr ""
+#~ "アクセスされたURLの末尾が「/amp」「/amp/」「/?amp=1」の場合、簡易表示に切"
+#~ "り替える。"
+
+#~ msgid "Always get the latest from the excerpt"
+#~ msgstr "抜粋文が設定されている投稿はそちらを優先する"
+
+#~ msgid "Initially acquired only from the content"
+#~ msgstr "カード管理画面に記録されている内容から表示する"
+
+#~ msgid "Article with error"
+#~ msgstr "エラーのある記事"
+
+#~ msgid "Error Time"
+#~ msgstr "エラーの発生日時"
+
+#~ msgid "Search Keyword"
+#~ msgstr "検索キーワード"
+
+#~ msgid "Select Domain"
+#~ msgstr "ドメインを選択"
+
+#~ msgid "Select All"
+#~ msgstr "すべて選択"
+
+#~ msgid "URL Correction"
+#~ msgstr "URLの補正"
+
+#~ msgid "Disable both sanitize and correction for URL."
+#~ msgstr "リンク先URLに対する補正とサニタイズを無効化する。"
+
+#~ msgid "If many link cards suddenly break, it may be resolved."
+#~ msgstr ""
+#~ "突然多くのリンクカードがリンク切れになった場合、解決する場合があります。"
+
+#~ msgid "Perform Initialization"
+#~ msgstr "初期化を実行"
+
+#~ msgid "Perform a Reboot"
+#~ msgstr "再起動を実行"
+
+#~ msgid "Color code does not conform to HTML color code."
+#~ msgstr ""
+#~ "色の指定がHTMLカラーコードになっていません。正しい色が表示できない可能性が"
+#~ "あります。"
+
+#~ msgid "Multi Site Settings"
+#~ msgstr "マルチサイトの設定"
+
+#~ msgid "Display Link to Author Page"
+#~ msgstr "プラグイン名を表示する"
+
+#~ msgid "Added information"
+#~ msgstr "付加情報"
+
+#~ msgid "URL key"
+#~ msgstr "URLキー"
+
+#~ msgid "Site name"
+#~ msgstr "サイト名称"
+
+#~ msgid "LinkCard cache manager"
+#~ msgstr "リンクカード／DBキャッシュ管理"
+
+#~ msgid "Renew cache"
+#~ msgstr "記事内容の再取得"
+
+#~ msgid "edit"
+#~ msgstr "編集"
+
+#~ msgid "File menu"
+#~ msgstr "ファイルメニュー"
+
+#~ msgid "Background image"
+#~ msgstr "背景画像"
+
+#~ msgid "Web API"
+#~ msgstr "Web API"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "Cannot set"
+#~ msgstr "設定できません"
+
+#~ msgid "Image size to save"
+#~ msgstr "保存する画像サイズ"
+
+#~ msgid "Multi-site compatible"
+#~ msgstr "サブディレクトリを外部リンクにする"
+
+#~ msgid ""
+#~ "In the case of the multi-site of the subdirectory type, the site under "
+#~ "the subdirectory is judged as an external site."
+#~ msgstr ""
+#~ "サブディレクトリ型のマルチサイトの場合で、メインサイトからサブサイトを外部"
+#~ "サイトとして判定する。"
+
+#~ msgid "Convert domain name from IDNA ASCII to Unicode."
+#~ msgstr ""
+#~ "IDNAのASCII方式でエンコードされたドメイン名をUnicodeに変換して表示します"
+#~ "（日本語ドメインなど）"
+
+#~ msgid "Output the setting value etc. to the HTML source."
+#~ msgstr "設定値等をHTMLソースに出力します。"
+
+#~ msgid "Put into debug mode."
+#~ msgstr "デバグモードに移行します。"
+
+#~ msgid "Update failed"
+#~ msgstr "更新に失敗しました"
+
+#~ msgid "Social count renew"
+#~ msgstr "ソーシャルカウントの再取得"
+
+#~ msgid "completed"
+#~ msgstr "完了しました"
+
+#~ msgid "Cache renew"
+#~ msgstr "記事内容の再取得"
+
+#~ msgid "Cache deleted"
+#~ msgstr "キャッシュから削除しました"
+
+#~ msgid "Uptime"
+#~ msgstr "更新日時"
+
+#~ msgid "(ex. https://exsample.com/style.css )"
+#~ msgstr "（例．https://exsample.com/style.css）"
+
+#, fuzzy
+#~| msgid "Use WebAPI ,If can not direct"
+#~ msgid "Use WebAPI ,if\tcan not direct"
+#~ msgstr "直接取得できない場合、WebAPIを利用する"
+
+#~ msgid "Result CD"
+#~ msgstr "結果ｺｰﾄﾞ"
+
+#~ msgid "Display elapsed time"
+#~ msgstr "実行時間の表示"
+
+#~ msgid "Changes saved."
+#~ msgstr "設定を保存しました。"
+
+#~ msgid "Update failed."
+#~ msgstr "更新に失敗しました。"
+
+#~ msgid "Stylesheet template call failed."
+#~ msgstr "スタイルシートのひな形の呼び出しに失敗しました。"
+
+#~ msgid "Top"
+#~ msgstr "上"
+
+#~ msgid "none"
+#~ msgstr "なし"
+
+#~ msgid "inset"
+#~ msgstr "inset（立体・押されたボタンのような効果）"
+
+#~ msgid "Short code is not set."
+#~ msgstr "ショートコードが指定されていません。"
+
+#~ msgid "Siteicon"
+#~ msgstr "サイトアイコン"
+
+#~ msgid "Siteicon API"
+#~ msgstr "ファビコンの取得API"
+
+#~ msgid "Cache image size"
+#~ msgstr "キャッシュする画像の大きさ"
+
+#~ msgid "Use specified CSS file"
+#~ msgstr "指定したCSSファイルを使用する"
+
+#~ msgid "CSS file"
+#~ msgstr "CSSファイル名"
+
+#~ msgid ""
+#~ "%DOMAIN% replace to domain name (ex. poporon.poponet.jp )<br>%DOMAIN_URL% "
+#~ "replace to domain URL (ex. http://poporon.poponet.jp )"
+#~ msgstr ""
+#~ "%DOMAIN% と記述するとドメイン名（例．poporon.poponet.jp）に、<br /"
+#~ ">%DOMAIN_URL% と記述するとドメインのURL（例．http://poporon.poponet.jp）に"
+#~ "置き換わります。"
+
+#~ msgid "Check link settings"
+#~ msgstr "リンク先チェックの設定"
+
+#~ msgid "Thinning at mouseover"
+#~ msgstr "マウスでポイントしたときに表示を薄くする"
+
+#~ msgid "Insert Pz-LinkCard"
+#~ msgstr "リンクカード作成"
+
+#~ msgid "Editor button JS saved."
+#~ msgstr "ビジュアルエディタに挿入ボタンを追加しました。"
+
+#~ msgid "Editor button JS failed."
+#~ msgstr "ビジュアルエディタのボタンの生成に失敗しました。"
+
+#~ msgid "Site-info."
+#~ msgstr "サイト情報"
+
+#~ msgid "After Title"
+#~ msgstr "タイトルの後ろ"
+
+#~ msgid "After site-name"
+#~ msgstr "サイト情報の後ろ"
+
+#~ msgid "Taping and curling"
+#~ msgstr "テープと紙めくれ（テーマとの相性があります）"
+
+#~ msgid "Neutral"
+#~ msgstr "イングレス"
+
+#~ msgid "Orange"
+#~ msgstr "オレンジ（黒背景推奨）"
+
+#~ msgid "Special format"
+#~ msgstr "定型書式"
+
+#~ msgid ""
+#~ "There is a possibility that the screen display is slow If you enable this "
+#~ "setting."
+#~ msgstr "有効にする取得APIによっては表示が遅くなる場合があります。"
+
+#~ msgid "Corresponds to simple display for Google AMP."
+#~ msgstr ""
+#~ "アクセスされたURLの末尾が「/amp」「/amp/」「/?amp=1」の場合、簡易表示に切"
+#~ "り替える。"
+
+#~ msgid "It is common with setting External-link"
+#~ msgstr "外部リンク用の設定が使用されます"
+
+#~ msgid "(Trial)"
+#~ msgstr "（開発テスト中。不具合などはぜひお知らせください。）"
+
+#~ msgid "Gray thin"
+#~ msgstr "薄い色／細い(1px)"
+
+#~ msgid "Gray thick"
+#~ msgstr "薄い色／太い(4px)"
+
+#~ msgid "Black thin"
+#~ msgstr "黒／細い(1px)"
+
+#~ msgid "Black thick"
+#~ msgstr "黒／太い(4px)"
+
+#~ msgid "Black frame"
+#~ msgstr "黒／額縁(8px)"
+
+#~ msgid "Dodgerblue"
+#~ msgstr "ドジャー・ブルー（明るい青）"
+
+#~ msgid "Mediumaquamarine"
+#~ msgstr "ミディアム・アクアマリーン（明るい緑）"
+
+#~ msgid "Hotpink"
+#~ msgstr "ホット・ピンク（明るい赤）"
+
+#~ msgid "Wheat"
+#~ msgstr "小麦色（明るい茶色）"
+
+#~ msgid "Will some of the parameters are forcibly changed"
+#~ msgstr "選択した定型書式によって、一部の設定が無効になります。"
+
+#~ msgid "In the case of domain names, to ignore the trailing-slash."
+#~ msgstr "ドメイン名のみのときに最後のスラッシュを除外する"
+
+#~ msgid "Plugin link"
+#~ msgstr "プラグインのページ"
+
+#~ msgid "Plugin-link"
+#~ msgstr "プラグイン名"
+
+#~ msgid "It was no longer able to tweet the number of acquisition of Twitter."
+#~ msgstr ""
+#~ "取得APIの提供終了に伴い、ツイッターのツイート数は更新されなくなりました。"
+#~ "<br>最後に取得したカウントを表示することは出来ますが変動しなくなるため、ツ"
+#~ "イッターのシェア数表示のチェックを外すことを推奨します。"
+
+#, fuzzy
+#~ msgid "New window/tab"
+#~ msgstr "新しいウィンドウで開く"
+
+#~ msgid "Instructed to get the number again"
+#~ msgstr "ソーシャルカウントの再取得を指示しました"
+
+#~ msgid "Sorry. This feature is not implemented yet..."
+#~ msgstr "もうしわけありません。この機能は未実装です。"
+
+#~ msgid "distinguish between uppercase and lowercase letters"
+#~ msgstr "大文字と小文字は区別されます"
+
+#~ msgid "This setting is not valid for \" Hatena-Blogcard\""
+#~ msgstr "※この設定は「はてなブログカード」に対して影響しません。"
+
+#~ msgid "HatenaBlogCard"
+#~ msgstr "Pz ブログカード"
+
+#~ msgid "Color of title"
+#~ msgstr "タイトルの文字色"
+
+#~ msgid "Color of excerpt"
+#~ msgstr "抜粋文の文字色"
+
+#~ msgid "Background Image URL"
+#~ msgstr "背景画像"
+
+#~ msgid "Cellophane tape 2"
+#~ msgstr "セロハンテープ（左上、右上）"
+
+#~ msgid "Cellophane tape 3"
+#~ msgstr "セロハンテープ（長）"
+
+#~ msgid "gray"
+#~ msgstr "薄い色／普通(2px)"
+
+#~ msgid "Display information"
+#~ msgstr "サイト情報を表示する"
+
+#~ msgid "Top margin"
+#~ msgstr "上の余白"
+
+#~ msgid "Automatically adjust the margins"
+#~ msgstr "カードの左右に余白を設けて中央に寄せる"
+
+#~ msgid "elapsed time:"
+#~ msgstr "実行時間:"
+
+#~ msgid "seconds"
+#~ msgstr "秒"
+
+#~ msgid "Display elapsed time required to create"
+#~ msgstr "作成にかかった時間を表示する"
+
+#, fuzzy
+#~ msgid "(This Page)"
+#~ msgstr "（このページ）"
+
+#~ msgid "Reset CSS for img"
+#~ msgstr ""
+#~ "サムネイル画像やファビコンがずれて表示される場合にチェックを付けてみてくだ"
+#~ "さい"
+
+#~ msgid "Common"
+#~ msgstr "共通"
+
+#~ msgid "Number of seconds to keep cache"
+#~ msgstr "取得したタイトルと概要を保管しておく秒数"
+
+#~ msgid "After the invalidation of the plug-in , please activate again"
+#~ msgstr "→プラグインの無効化を行った後、再度有効化してください"

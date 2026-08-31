@@ -59,7 +59,9 @@
         form?.addEventListener("submit", syncScrollInput);
 
         if (!Number.isNaN(savedScroll) && savedScroll > 0) {
-            [0, 50, 150, 350].forEach((delay) => {
+            restoreScroll(savedScroll);
+            window.requestAnimationFrame?.(() => restoreScroll(savedScroll));
+            [0, 16, 33, 50, 100, 150, 250, 350].forEach((delay) => {
                 window.setTimeout(() => restoreScroll(savedScroll), delay);
             });
             window.addEventListener("load", () => restoreScroll(savedScroll), { once: true });

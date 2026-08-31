@@ -88,7 +88,7 @@ $normalize_timestamp = function ($value) {
 
 $upload_error = isset($_FILES['import_file']['error']) ? absint($_FILES['import_file']['error'] ) : UPLOAD_ERR_NO_FILE;
 
-$temp_path = (isset($_FILES['import_file']['tmp_name']) && is_string($_FILES['import_file']['tmp_name'] ) ) ? $_FILES['import_file']['tmp_name'] : '';
+$temp_path = (isset($_FILES['import_file']['tmp_name']) && is_string($_FILES['import_file']['tmp_name'] ) ) ? sanitize_text_field(wp_unslash($_FILES['import_file']['tmp_name'] ) ) : '';
 $clear = isset($_POST['import_clear'] ) ? (bool) sanitize_text_field(wp_unslash($_POST['import_clear'] ) ) : false;
 
 if ($upload_error !== UPLOAD_ERR_OK || !$temp_path || !is_uploaded_file($temp_path)) {
@@ -112,7 +112,7 @@ $csv_rows = str_getcsv($csv_text, "\n");
 $csv_header_line = array_shift($csv_rows);
 $csv_header = is_string($csv_header_line) ? str_getcsv($csv_header_line) : false;
 if ($csv_header === false) {
-    echo '<div class="notice notice-error is-dismissible"><p><strong>'.esc_html__('Import File Read Error.', 'pz-linkcard3' ).'</strong></p></div>';
+    echo '<div class="notice notice-error is-dismissible"><p><strong>'.esc_html__('Import File Header Error.', 'pz-linkcard3' ).'</strong></p></div>';
     return null;
 }
 

@@ -24,7 +24,7 @@ if (!defined('ABSPATH' ) ) {
 			<td>
 				<?php
 				$item_link	=	$this->plugin_url;
-				$item_icon	=	$this->base_url.'assets/pz-linkcard3_icon_bk.svg';
+				$item_icon	=	$this->base_url.'img/pz-linkcard3_logo_white.png';
 				$item_name	=	$this->plugin_name;
 				$item_desc	=	'Version '.$this->plugin_version;
 				pz_lkc3_intro_card($item_link, $item_icon, $item_name, $item_desc, 'pz-introduction-pzlkc' );
@@ -35,9 +35,9 @@ if (!defined('ABSPATH' ) ) {
 			<th scope="row" rowspan="3"><?php esc_html_e('When in Trouble', 'pz-linkcard3' ); ?></th>
 			<td>
 				<?php
-				$item_link	=	'https://wordpress.org/support/plugin/pz-linkcard/';
+				$item_link	=	'https://wordpress.org/support/plugin/pz-linkcard3/';
 				$item_icon	=	$this->base_url.'img/icon_WordPress.png';
-				$item_name	=	__('Pz-LinkCard Forum', 'pz-linkcard3' );
+				$item_name	=	__('Pz-LinkCard3 Forum', 'pz-linkcard3' );
 				$item_desc	=	__('This is a forum for Pz-LinkCard by the official WordPress.org website.', 'pz-linkcard3' );
 				pz_lkc3_intro_card($item_link, $item_icon, $item_name, $item_desc, 'pz-introduction-wporg', 'dashicons-wordpress' );
 				?>
@@ -73,7 +73,7 @@ if (!defined('ABSPATH' ) ) {
 				$item_icon	=	$this->base_url.'img/popozure.png';
 				$item_name	=	__('Popozure.', 'pz-linkcard3' );
 				$item_desc	=	__('Poporon\'s PC Daily Diary', 'pz-linkcard3' );
-				pz_lkc3_intro_card($item_link, $item_icon, $item_name, $item_desc, 'pz-introduction-pzlkc' );
+				pz_lkc3_intro_card($item_link, $item_icon, $item_name, $item_desc, 'pz-introduction-popozure' );
 				?>
 			</td>
 		</tr>

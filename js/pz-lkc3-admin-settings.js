@@ -1,4 +1,4 @@
-﻿/* ===== Settings controls ===== */
+/* ===== Settings controls ===== */
 
 /* Pz-LinkCard3 settings screen
  * Made by Poporon / Refactoring by ChatGPT
@@ -40,6 +40,98 @@ document.addEventListener("DOMContentLoaded", () => {
     !!el?.closest?.(".pz-settings") &&
     el?.type === "submit" &&
     (el.name === "submit" || el.id === "submit");
+
+  const initInvalidFieldNavigation = () => {
+    const form = $("#pz-settings-form");
+    if (!form) return;
+
+    let handled = false;
+    const resetHandled = () => {
+      handled = false;
+    };
+
+    const getFixedHeaderHeight = () => {
+      const selectors = ["#wpadminbar", "#pz-infobar", "#pz-tabbar-wrapper"];
+      return selectors.reduce((height, selector) => {
+        const el = document.querySelector(selector);
+        if (!el) return height;
+
+        const style = window.getComputedStyle(el);
+        if (style.display === "none" || style.visibility === "hidden") return height;
+
+        return Math.max(height, el.getBoundingClientRect().bottom);
+      }, 0);
+    };
+
+    const scrollToField = (field) => {
+      const target = field.closest("tr, .pz-items, p, label") || field;
+      const top = window.scrollY + target.getBoundingClientRect().top - getFixedHeaderHeight() - 16;
+      window.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+      field.focus({ preventScroll: true });
+    };
+
+    const openFieldTab = (field) => {
+      const page = field.closest(".pz-page");
+      if (!page?.id) return;
+
+      if (window.PzLkc3SettingsTabs?.openTab) {
+        window.PzLkc3SettingsTabs.openTab(page.id);
+        return;
+      }
+
+      document.querySelectorAll(".pz-tab").forEach((tab) => {
+        tab.classList.toggle("pz-tab-active", tab.getAttribute("name") === page.id);
+      });
+      document.querySelectorAll(".pz-page").forEach((item) => {
+        item.classList.toggle("pz-page-active", item.id === page.id);
+      });
+
+      const tabNow = document.querySelector('input[name="tab-now"]');
+      if (tabNow) tabNow.value = page.id;
+      const tab = document.querySelector(`.pz-tab[name="${page.id}"]`);
+      const tabNameEl = document.querySelector(".pz-tab-name");
+      if (tab && tabNameEl) tabNameEl.textContent = tab.textContent;
+    };
+
+    const getInvalidField = () =>
+      Array.from(form.elements).find((field) =>
+        field instanceof HTMLElement &&
+        "checkValidity" in field &&
+        !field.checkValidity()
+      );
+
+    form.addEventListener("click", (event) => {
+      if (!isSettingsSaveSubmitter(event.target)) return;
+
+      resetHandled();
+      const field = getInvalidField();
+      if (!field) return;
+
+      handled = true;
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      hideOverlay();
+      openFieldTab(field);
+      window.setTimeout(() => {
+        scrollToField(field);
+        field.reportValidity?.();
+      }, 0);
+    }, true);
+
+    form.addEventListener("submit", resetHandled);
+
+    form.addEventListener("invalid", (event) => {
+      if (handled) return;
+
+      const field = event.target;
+      if (!(field instanceof HTMLElement)) return;
+
+      handled = true;
+      openFieldTab(field);
+      window.setTimeout(() => scrollToField(field), 0);
+    }, true);
+  };
+  initInvalidFieldNavigation();
 
   // Warn before leaving the settings page when form values have unsaved changes.
   const initUnsavedChangesWarning = () => {
@@ -822,8 +914,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 /* ===== Settings scroll position ===== */
 
-document.addEventListener("DOMContentLoaded", () => {
+(() => {
+  const init = () => {
     window.PzLkc3Admin?.initScrollPosition({
         formSelector: "#pz-settings-form",
     });
-});
+  };
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, { once: true });
+  } else {
+    init();
+  }
+})();

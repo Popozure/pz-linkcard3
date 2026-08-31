@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<ruleset name="Pz-LinkCard3">
+	<description>PHP_CodeSniffer rules for Pz-LinkCard3.</description>
+
+	<file>.</file>
+
+	<exclude-pattern>*/.git/*</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+
+	<rule ref="WordPress"/>
+
+	<!-- Project files are loaded from class methods; local variables in included PHP files are false positives here. -->
+	<exclude name="WordPress.NamingConventions.PrefixAllGlobals"/>
+
+	<!-- Cache manager and activation routines intentionally use the plugin's custom tables. -->
+	<exclude name="WordPress.DB.DirectDatabaseQuery.DirectQuery"/>
+	<exclude name="WordPress.DB.DirectDatabaseQuery.NoCaching"/>
+	<exclude name="WordPress.DB.DirectDatabaseQuery.SchemaChange"/>
+</ruleset>

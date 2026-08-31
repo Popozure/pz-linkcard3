@@ -363,7 +363,7 @@
                     }
                     if  (empty($data->regist_time ) ) {
                         $temp_icon  =   __('&#x23F3;&#xFE0F;', 'pz-linkcard3' );
-                        $title      =   __('Please update this cache from the edit screen.', 'pz-linkcard3' );
+                        $title      =   __('The article content is currently being loaded. Please refresh the page after a moment.', 'pz-linkcard3' );
                         $html_title =   '<span class="pz-man-body-title-pending" aria-hidden="true">'.wp_kses_post($temp_icon ).'</span>&nbsp;<span class="pz-man-body-title-pending-text">'.esc_html($title ).'</span>';
                     }
 					$edit_disabled		=	empty($data->regist_time ) ? ' disabled="disabled"' : '';

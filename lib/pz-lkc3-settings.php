@@ -390,6 +390,7 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; } ?>
 	$html_result		=	'';
 	$html_preview		=	'';
 	$html_overlay		=	'';
+	$html_scroll_restore	=	'';
 
 	$make_settings_notice = function($type, $message) {
 		return '<div class="notice notice-'.esc_attr($type ).' is-dismissible"><p><strong>'.$message.'</strong></p></div>';
@@ -632,6 +633,33 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; } ?>
 	$html_style		.=	'#pz-settings:not(.pz-admin-mode-enabled) .pz-admin-only{display:none!important;}';
 	$html_style		.=	'#pz-settings:not(.pz-multi-mode-enabled) .pz-multi-only{display:none!important;}';
 	$html_style		.=	'#pz-settings:not(.pz-develop-mode-enabled) .pz-develop-only{display:none!important;}';
+	if	($scroll_now ) {
+		$html_style		.=	'html.pz-lkc3-restoring-scroll #wpbody-content{visibility:hidden;}';
+		$html_scroll_restore	=	'<script>(function(top){'
+			.	'if(!top)return;'
+			.	'var root=document.documentElement;'
+			.	'var done=false;'
+			.	'var tries=0;'
+			.	'var maxTries=40;'
+			.	'var show=function(){if(done)return;done=true;root.classList.remove("pz-lkc3-restoring-scroll");};'
+			.	'var getY=function(){return window.scrollY||document.documentElement.scrollTop||document.body.scrollTop||0;};'
+			.	'var restore=function(){'
+			.		'if("scrollRestoration" in history)history.scrollRestoration="manual";'
+			.		'window.scrollTo(0,top);'
+			.		'var maxTop=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);'
+			.		'var target=Math.min(top,maxTop);'
+			.		'if(maxTop>=top&&Math.abs(getY()-target)<2)show();'
+			.	'};'
+			.	'var tick=function(){tries++;restore();if(!done&&tries<maxTries&&window.requestAnimationFrame)window.requestAnimationFrame(tick);};'
+			.	'root.classList.add("pz-lkc3-restoring-scroll");'
+			.	'restore();'
+			.	'if(window.requestAnimationFrame)window.requestAnimationFrame(tick);'
+			.	'[0,16,33,50,100,150,250,350,600].forEach(function(delay){window.setTimeout(restore,delay);});'
+			.	'window.addEventListener("load",function(){restore();window.setTimeout(show,50);},{once:true});'
+			.	'window.addEventListener("pageshow",restore,{once:true});'
+			.	'window.setTimeout(show,900);'
+			.	'})('.wp_json_encode(absint($scroll_now ) ).');</script>';
+	}
 
 	if	($html_style ) {
 		$html_style	=	'<style type="text/css">'.$html_style.'</style>';
@@ -816,6 +844,7 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; } ?>
 	);
 
 	echo	wp_kses($html_style, $settings_allowed_html );
+	echo	$html_scroll_restore; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	echo	wp_kses($html_infobar, $settings_allowed_html );
 	echo	wp_kses($html_overlay, $settings_allowed_html );
 	$settings_class	=	'pz-dashboard pz-settings wrap';

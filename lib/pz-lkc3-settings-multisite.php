@@ -21,7 +21,7 @@ if (!defined('ABSPATH' ) ) {
 		<tr>
 			<th scope="row"><?php esc_html_e('Type', 'pz-linkcard3' ); ?></th>
 			<td>
-				<select <?php disabled(!$is_multisite ); ?>>
+				<select>
 					<option value=""  <?php selected(!$is_subdomain ); disabled( $is_subdomain ); ?>><?php esc_html_e('Subdirectories',		'pz-linkcard3' ); ?></option>
 					<option value="1" <?php selected( $is_subdomain ); disabled(!$is_subdomain ); ?>><?php esc_html_e('Subdomains',			'pz-linkcard3' ); ?></option>
 				</select>
@@ -30,7 +30,11 @@ if (!defined('ABSPATH' ) ) {
 		<tr>
 			<th scope="row"><?php esc_html_e('Number of Sites', 'pz-linkcard3' ); ?></th>
 			<td>
-				<?php pz_lkc3_property_text($prop, 'multi-count', array('value' => $multi_count, 'size' => 8, 'attrs' => 'readonly="readonly"' ) ); ?>
+				<select name="properties[multi-count]">
+					<?php for ($i = 0; $i <= $multi_count; $i++) : ?>
+						<option value="<?php echo esc_attr($i ); ?>" <?php selected($i, $multi_count ); disabled(true ); ?>><?php echo esc_html($i ); ?></option>
+					<?php endfor; ?>
+				</select>
 			</td>
 		</tr>
 		<tr>
@@ -49,7 +53,11 @@ if (!defined('ABSPATH' ) ) {
 		<tr>
 			<th scope="row"><?php esc_html_e('Current Blog ID', 'pz-linkcard3' ); ?></th>
 			<td>
-				<?php pz_lkc3_property_text($prop, 'multi-myid', array('value' => $multi_myid, 'size' => 8, 'attrs' => 'readonly="readonly"' ) ); ?>
+				<select name="properties[multi-myid]">
+					<?php for ($i = 1; $i <= max($multi_count, $multi_myid ); $i++) : ?>
+						<option value="<?php echo esc_attr($i ); ?>" <?php selected($i, $multi_myid ); disabled(true ); ?>><?php echo esc_html($i ); ?></option>
+					<?php endfor; ?>
+				</select>
 			</td>
 		</tr>
 		<tr>

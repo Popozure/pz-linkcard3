@@ -5,7 +5,8 @@ if (!defined('ABSPATH' ) ) {
 }
 ?>
 <?php
-	$render_shortcode_row = function($index, $row_class = '') use ($prop) {
+	$shortcode_pattern_message = __('Enter at least two characters. The first character must be a half-width letter.', 'pz-linkcard3' );
+	$render_shortcode_row = function($index, $row_class = '') use ($prop, $shortcode_pattern_message) {
 		$code_key	=	'code'.$index;
 		$labels		=	array(
 			2	=>	__('Shortcode 2', 'pz-linkcard3' ),
@@ -14,7 +15,7 @@ if (!defined('ABSPATH' ) ) {
 		);
 		echo	'<tr'.($row_class ? ' class="'.esc_attr($row_class ).'"' : '' ).'>';
 		echo	'<th scope="row">'.esc_html($labels[$index] ?? '' ).'</th>';
-		echo	'<td><span class="pz-monospace">[<input name="properties['.esc_attr($code_key ).']" type="text" class="pz-shortcode" value="'.esc_attr($prop[$code_key] ).'" pattern="[A-Za-z].[A-Za-z0-9]*"> url="https://popozure.info" <span class="pz-shortcode-title"><span class="pz-shortcode-parameter">title</span>="xxxxxx"</span> <span class="pz-shortcode-content"><span class="pz-shortcode-parameter">content</span>="xxxxxx"</span>]</span><p>'.esc_html(__('Case-sensitive', 'pz-linkcard3' ) ).'</p></td>';
+		echo	'<td><span class="pz-monospace">[<input name="properties['.esc_attr($code_key ).']" type="text" class="pz-shortcode" value="'.esc_attr($prop[$code_key] ).'" pattern="[A-Za-z].[A-Za-z0-9]*" data-pz-pattern-message="'.esc_attr($shortcode_pattern_message ).'"> url="https://popozure.info" <span class="pz-shortcode-title"><span class="pz-shortcode-parameter">title</span>="xxxxxx"</span> <span class="pz-shortcode-content"><span class="pz-shortcode-parameter">content</span>="xxxxxx"</span>]</span><p>'.esc_html(__('Case-sensitive', 'pz-linkcard3' ) ).'</p></td>';
 		echo	'</tr>';
 	};
 ?>
@@ -86,7 +87,7 @@ if (!defined('ABSPATH' ) ) {
 		<tr>
 			<th scope="row"><?php esc_html_e('Shortcode 1', 'pz-linkcard3' ); ?></th>
 				<td>
-					<span class="pz-monospace">[<input name="properties[code1]" type="text" class="pz-shortcode pz-shortcode-1" value="<?php echo	esc_attr($prop['code1'] ); ?>" pattern="[A-Za-z].[A-Za-z0-9]*" /> url="https://popozure.info" 
+					<span class="pz-monospace">[<input name="properties[code1]" type="text" class="pz-shortcode pz-shortcode-1" value="<?php echo	esc_attr($prop['code1'] ); ?>" pattern="[A-Za-z].[A-Za-z0-9]*" data-pz-pattern-message="<?php echo esc_attr($shortcode_pattern_message ); ?>" /> url="https://popozure.info" 
 					<span class="pz-shortcode-title"><span class="pz-shortcode-parameter">title</span>="xxxxxx"</span> 
 					<span class="pz-shortcode-content"><span class="pz-shortcode-parameter">content</span>="xxxxxx"</span>]
 					</span>

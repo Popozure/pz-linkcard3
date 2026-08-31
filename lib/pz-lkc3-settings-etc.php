@@ -118,8 +118,8 @@ if (!defined('ABSPATH' ) ) {
 			<td>
 				<input name="properties[siteicon-api]" type="url" size="120" class="pz-click-all-select" value="<?php echo esc_attr($prop['siteicon-api'] ); ?>" />
 				<p><?php echo	wp_kses_post(esc_html__('%DOMAIN% is replaced with the domain name.', 'pz-linkcard3' ).' '.$siteicon_domain_example.'<br>'.esc_html__('%DOMAIN_URL% is replaced with the domain URL.', 'pz-linkcard3' ).' '.$siteicon_domain_url_example.'<br>'.esc_html__('%URL% is replaced with the URL.', 'pz-linkcard3' ).' '.$siteicon_url_example ); ?>
-				<p><?php esc_html_e('ex1.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="/favicon-api?domain=%DOMAIN%" readonly="readonly"></p>
-				<p><?php esc_html_e('ex2.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="/favicon-api?url=%URL%" readonly="readonly"></p>
+				<p><?php esc_html_e('ex1.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="https://www.google.com/s2/favicons?domain=%DOMAIN%" readonly="readonly"></p>
+				<p><?php esc_html_e('ex2.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="https://t0.gstatic.com/faviconV2?client=SOCIAL&url=%URL%" readonly="readonly"></p>
 			</td>
 		</tr>
 		<tr>
@@ -127,8 +127,8 @@ if (!defined('ABSPATH' ) ) {
 			<td>
 				<input name="properties[thumbnail-api]" type="url" size="120" class="pz-click-all-select" value="<?php echo	esc_attr($prop['thumbnail-api'] ); ?>" />
 				<p><?php echo	wp_kses_post(esc_html__('%URL% is replaced with the URL.', 'pz-linkcard3' ).' '.$thumbnail_url_example ); ?></p>
-				<p><?php esc_html_e('ex1.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="/thumbnail-api?url=%URL%&amp;w=200" readonly="readonly"></p>
-				<p><?php esc_html_e('ex2.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="/thumbnail-api/200x200?url=%URL%" readonly="readonly"></p>
+				<p><?php esc_html_e('ex1.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="https://s.wordpress.com/mshots/v1/%URL%?w=200" readonly="readonly"></p>
+				<p><?php esc_html_e('ex2.', 'pz-linkcard3' ); ?><input name="" type="text" size="70" class="pz-click-all-select" value="https://capture.heartrails.com/200x200?%URL%" readonly="readonly"></p>
 			</td>
 		</tr>
 	</table>

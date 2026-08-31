@@ -76,6 +76,7 @@
         const triggerSelector = options.triggerSelector || "button, input[type='submit'], input[type='button'], a[href]";
         const targetAreaSelector = options.targetAreaSelector || ".pz-settings, .pz-man";
         const delay = Number.isFinite(options.delay) ? options.delay : 500;
+        const submitDelay = Number.isFinite(options.submitDelay) ? options.submitDelay : delay;
         let overlayTimer = null;
 
         const isOverlayShown = () => window.getComputedStyle(overlay).display !== "none";
@@ -117,12 +118,17 @@
             overlay.style.setProperty("background-color", "rgba(0,0,0,0.2)");
             overlay.style.setProperty("display", "flex", "important");
         };
-        const showOverlay = () => {
+        const showOverlay = (delayMs = delay) => {
             if (overlayTimer) window.clearTimeout(overlayTimer);
+            if (delayMs <= 0) {
+                overlayTimer = null;
+                showOverlayNow();
+                return;
+            }
             overlayTimer = window.setTimeout(() => {
                 overlayTimer = null;
                 showOverlayNow();
-            }, delay);
+            }, delayMs);
         };
         const isOverlayTargetArea = (el) => !!el?.closest?.(targetAreaSelector);
         const shouldSkipFormValidation = (submitter) =>
@@ -168,7 +174,7 @@
                 return;
             }
 
-            showOverlay();
+            showOverlay(trigger.type === "submit" ? submitDelay : delay);
         };
         const showOverlaySubmit = (e) => {
             if (e.defaultPrevented) return;
@@ -187,7 +193,7 @@
                 return;
             }
 
-            showOverlay();
+            showOverlay(submitDelay);
         };
 
         hideOverlay();

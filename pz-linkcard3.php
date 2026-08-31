@@ -32,7 +32,7 @@ if (!class_exists('pz_linkcard3') ) {
 				'enclose-class-pc'					=>	['type' => 'string',		'value' => '' ],
 				'enclose-class-mobile'				=>	['type' => 'string',		'value' => '' ],
 				'link-all'							=>	['type' => 'flag',			'value' => 1 ],
-				'thumbnail-resize'					=>	['type' => 'flag',			'value' => 1 ],
+				'thumbnail-resize'					=>	['type' => 'flag',			'value' => 0 ],
 				'heading-margin-top'				=>	['type' => 'pixel',			'value' => '-16px' ],
 				'heading-margin-left'				=>	['type' => 'pixel',			'value' => '16px' ],
 				'heading-padding-h'					=>	['type' => 'pixel',			'value' => '16px' ],
@@ -2977,6 +2977,7 @@ if (!class_exists('pz_linkcard3') ) {
 
 		// 全てのプラグインロード後（プラガブル関数用）
 		public	function	action_plugins_loaded() {
+			load_plugin_textdomain('pz-linkcard3', false, dirname($this->base_name ).'/languages' );
 		}
 
 		// プラグインの初期化

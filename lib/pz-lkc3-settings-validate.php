@@ -114,7 +114,6 @@ if (!defined('ABSPATH' ) ) {
 				unset($test_item[$key] );
 				break;
 
-			case 'numric_null':
 			case 'numeric_null':
 				$this->options[$key]	=	$sanitize_numeric($value, null );
 				unset($test_item[$key] );

@@ -2,6 +2,7 @@
 if (!defined('ABSPATH' ) ) {
 	 exit;
 }
+$enclose_class_pattern_message = __('Use only half-width letters, numbers, spaces, hyphens, and underscores. The first character must be a letter.', 'pz-linkcard3' );
 ?>
 <div class="<?php echo esc_attr($page_class('pz-position' ) ); ?>" id="pz-position">
 	<div class="pz-submit-float"><?php submit_button(); ?></div>
@@ -175,11 +176,11 @@ if (!defined('ABSPATH' ) ) {
 		</tr>
 		<tr>
 			<th scope="row"><?php esc_html_e('Additional Class ID (Desktop)',	'pz-linkcard3' ); ?></th>
-			<td><label class="pz-monospace">class="<input name="properties[enclose-class-pc]"			type="text" size="40" value="<?php echo	(isset($this->options['enclose-class-pc'] )		? esc_attr($this->options['enclose-class-pc'] ) 	: '' ); ?>" pattern="[A-Za-z]+[A-Za-z0-9\-_ ]*" />"</label><br><?php echo esc_html__('* Use only half-width alphanumeric characters, \‘-\’, and \‘_\’.', 'pz-linkcard3' ); ?></td>
+			<td><label class="pz-monospace">class="<input name="properties[enclose-class-pc]"			type="text" size="40" value="<?php echo	(isset($this->options['enclose-class-pc'] )		? esc_attr($this->options['enclose-class-pc'] ) 	: '' ); ?>" pattern="[A-Za-z]+[A-Za-z0-9\-_ ]*" data-pz-pattern-message="<?php echo esc_attr($enclose_class_pattern_message ); ?>" />"</label><br><?php echo esc_html__('* Use only half-width alphanumeric characters, \‘-\’, and \‘_\’.', 'pz-linkcard3' ); ?></td>
 		</tr>
 		<tr>
 			<th scope="row"><?php esc_html_e('Additional Class ID (Mobile)',	'pz-linkcard3' ); ?></th>
-			<td><label class="pz-monospace">class="<input name="properties[enclose-class-mobile]"		type="text" size="40" value="<?php echo	(isset($this->options['enclose-class-mobile'] ) ? esc_attr($this->options['enclose-class-mobile'] ) : '' ); ?>" pattern="[A-Za-z]+[A-Za-z0-9\-_ ]*" />"</label><br><?php echo esc_html__('* Use only half-width alphanumeric characters, \‘-\’, and \‘_\’.', 'pz-linkcard3' ); ?></td>
+			<td><label class="pz-monospace">class="<input name="properties[enclose-class-mobile]"		type="text" size="40" value="<?php echo	(isset($this->options['enclose-class-mobile'] ) ? esc_attr($this->options['enclose-class-mobile'] ) : '' ); ?>" pattern="[A-Za-z]+[A-Za-z0-9\-_ ]*" data-pz-pattern-message="<?php echo esc_attr($enclose_class_pattern_message ); ?>" />"</label><br><?php echo esc_html__('* Use only half-width alphanumeric characters, \‘-\’, and \‘_\’.', 'pz-linkcard3' ); ?></td>
 		</tr>
 	</table>
 

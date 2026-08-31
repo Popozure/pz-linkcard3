@@ -111,7 +111,7 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; }
 			$y					=	intval($prop[$t.'-transform-y'] ).'px';						// 垂直方向
 			$rotate				=	intval($prop[$t.'-transform-rotate'] ).'deg';				// 回転
 			$scale				=	intval($prop[$t.'-transform-scale'] ) / 100;				// 拡大縮小
-			$transform			=	'transform: translate('.$x.','.$y.') rotate('.$rotate.') scale('.$scale.');';
+			$transform			=	'transform: translate('.$x.','.$y.') rotate('.$rotate.') scale('.$scale.')';
 			$file_text			=	str_replace('/*'.$T.'-TRANSFORM*/',				$transform.';',	$file_text );
 		}
 
@@ -565,52 +565,52 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; }
 		$thumbnail_width	=	intval(preg_replace('/[^0-9]/', '', $prop['thumbnail-width'] ) );
 		$file_text	=	str_replace('/*RESIZE*/','
 @media screen and ( max-width: 600px )  {
-	lkc3-title {
+	.lkc3-title {
 		font-size: '  .intval($size_title * 0.9).'px;
 		line-height: '.intval($height_title * 0.9).'px;
 	}
-	lkc3-excerpt {
+	.lkc3-excerpt {
 		font-size: '.intval($size_excerpt * 0.95).'px;
 	}
-	lkc3-thumbnail {
+	.lkc3-thumbnail {
 		height: '.intval($thumbnail_height * 0.9).'px !important;
 		width: ' .intval($thumbnail_width  * 0.9).'px !important;
 	}
-	imglkc3-thumbnail-img {
+	img.lkc3-thumbnail-img {
 		height: '.intval($thumbnail_height * 0.9).'px !important;
 		width: ' .intval($thumbnail_width  * 0.9).'px !important;
 	}
 }
 @media screen and ( max-width: 480px )  {
-	lkc3-title {
+	.lkc3-title {
 		font-size: '  .intval($size_title * 0.8).'px;
 		line-height: '.intval($height_title * 0.8).'px;
 	}
-	lkc3-excerpt {
+	.lkc3-excerpt {
 		font-size: '.intval($size_excerpt * 0.8 ).'px;
 	}
-	lkc3-thumbnail {
+	.lkc3-thumbnail {
 		height: '.intval($thumbnail_height * 0.7).'px !important;
 		width: ' .intval($thumbnail_width  * 0.7).'px !important;
 	}
-	imglkc3-thumbnail-img {
+	img.lkc3-thumbnail-img {
 		height: '.intval($thumbnail_height * 0.7).'px !important;
 		width: ' .intval($thumbnail_width  * 0.7).'px !important;
 	}
 }
 @media screen and ( max-width: 320px )  {
-	lkc3-title {
+	.lkc3-title {
 		font-size: '  .intval($size_title * 0.7).'px;
 		line-height: '.intval($height_title * 0.7).'px;
 	}
-	lkc3-excerpt {
+	.lkc3-excerpt {
 		font-size: '.intval($size_excerpt * 0.6 ).'px;
 	}
-	lkc3-thumbnail {
+	.lkc3-thumbnail {
 		height: '.intval($thumbnail_height * 0.5).'px !important;
 		width: ' .intval($thumbnail_width  * 0.5).'px !important;
 	}
-	imglkc3-thumbnail-img {
+	img.lkc3-thumbnail-img {
 		height: '.intval($thumbnail_height * 0.5).'px !important;
 		width: ' .intval($thumbnail_width  * 0.5).'px !important;
 	}
@@ -619,7 +619,7 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; }
 	}
 	
 	// !important を強制的に付加
-	if		(isset($prop['flg-important'] ) ) {
+	if		(isset($prop['flg-important'] ) && $prop['flg-important'] ) {
 		$file_text	=	str_replace('/*IMPORTANT*/',			'!important', $file_text );
 	}
 

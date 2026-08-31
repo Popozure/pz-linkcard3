@@ -26,20 +26,39 @@ document.addEventListener("DOMContentLoaded", () => {
     triggerSelector: "button, input[type='submit'], input[type='button']",
     requireSubmitter: true,
     honorFormNoValidate: false,
+    submitDelay: 0,
     skipClick: (trigger) => {
       if (trigger.closest(".pz-settings") && trigger.type !== "submit") return true;
-      return isSettingsSaveSubmitter(trigger);
+      return false;
     },
     skipSubmit: (submitter) => {
       if (submitter.closest(".pz-settings") && submitter.type !== "submit") return true;
-      return isSettingsSaveSubmitter(submitter);
+      return false;
     },
   }) || {};
+  const adjustOverlay = overlayControls.adjustOverlay || (() => {});
   const hideOverlay = overlayControls.hideOverlay || (() => {});
   const isSettingsSaveSubmitter = (el) =>
     !!el?.closest?.(".pz-settings") &&
     el?.type === "submit" &&
     (el.name === "submit" || el.id === "submit");
+
+  const getContentLeft = () => {
+    const wpContent = document.querySelector("#wpcontent");
+    if (wpContent) return wpContent.getBoundingClientRect().left;
+
+    const menuWrap = document.querySelector("#adminmenuwrap");
+    return menuWrap ? menuWrap.getBoundingClientRect().right : 0;
+  };
+
+  const getAdminBarBottom = () => {
+    const adminBar = document.querySelector("#wpadminbar");
+    if (!adminBar) return 0;
+
+    const rect = adminBar.getBoundingClientRect();
+    const visible = rect.height > 0 && window.getComputedStyle(adminBar).display !== "none";
+    return visible ? Math.max(0, rect.bottom) : 0;
+  };
 
   const initInvalidFieldNavigation = () => {
     const form = $("#pz-settings-form");
@@ -132,6 +151,25 @@ document.addEventListener("DOMContentLoaded", () => {
     }, true);
   };
   initInvalidFieldNavigation();
+
+  const initCustomPatternMessages = () => {
+    $all("[pattern][data-pz-pattern-message]").forEach((field) => {
+      if (typeof field.setCustomValidity !== "function") return;
+
+      const updateValidityMessage = () => {
+        field.setCustomValidity("");
+
+        if (field.validity?.patternMismatch) {
+          field.setCustomValidity(field.dataset.pzPatternMessage || "");
+        }
+      };
+
+      on(field, "input", updateValidityMessage);
+      on(field, "invalid", updateValidityMessage);
+      updateValidityMessage();
+    });
+  };
+  initCustomPatternMessages();
 
   // Warn before leaving the settings page when form values have unsaved changes.
   const initUnsavedChangesWarning = () => {
@@ -751,7 +789,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const enabledGroups = new Map();
   document
-    .querySelectorAll('input[type="checkbox"][class$="-enabled"]')
+    .querySelectorAll('input[type="checkbox"]')
     .forEach((cb) => {
       const enabledClass = Array.from(cb.classList).find((cls) =>
         cls.endsWith("-enabled")
@@ -770,8 +808,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const syncTarget = () => {
       const enabled = cbs.some((cb) => cb.checked);
       document.querySelectorAll(targetSelector).forEach((el) => {
-        if (el.matches("input, select, textarea, button")) {
+        if (el.matches("input[type='checkbox']")) {
+          el.disabled = false;
+          el.readOnly = !enabled;
+          el.setAttribute("aria-disabled", enabled ? "false" : "true");
+        } else if (el.matches("input, select, textarea, button")) {
           el.disabled = !enabled;
+          el.readOnly = false;
+          el.setAttribute("aria-disabled", enabled ? "false" : "true");
         }
         el.classList.toggle("pz-disabled", !enabled);
       });

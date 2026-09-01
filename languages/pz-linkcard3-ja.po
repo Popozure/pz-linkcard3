@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pz-LinkCard\n"
 "Report-Msgid-Bugs-To: https://wppolyglots.wordpress.com\n"
-"POT-Creation-Date: 2026-09-01 07:42+0900\n"
-"PO-Revision-Date: 2026-09-01 07:49+0900\n"
+"POT-Creation-Date: 2026-09-01 18:54+0900\n"
+"PO-Revision-Date: 2026-09-01 19:09+0900\n"
 "Last-Translator: poporon\n"
 "Language-Team: poporon\n"
 "Language: ja_JP\n"
@@ -3123,21 +3123,18 @@ msgstr "カード管理に登録されている内容を常に表示します。
 msgid "Updated the appearance of the LinkCard."
 msgstr ""
 "スタイルシートの更新に成功しました（リンクカードの外観に設定を反映しました）"
-"スタイルシートの更新に成功しました（リンクカードの外観に設定を反映しました）"
 
 #: ../lib/pz-lkc3-settings.php:406
 msgid "Failed to save the CSS file."
 msgstr ""
 "スタイルシートの生成に失敗しました（ディレクトリの権限などを確認してくださ"
-"い）スタイルシートの生成に失敗しました（ディレクトリの権限などを確認してくだ"
-"さい）"
+"い）"
 
 #: ../lib/pz-lkc3-settings.php:408
 msgid "Failed to load the CSS template."
 msgstr ""
 "スタイルシートのひな型の呼び出しに失敗しました（プラグインの不具合の可能性が"
-"あります）スタイルシートのひな型の呼び出しに失敗しました（プラグインの不具合"
-"の可能性があります）"
+"あります）"
 
 #: ../lib/pz-lkc3-settings.php:471
 #, php-format

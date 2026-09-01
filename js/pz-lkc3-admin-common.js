@@ -77,14 +77,50 @@
         const targetAreaSelector = options.targetAreaSelector || ".pz-settings, .pz-man";
         const delay = Number.isFinite(options.delay) ? options.delay : 500;
         const submitDelay = Number.isFinite(options.submitDelay) ? options.submitDelay : delay;
+        const persistAcrossNavigation = options.persistAcrossNavigation !== false;
+        const navigationOverlayKey = options.navigationOverlayKey || "pz_lkc3_show_overlay_until_load";
         let overlayTimer = null;
 
         const isOverlayShown = () => window.getComputedStyle(overlay).display !== "none";
+        const markNavigationOverlay = () => {
+            if (!persistAcrossNavigation) return;
+            try {
+                window.sessionStorage?.setItem(navigationOverlayKey, "1");
+            } catch (error) {
+                // Some browsers can block sessionStorage; the overlay still works for the current page.
+            }
+        };
+        const clearNavigationOverlay = () => {
+            if (!persistAcrossNavigation) return;
+            try {
+                window.sessionStorage?.removeItem(navigationOverlayKey);
+            } catch (error) {
+                // Ignore storage failures.
+            }
+        };
+        const shouldRestoreNavigationOverlay = () => {
+            if (!persistAcrossNavigation) return false;
+            try {
+                return window.sessionStorage?.getItem(navigationOverlayKey) === "1";
+            } catch (error) {
+                return false;
+            }
+        };
+        const shouldPersistForTrigger = (trigger) => {
+            if (!persistAcrossNavigation || !trigger) return false;
+            if (trigger.type === "submit") return true;
+            if (!trigger.matches?.("a[href]")) return false;
+
+            const href = trigger.getAttribute("href") || "";
+            if (!href || href.charAt(0) === "#" || /^javascript:/i.test(href)) return false;
+            return true;
+        };
         const hideOverlay = () => {
             if (overlayTimer) {
                 window.clearTimeout(overlayTimer);
                 overlayTimer = null;
             }
+            clearNavigationOverlay();
             overlay.style.setProperty("display", "none", "important");
         };
         const getContentLeft = () => {
@@ -174,6 +210,9 @@
                 return;
             }
 
+            if (shouldPersistForTrigger(trigger)) {
+                markNavigationOverlay();
+            }
             showOverlay(trigger.type === "submit" ? submitDelay : delay);
         };
         const showOverlaySubmit = (e) => {
@@ -193,10 +232,15 @@
                 return;
             }
 
+            markNavigationOverlay();
             showOverlay(submitDelay);
         };
 
-        hideOverlay();
+        if (shouldRestoreNavigationOverlay() && document.readyState !== "complete") {
+            showOverlayNow();
+        } else {
+            hideOverlay();
+        }
         window.addEventListener("load", hideOverlay);
         window.addEventListener("pageshow", hideOverlay);
         window.addEventListener("keydown", hideOverlayByEsc, true);

@@ -135,9 +135,139 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; }
 			return	$data;
 		}
 
+		$robots_blocked_result	=	function($blocked_url ) use ($data, $url, $url_redir ) {
+			$blocked_info	=	$this->Pz_GetURLInfo($blocked_url );
+			$blocked_title	=	__('Blocked by robots.txt.', 'pz-linkcard3' );
+			$blocked_redir	=	($blocked_url && $blocked_url <> $url ) ? $blocked_url : $url_redir;
+			if	(!$blocked_redir || $blocked_redir == $url ) {
+				$blocked_redir	=	null;
+			}
+
+			$data['id']					=	$data['id'] ?? '';
+			$data['url']				=	$url;
+			$data['url_redir']			=	$blocked_redir;
+			$data['domain']				=	$blocked_info['domain'] ?? '';
+			$data['site_name']			=	'';
+			$data['title']				=	$blocked_title;
+			$data['excerpt']			=	'';
+			$data['thumbnail']			=	'';
+			$data['site_icon']			=	'';
+			$data['charset']			=	'';
+			$data['alive_time']			=	$this->now;
+			$data['alive_nexttime']		=	99999999999;
+			$data['alive_result']		=	403;
+			$data['sns_twitter']		=	null;
+			$data['sns_facebook']		=	null;
+			$data['sns_hatena']			=	null;
+			$data['sns_nexttime']		=	99999999999;
+			$data['use_post_id1']		=	$data['use_post_id1'] ?? get_the_ID();
+			$data['use_post_id2']		=	$data['use_post_id2'] ?? null;
+			$data['use_post_id3']		=	$data['use_post_id3'] ?? null;
+			$data['use_post_id4']		=	$data['use_post_id4'] ?? null;
+			$data['use_post_id5']		=	$data['use_post_id5'] ?? null;
+			$data['use_post_id6']		=	$data['use_post_id6'] ?? null;
+			$data['mod_title']			=	false;
+			$data['mod_excerpt']		=	false;
+			$data['update_time']		=	$this->now;
+			$data['update_result']		=	403;
+			if	(is_null($data['regist_time'] ?? null ) ) {
+				$data['regist_title']	=	$blocked_title;
+				$data['regist_excerpt']	=	'';
+				$data['regist_charset']	=	'';
+				$data['regist_time']	=	$data['update_time'];
+				$data['regist_result']	=	$data['update_result'];
+			}
+
+			return	$data;
+		};
+
+		if	(!empty($url_info['is_external'] ) && !$this->pz_IsRobotsAllowed($url_access, $rget_args['user-agent'] ) ) {
+			return	$robots_blocked_result($url_access );
+		}
+
 		// リンク先サイトのアクセス
+		$get_oembed_data	=	function() use ($data, $url, $url_access, $url_redir, $domain, $url_info ) {
+			if	(empty($url_info['is_external'] ) ) {
+				return	null;
+			}
+			if	(!function_exists('_wp_oembed_get_object' ) ) {
+				require_once ABSPATH.WPINC.'/embed.php';
+			}
+			if	(!function_exists('_wp_oembed_get_object' ) ) {
+				return	null;
+			}
+
+			$oembed	=	_wp_oembed_get_object();
+			if	(!is_object($oembed ) || !method_exists($oembed, 'get_data' ) ) {
+				return	null;
+			}
+
+			$oembed_data	=	$oembed->get_data($url_access, array('discover' => true ) );
+			if	(!$oembed_data || !is_object($oembed_data ) ) {
+				return	null;
+			}
+
+			$title		=	trim(wp_strip_all_tags((string) ($oembed_data->title ?? '' ) ) );
+			$excerpt	=	trim(wp_strip_all_tags((string) ($oembed_data->description ?? '' ) ) );
+			if	(!$excerpt && !empty($oembed_data->html ) ) {
+				$excerpt	=	trim(wp_strip_all_tags((string) $oembed_data->html ) );
+			}
+			$excerpt	=	preg_replace('/\s+/u', ' ', $excerpt );
+			$sitename	=	trim(wp_strip_all_tags((string) ($oembed_data->provider_name ?? '' ) ) );
+			if	(!$sitename ) {
+				$sitename	=	trim(wp_strip_all_tags((string) ($oembed_data->author_name ?? '' ) ) );
+			}
+
+			$thumbnail_url	=	$this->pz_EncodeURL((string) ($oembed_data->thumbnail_url ?? '' ), true );
+			if	($thumbnail_url && !wp_http_validate_url($thumbnail_url ) ) {
+				$thumbnail_url	=	'';
+			}
+
+			$oembed_result	=	$data;
+			$oembed_result['id']				=	$oembed_result['id']	??	null;
+			$oembed_result['url']				=	$url;
+			$oembed_result['url_redir']			=	($url_redir && $url_redir <> $url ) ? $url_redir : null;
+			$oembed_result['domain']			=	$domain;
+			$oembed_result['site_name']			=	$sitename;
+			$oembed_result['title']				=	mb_strimwidth($title, 0, 500, '...' );
+			$oembed_result['excerpt']			=	mb_strimwidth($excerpt, 0, 1000, '...' );
+			$oembed_result['thumbnail']			=	$thumbnail_url;
+			$oembed_result['site_icon']			=	$oembed_result['site_icon']	??	'';
+			$oembed_result['charset']			=	'UTF-8';
+			$oembed_result['alive_time']		=	$this->now;
+			$oembed_result['alive_nexttime']	=	$this->now + WEEK_IN_SECONDS * 4 + wp_rand(0, DAY_IN_SECONDS );
+			$oembed_result['alive_result']		=	200;
+			$oembed_result['sns_twitter']		=	$oembed_result['sns_twitter']	??	-1;
+			$oembed_result['sns_facebook']		=	$oembed_result['sns_facebook']	??	-1;
+			$oembed_result['sns_hatena']		=	$oembed_result['sns_hatena']	??	-1;
+			$oembed_result['sns_time']			=	$oembed_result['sns_time']		??	0;
+			$oembed_result['sns_nexttime']		=	$oembed_result['sns_nexttime']	??	0;
+			$oembed_result['use_post_id1']		=	$oembed_result['use_post_id1']	??	get_the_ID();
+			$oembed_result['use_post_id2']		=	$oembed_result['use_post_id2']	??	null;
+			$oembed_result['use_post_id3']		=	$oembed_result['use_post_id3']	??	null;
+			$oembed_result['use_post_id4']		=	$oembed_result['use_post_id4']	??	null;
+			$oembed_result['use_post_id5']		=	$oembed_result['use_post_id5']	??	null;
+			$oembed_result['use_post_id6']		=	$oembed_result['use_post_id6']	??	null;
+			$oembed_result['regist_title']		=	$oembed_result['regist_title']		??	$oembed_result['title'];
+			$oembed_result['regist_excerpt']	=	$oembed_result['regist_excerpt']	??	$oembed_result['excerpt'];
+			$oembed_result['regist_charset']	=	$oembed_result['regist_charset']	??	$oembed_result['charset'];
+			$oembed_result['regist_time']		=	$oembed_result['regist_time']		??	0;
+			$oembed_result['regist_result']		=	$oembed_result['regist_result']		??	200;
+			$oembed_result['mod_title']			=	false;
+			$oembed_result['mod_excerpt']		=	false;
+			$oembed_result['update_time']		=	$this->now;
+			$oembed_result['update_result']		=	200;
+
+			return	$oembed_result;
+		};
+
+		$oembed_result	=	$get_oembed_data();
+		if	(is_array($oembed_result ) ) {
+			return	$oembed_result;
+		}
+
 		$get_args					=	$rget_args;
-		$get_args['redirection']	=	8;
+		$get_args['redirection']	=	0;
 		$rget_data					=	wp_safe_remote_get($url_access, $get_args );	// wp_remote_get実行
 		$err_no						=	is_wp_error($rget_data );						// wp_remote_getエラー有無
 
@@ -178,6 +308,9 @@ if (!defined( 'ABSPATH' ) ) { header( 'HTTP/1.1 403 Forbidden' ); exit; }
 				if	($is_blocked_local_url($next_url ) ) {
 					$local_address_error	=	true;
 					break;
+				}
+				if	(!$this->pz_IsRobotsAllowed($next_url, $rget_args['user-agent'] ) ) {
+					return	$robots_blocked_result($next_url );
 				}
 
 				$url_redir		=	$next_url;
